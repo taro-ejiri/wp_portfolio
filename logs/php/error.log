@@ -1,0 +1,336 @@
+[02-Feb-2022 08:50:55 UTC] PHP Warning:  Use of undefined constant 　 - assumed '　' (this will throw an Error in a future version of PHP) in C:\Users\taroe\Local Sites\portfolio\app\public\wp-content\themes\WP_original\single-works.php on line 13
+[02-Feb-2022 08:50:55 UTC] PHP Stack trace:
+[02-Feb-2022 08:50:55 UTC] PHP   1. {main}() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:0
+[02-Feb-2022 08:50:55 UTC] PHP   2. require() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:17
+[02-Feb-2022 08:50:55 UTC] PHP   3. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-blog-header.php:19
+[02-Feb-2022 08:50:55 UTC] PHP   4. include() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\template-loader.php:106
+[02-Feb-2022 08:50:55 UTC] PHP Warning:  Use of undefined constant 　 - assumed '　' (this will throw an Error in a future version of PHP) in C:\Users\taroe\Local Sites\portfolio\app\public\wp-content\themes\WP_original\single-works.php on line 15
+[02-Feb-2022 08:50:55 UTC] PHP Stack trace:
+[02-Feb-2022 08:50:55 UTC] PHP   1. {main}() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:0
+[02-Feb-2022 08:50:55 UTC] PHP   2. require() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:17
+[02-Feb-2022 08:50:55 UTC] PHP   3. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-blog-header.php:19
+[02-Feb-2022 08:50:55 UTC] PHP   4. include() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\template-loader.php:106
+[02-Feb-2022 08:50:55 UTC] PHP Warning:  Use of undefined constant 　 - assumed '　' (this will throw an Error in a future version of PHP) in C:\Users\taroe\Local Sites\portfolio\app\public\wp-content\themes\WP_original\single-works.php on line 54
+[02-Feb-2022 08:50:55 UTC] PHP Stack trace:
+[02-Feb-2022 08:50:55 UTC] PHP   1. {main}() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:0
+[02-Feb-2022 08:50:55 UTC] PHP   2. require() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:17
+[02-Feb-2022 08:50:55 UTC] PHP   3. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-blog-header.php:19
+[02-Feb-2022 08:50:55 UTC] PHP   4. include() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\template-loader.php:106
+[02-Feb-2022 08:50:55 UTC] PHP Warning:  Use of undefined constant 　 - assumed '　' (this will throw an Error in a future version of PHP) in C:\Users\taroe\Local Sites\portfolio\app\public\wp-content\themes\WP_original\single-works.php on line 91
+[02-Feb-2022 08:50:55 UTC] PHP Stack trace:
+[02-Feb-2022 08:50:55 UTC] PHP   1. {main}() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:0
+[02-Feb-2022 08:50:55 UTC] PHP   2. require() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:17
+[02-Feb-2022 08:50:55 UTC] PHP   3. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-blog-header.php:19
+[02-Feb-2022 08:50:55 UTC] PHP   4. include() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\template-loader.php:106
+[02-Feb-2022 08:51:07 UTC] PHP Warning:  Use of undefined constant 　 - assumed '　' (this will throw an Error in a future version of PHP) in C:\Users\taroe\Local Sites\portfolio\app\public\wp-content\themes\WP_original\single-works.php on line 13
+[02-Feb-2022 08:51:07 UTC] PHP Stack trace:
+[02-Feb-2022 08:51:07 UTC] PHP   1. {main}() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:0
+[02-Feb-2022 08:51:07 UTC] PHP   2. require() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:17
+[02-Feb-2022 08:51:07 UTC] PHP   3. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-blog-header.php:19
+[02-Feb-2022 08:51:07 UTC] PHP   4. include() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\template-loader.php:106
+[02-Feb-2022 08:51:07 UTC] PHP Warning:  Use of undefined constant 　 - assumed '　' (this will throw an Error in a future version of PHP) in C:\Users\taroe\Local Sites\portfolio\app\public\wp-content\themes\WP_original\single-works.php on line 15
+[02-Feb-2022 08:51:07 UTC] PHP Stack trace:
+[02-Feb-2022 08:51:07 UTC] PHP   1. {main}() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:0
+[02-Feb-2022 08:51:07 UTC] PHP   2. require() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:17
+[02-Feb-2022 08:51:07 UTC] PHP   3. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-blog-header.php:19
+[02-Feb-2022 08:51:07 UTC] PHP   4. include() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\template-loader.php:106
+[02-Feb-2022 08:51:07 UTC] PHP Warning:  Use of undefined constant 　 - assumed '　' (this will throw an Error in a future version of PHP) in C:\Users\taroe\Local Sites\portfolio\app\public\wp-content\themes\WP_original\single-works.php on line 52
+[02-Feb-2022 08:51:07 UTC] PHP Stack trace:
+[02-Feb-2022 08:51:07 UTC] PHP   1. {main}() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:0
+[02-Feb-2022 08:51:07 UTC] PHP   2. require() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:17
+[02-Feb-2022 08:51:07 UTC] PHP   3. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-blog-header.php:19
+[02-Feb-2022 08:51:07 UTC] PHP   4. include() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\template-loader.php:106
+[02-Feb-2022 08:51:07 UTC] PHP Warning:  Use of undefined constant 　 - assumed '　' (this will throw an Error in a future version of PHP) in C:\Users\taroe\Local Sites\portfolio\app\public\wp-content\themes\WP_original\single-works.php on line 91
+[02-Feb-2022 08:51:07 UTC] PHP Stack trace:
+[02-Feb-2022 08:51:07 UTC] PHP   1. {main}() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:0
+[02-Feb-2022 08:51:07 UTC] PHP   2. require() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:17
+[02-Feb-2022 08:51:07 UTC] PHP   3. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-blog-header.php:19
+[02-Feb-2022 08:51:07 UTC] PHP   4. include() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\template-loader.php:106
+[02-Feb-2022 08:51:12 UTC] PHP Warning:  Use of undefined constant 　 - assumed '　' (this will throw an Error in a future version of PHP) in C:\Users\taroe\Local Sites\portfolio\app\public\wp-content\themes\WP_original\single-works.php on line 13
+[02-Feb-2022 08:51:12 UTC] PHP Stack trace:
+[02-Feb-2022 08:51:12 UTC] PHP   1. {main}() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:0
+[02-Feb-2022 08:51:12 UTC] PHP   2. require() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:17
+[02-Feb-2022 08:51:12 UTC] PHP   3. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-blog-header.php:19
+[02-Feb-2022 08:51:12 UTC] PHP   4. include() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\template-loader.php:106
+[02-Feb-2022 08:51:12 UTC] PHP Warning:  Use of undefined constant 　 - assumed '　' (this will throw an Error in a future version of PHP) in C:\Users\taroe\Local Sites\portfolio\app\public\wp-content\themes\WP_original\single-works.php on line 15
+[02-Feb-2022 08:51:12 UTC] PHP Stack trace:
+[02-Feb-2022 08:51:12 UTC] PHP   1. {main}() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:0
+[02-Feb-2022 08:51:12 UTC] PHP   2. require() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:17
+[02-Feb-2022 08:51:12 UTC] PHP   3. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-blog-header.php:19
+[02-Feb-2022 08:51:12 UTC] PHP   4. include() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\template-loader.php:106
+[02-Feb-2022 08:51:12 UTC] PHP Warning:  Use of undefined constant 　 - assumed '　' (this will throw an Error in a future version of PHP) in C:\Users\taroe\Local Sites\portfolio\app\public\wp-content\themes\WP_original\single-works.php on line 52
+[02-Feb-2022 08:51:12 UTC] PHP Stack trace:
+[02-Feb-2022 08:51:12 UTC] PHP   1. {main}() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:0
+[02-Feb-2022 08:51:12 UTC] PHP   2. require() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:17
+[02-Feb-2022 08:51:12 UTC] PHP   3. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-blog-header.php:19
+[02-Feb-2022 08:51:12 UTC] PHP   4. include() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\template-loader.php:106
+[02-Feb-2022 08:51:12 UTC] PHP Warning:  Use of undefined constant 　 - assumed '　' (this will throw an Error in a future version of PHP) in C:\Users\taroe\Local Sites\portfolio\app\public\wp-content\themes\WP_original\single-works.php on line 91
+[02-Feb-2022 08:51:12 UTC] PHP Stack trace:
+[02-Feb-2022 08:51:12 UTC] PHP   1. {main}() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:0
+[02-Feb-2022 08:51:12 UTC] PHP   2. require() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:17
+[02-Feb-2022 08:51:12 UTC] PHP   3. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-blog-header.php:19
+[02-Feb-2022 08:51:12 UTC] PHP   4. include() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\template-loader.php:106
+[02-Feb-2022 08:52:01 UTC] PHP Warning:  Use of undefined constant 　 - assumed '　' (this will throw an Error in a future version of PHP) in C:\Users\taroe\Local Sites\portfolio\app\public\wp-content\themes\WP_original\single-works.php on line 13
+[02-Feb-2022 08:52:01 UTC] PHP Stack trace:
+[02-Feb-2022 08:52:01 UTC] PHP   1. {main}() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:0
+[02-Feb-2022 08:52:01 UTC] PHP   2. require() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:17
+[02-Feb-2022 08:52:01 UTC] PHP   3. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-blog-header.php:19
+[02-Feb-2022 08:52:01 UTC] PHP   4. include() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\template-loader.php:106
+[02-Feb-2022 08:52:01 UTC] PHP Warning:  Use of undefined constant 　 - assumed '　' (this will throw an Error in a future version of PHP) in C:\Users\taroe\Local Sites\portfolio\app\public\wp-content\themes\WP_original\single-works.php on line 15
+[02-Feb-2022 08:52:01 UTC] PHP Stack trace:
+[02-Feb-2022 08:52:01 UTC] PHP   1. {main}() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:0
+[02-Feb-2022 08:52:01 UTC] PHP   2. require() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:17
+[02-Feb-2022 08:52:01 UTC] PHP   3. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-blog-header.php:19
+[02-Feb-2022 08:52:01 UTC] PHP   4. include() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\template-loader.php:106
+[02-Feb-2022 08:52:01 UTC] PHP Warning:  Use of undefined constant 　 - assumed '　' (this will throw an Error in a future version of PHP) in C:\Users\taroe\Local Sites\portfolio\app\public\wp-content\themes\WP_original\single-works.php on line 52
+[02-Feb-2022 08:52:01 UTC] PHP Stack trace:
+[02-Feb-2022 08:52:01 UTC] PHP   1. {main}() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:0
+[02-Feb-2022 08:52:01 UTC] PHP   2. require() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:17
+[02-Feb-2022 08:52:01 UTC] PHP   3. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-blog-header.php:19
+[02-Feb-2022 08:52:01 UTC] PHP   4. include() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\template-loader.php:106
+[02-Feb-2022 08:52:01 UTC] PHP Warning:  Use of undefined constant 　 - assumed '　' (this will throw an Error in a future version of PHP) in C:\Users\taroe\Local Sites\portfolio\app\public\wp-content\themes\WP_original\single-works.php on line 91
+[02-Feb-2022 08:52:01 UTC] PHP Stack trace:
+[02-Feb-2022 08:52:01 UTC] PHP   1. {main}() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:0
+[02-Feb-2022 08:52:01 UTC] PHP   2. require() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:17
+[02-Feb-2022 08:52:01 UTC] PHP   3. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-blog-header.php:19
+[02-Feb-2022 08:52:01 UTC] PHP   4. include() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\template-loader.php:106
+[02-Feb-2022 08:52:07 UTC] PHP Warning:  Use of undefined constant 　 - assumed '　' (this will throw an Error in a future version of PHP) in C:\Users\taroe\Local Sites\portfolio\app\public\wp-content\themes\WP_original\single-works.php on line 13
+[02-Feb-2022 08:52:07 UTC] PHP Stack trace:
+[02-Feb-2022 08:52:07 UTC] PHP   1. {main}() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:0
+[02-Feb-2022 08:52:07 UTC] PHP   2. require() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:17
+[02-Feb-2022 08:52:07 UTC] PHP   3. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-blog-header.php:19
+[02-Feb-2022 08:52:07 UTC] PHP   4. include() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\template-loader.php:106
+[02-Feb-2022 08:52:07 UTC] PHP Warning:  Use of undefined constant 　 - assumed '　' (this will throw an Error in a future version of PHP) in C:\Users\taroe\Local Sites\portfolio\app\public\wp-content\themes\WP_original\single-works.php on line 15
+[02-Feb-2022 08:52:07 UTC] PHP Stack trace:
+[02-Feb-2022 08:52:07 UTC] PHP   1. {main}() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:0
+[02-Feb-2022 08:52:07 UTC] PHP   2. require() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:17
+[02-Feb-2022 08:52:07 UTC] PHP   3. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-blog-header.php:19
+[02-Feb-2022 08:52:07 UTC] PHP   4. include() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\template-loader.php:106
+[02-Feb-2022 08:52:07 UTC] PHP Warning:  Use of undefined constant 　 - assumed '　' (this will throw an Error in a future version of PHP) in C:\Users\taroe\Local Sites\portfolio\app\public\wp-content\themes\WP_original\single-works.php on line 52
+[02-Feb-2022 08:52:07 UTC] PHP Stack trace:
+[02-Feb-2022 08:52:07 UTC] PHP   1. {main}() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:0
+[02-Feb-2022 08:52:07 UTC] PHP   2. require() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:17
+[02-Feb-2022 08:52:07 UTC] PHP   3. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-blog-header.php:19
+[02-Feb-2022 08:52:07 UTC] PHP   4. include() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\template-loader.php:106
+[02-Feb-2022 08:52:07 UTC] PHP Warning:  Use of undefined constant 　 - assumed '　' (this will throw an Error in a future version of PHP) in C:\Users\taroe\Local Sites\portfolio\app\public\wp-content\themes\WP_original\single-works.php on line 91
+[02-Feb-2022 08:52:07 UTC] PHP Stack trace:
+[02-Feb-2022 08:52:07 UTC] PHP   1. {main}() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:0
+[02-Feb-2022 08:52:07 UTC] PHP   2. require() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:17
+[02-Feb-2022 08:52:07 UTC] PHP   3. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-blog-header.php:19
+[02-Feb-2022 08:52:07 UTC] PHP   4. include() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\template-loader.php:106
+[02-Feb-2022 08:52:48 UTC] PHP Warning:  Use of undefined constant 　 - assumed '　' (this will throw an Error in a future version of PHP) in C:\Users\taroe\Local Sites\portfolio\app\public\wp-content\themes\WP_original\single-works.php on line 13
+[02-Feb-2022 08:52:48 UTC] PHP Stack trace:
+[02-Feb-2022 08:52:48 UTC] PHP   1. {main}() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:0
+[02-Feb-2022 08:52:48 UTC] PHP   2. require() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:17
+[02-Feb-2022 08:52:48 UTC] PHP   3. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-blog-header.php:19
+[02-Feb-2022 08:52:48 UTC] PHP   4. include() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\template-loader.php:106
+[02-Feb-2022 08:52:48 UTC] PHP Warning:  Use of undefined constant 　 - assumed '　' (this will throw an Error in a future version of PHP) in C:\Users\taroe\Local Sites\portfolio\app\public\wp-content\themes\WP_original\single-works.php on line 15
+[02-Feb-2022 08:52:48 UTC] PHP Stack trace:
+[02-Feb-2022 08:52:48 UTC] PHP   1. {main}() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:0
+[02-Feb-2022 08:52:48 UTC] PHP   2. require() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:17
+[02-Feb-2022 08:52:48 UTC] PHP   3. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-blog-header.php:19
+[02-Feb-2022 08:52:48 UTC] PHP   4. include() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\template-loader.php:106
+[02-Feb-2022 08:52:48 UTC] PHP Warning:  Use of undefined constant 　 - assumed '　' (this will throw an Error in a future version of PHP) in C:\Users\taroe\Local Sites\portfolio\app\public\wp-content\themes\WP_original\single-works.php on line 52
+[02-Feb-2022 08:52:48 UTC] PHP Stack trace:
+[02-Feb-2022 08:52:48 UTC] PHP   1. {main}() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:0
+[02-Feb-2022 08:52:48 UTC] PHP   2. require() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:17
+[02-Feb-2022 08:52:48 UTC] PHP   3. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-blog-header.php:19
+[02-Feb-2022 08:52:48 UTC] PHP   4. include() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\template-loader.php:106
+[02-Feb-2022 08:52:48 UTC] PHP Warning:  Use of undefined constant 　 - assumed '　' (this will throw an Error in a future version of PHP) in C:\Users\taroe\Local Sites\portfolio\app\public\wp-content\themes\WP_original\single-works.php on line 91
+[02-Feb-2022 08:52:48 UTC] PHP Stack trace:
+[02-Feb-2022 08:52:48 UTC] PHP   1. {main}() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:0
+[02-Feb-2022 08:52:48 UTC] PHP   2. require() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:17
+[02-Feb-2022 08:52:48 UTC] PHP   3. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-blog-header.php:19
+[02-Feb-2022 08:52:48 UTC] PHP   4. include() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\template-loader.php:106
+[02-Feb-2022 08:52:50 UTC] PHP Warning:  Use of undefined constant 　 - assumed '　' (this will throw an Error in a future version of PHP) in C:\Users\taroe\Local Sites\portfolio\app\public\wp-content\themes\WP_original\single-works.php on line 13
+[02-Feb-2022 08:52:50 UTC] PHP Stack trace:
+[02-Feb-2022 08:52:50 UTC] PHP   1. {main}() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:0
+[02-Feb-2022 08:52:50 UTC] PHP   2. require() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:17
+[02-Feb-2022 08:52:50 UTC] PHP   3. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-blog-header.php:19
+[02-Feb-2022 08:52:50 UTC] PHP   4. include() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\template-loader.php:106
+[02-Feb-2022 08:52:50 UTC] PHP Warning:  Use of undefined constant 　 - assumed '　' (this will throw an Error in a future version of PHP) in C:\Users\taroe\Local Sites\portfolio\app\public\wp-content\themes\WP_original\single-works.php on line 15
+[02-Feb-2022 08:52:50 UTC] PHP Stack trace:
+[02-Feb-2022 08:52:50 UTC] PHP   1. {main}() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:0
+[02-Feb-2022 08:52:50 UTC] PHP   2. require() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:17
+[02-Feb-2022 08:52:50 UTC] PHP   3. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-blog-header.php:19
+[02-Feb-2022 08:52:50 UTC] PHP   4. include() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\template-loader.php:106
+[02-Feb-2022 08:52:50 UTC] PHP Warning:  Use of undefined constant 　 - assumed '　' (this will throw an Error in a future version of PHP) in C:\Users\taroe\Local Sites\portfolio\app\public\wp-content\themes\WP_original\single-works.php on line 52
+[02-Feb-2022 08:52:50 UTC] PHP Stack trace:
+[02-Feb-2022 08:52:50 UTC] PHP   1. {main}() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:0
+[02-Feb-2022 08:52:50 UTC] PHP   2. require() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:17
+[02-Feb-2022 08:52:50 UTC] PHP   3. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-blog-header.php:19
+[02-Feb-2022 08:52:50 UTC] PHP   4. include() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\template-loader.php:106
+[02-Feb-2022 08:52:50 UTC] PHP Warning:  Use of undefined constant 　 - assumed '　' (this will throw an Error in a future version of PHP) in C:\Users\taroe\Local Sites\portfolio\app\public\wp-content\themes\WP_original\single-works.php on line 91
+[02-Feb-2022 08:52:50 UTC] PHP Stack trace:
+[02-Feb-2022 08:52:50 UTC] PHP   1. {main}() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:0
+[02-Feb-2022 08:52:50 UTC] PHP   2. require() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:17
+[02-Feb-2022 08:52:50 UTC] PHP   3. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-blog-header.php:19
+[02-Feb-2022 08:52:50 UTC] PHP   4. include() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\template-loader.php:106
+[02-Feb-2022 08:54:53 UTC] PHP Warning:  Use of undefined constant 　 - assumed '　' (this will throw an Error in a future version of PHP) in C:\Users\taroe\Local Sites\portfolio\app\public\wp-content\themes\WP_original\single-works.php on line 13
+[02-Feb-2022 08:54:53 UTC] PHP Stack trace:
+[02-Feb-2022 08:54:53 UTC] PHP   1. {main}() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:0
+[02-Feb-2022 08:54:53 UTC] PHP   2. require() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:17
+[02-Feb-2022 08:54:53 UTC] PHP   3. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-blog-header.php:19
+[02-Feb-2022 08:54:53 UTC] PHP   4. include() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\template-loader.php:106
+[02-Feb-2022 08:54:53 UTC] PHP Warning:  Use of undefined constant 　 - assumed '　' (this will throw an Error in a future version of PHP) in C:\Users\taroe\Local Sites\portfolio\app\public\wp-content\themes\WP_original\single-works.php on line 15
+[02-Feb-2022 08:54:53 UTC] PHP Stack trace:
+[02-Feb-2022 08:54:53 UTC] PHP   1. {main}() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:0
+[02-Feb-2022 08:54:53 UTC] PHP   2. require() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:17
+[02-Feb-2022 08:54:53 UTC] PHP   3. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-blog-header.php:19
+[02-Feb-2022 08:54:53 UTC] PHP   4. include() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\template-loader.php:106
+[02-Feb-2022 08:54:53 UTC] PHP Warning:  Use of undefined constant 　 - assumed '　' (this will throw an Error in a future version of PHP) in C:\Users\taroe\Local Sites\portfolio\app\public\wp-content\themes\WP_original\single-works.php on line 52
+[02-Feb-2022 08:54:53 UTC] PHP Stack trace:
+[02-Feb-2022 08:54:53 UTC] PHP   1. {main}() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:0
+[02-Feb-2022 08:54:53 UTC] PHP   2. require() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:17
+[02-Feb-2022 08:54:53 UTC] PHP   3. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-blog-header.php:19
+[02-Feb-2022 08:54:53 UTC] PHP   4. include() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\template-loader.php:106
+[02-Feb-2022 08:54:53 UTC] PHP Warning:  Use of undefined constant 　 - assumed '　' (this will throw an Error in a future version of PHP) in C:\Users\taroe\Local Sites\portfolio\app\public\wp-content\themes\WP_original\single-works.php on line 91
+[02-Feb-2022 08:54:53 UTC] PHP Stack trace:
+[02-Feb-2022 08:54:53 UTC] PHP   1. {main}() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:0
+[02-Feb-2022 08:54:53 UTC] PHP   2. require() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:17
+[02-Feb-2022 08:54:53 UTC] PHP   3. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-blog-header.php:19
+[02-Feb-2022 08:54:53 UTC] PHP   4. include() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\template-loader.php:106
+[02-Feb-2022 08:58:56 UTC] PHP Warning:  Use of undefined constant 　 - assumed '　' (this will throw an Error in a future version of PHP) in C:\Users\taroe\Local Sites\portfolio\app\public\wp-content\themes\WP_original\single-works.php on line 13
+[02-Feb-2022 08:58:56 UTC] PHP Stack trace:
+[02-Feb-2022 08:58:56 UTC] PHP   1. {main}() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:0
+[02-Feb-2022 08:58:56 UTC] PHP   2. require() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:17
+[02-Feb-2022 08:58:56 UTC] PHP   3. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-blog-header.php:19
+[02-Feb-2022 08:58:56 UTC] PHP   4. include() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\template-loader.php:106
+[02-Feb-2022 08:58:56 UTC] PHP Warning:  Use of undefined constant 　 - assumed '　' (this will throw an Error in a future version of PHP) in C:\Users\taroe\Local Sites\portfolio\app\public\wp-content\themes\WP_original\single-works.php on line 15
+[02-Feb-2022 08:58:56 UTC] PHP Stack trace:
+[02-Feb-2022 08:58:56 UTC] PHP   1. {main}() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:0
+[02-Feb-2022 08:58:56 UTC] PHP   2. require() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:17
+[02-Feb-2022 08:58:56 UTC] PHP   3. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-blog-header.php:19
+[02-Feb-2022 08:58:56 UTC] PHP   4. include() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\template-loader.php:106
+[02-Feb-2022 08:58:56 UTC] PHP Warning:  Use of undefined constant 　 - assumed '　' (this will throw an Error in a future version of PHP) in C:\Users\taroe\Local Sites\portfolio\app\public\wp-content\themes\WP_original\single-works.php on line 52
+[02-Feb-2022 08:58:56 UTC] PHP Stack trace:
+[02-Feb-2022 08:58:56 UTC] PHP   1. {main}() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:0
+[02-Feb-2022 08:58:56 UTC] PHP   2. require() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:17
+[02-Feb-2022 08:58:56 UTC] PHP   3. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-blog-header.php:19
+[02-Feb-2022 08:58:56 UTC] PHP   4. include() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\template-loader.php:106
+[02-Feb-2022 08:58:56 UTC] PHP Warning:  Use of undefined constant 　 - assumed '　' (this will throw an Error in a future version of PHP) in C:\Users\taroe\Local Sites\portfolio\app\public\wp-content\themes\WP_original\single-works.php on line 91
+[02-Feb-2022 08:58:56 UTC] PHP Stack trace:
+[02-Feb-2022 08:58:56 UTC] PHP   1. {main}() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:0
+[02-Feb-2022 08:58:56 UTC] PHP   2. require() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:17
+[02-Feb-2022 08:58:56 UTC] PHP   3. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-blog-header.php:19
+[02-Feb-2022 08:58:56 UTC] PHP   4. include() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\template-loader.php:106
+[02-Feb-2022 09:05:59 UTC] PHP Warning:  Use of undefined constant 　 - assumed '　' (this will throw an Error in a future version of PHP) in C:\Users\taroe\Local Sites\portfolio\app\public\wp-content\themes\WP_original\single-works.php on line 13
+[02-Feb-2022 09:05:59 UTC] PHP Stack trace:
+[02-Feb-2022 09:05:59 UTC] PHP   1. {main}() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:0
+[02-Feb-2022 09:05:59 UTC] PHP   2. require() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:17
+[02-Feb-2022 09:05:59 UTC] PHP   3. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-blog-header.php:19
+[02-Feb-2022 09:05:59 UTC] PHP   4. include() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\template-loader.php:106
+[02-Feb-2022 09:05:59 UTC] PHP Warning:  Use of undefined constant 　 - assumed '　' (this will throw an Error in a future version of PHP) in C:\Users\taroe\Local Sites\portfolio\app\public\wp-content\themes\WP_original\single-works.php on line 15
+[02-Feb-2022 09:05:59 UTC] PHP Stack trace:
+[02-Feb-2022 09:05:59 UTC] PHP   1. {main}() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:0
+[02-Feb-2022 09:05:59 UTC] PHP   2. require() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:17
+[02-Feb-2022 09:05:59 UTC] PHP   3. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-blog-header.php:19
+[02-Feb-2022 09:05:59 UTC] PHP   4. include() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\template-loader.php:106
+[02-Feb-2022 09:05:59 UTC] PHP Warning:  Use of undefined constant 　 - assumed '　' (this will throw an Error in a future version of PHP) in C:\Users\taroe\Local Sites\portfolio\app\public\wp-content\themes\WP_original\single-works.php on line 54
+[02-Feb-2022 09:05:59 UTC] PHP Stack trace:
+[02-Feb-2022 09:05:59 UTC] PHP   1. {main}() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:0
+[02-Feb-2022 09:05:59 UTC] PHP   2. require() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:17
+[02-Feb-2022 09:05:59 UTC] PHP   3. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-blog-header.php:19
+[02-Feb-2022 09:05:59 UTC] PHP   4. include() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\template-loader.php:106
+[02-Feb-2022 09:05:59 UTC] PHP Warning:  Use of undefined constant 　 - assumed '　' (this will throw an Error in a future version of PHP) in C:\Users\taroe\Local Sites\portfolio\app\public\wp-content\themes\WP_original\single-works.php on line 91
+[02-Feb-2022 09:05:59 UTC] PHP Stack trace:
+[02-Feb-2022 09:05:59 UTC] PHP   1. {main}() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:0
+[02-Feb-2022 09:05:59 UTC] PHP   2. require() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:17
+[02-Feb-2022 09:05:59 UTC] PHP   3. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-blog-header.php:19
+[02-Feb-2022 09:05:59 UTC] PHP   4. include() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\template-loader.php:106
+[02-Feb-2022 09:06:02 UTC] PHP Warning:  Use of undefined constant 　 - assumed '　' (this will throw an Error in a future version of PHP) in C:\Users\taroe\Local Sites\portfolio\app\public\wp-content\themes\WP_original\single-works.php on line 13
+[02-Feb-2022 09:06:02 UTC] PHP Stack trace:
+[02-Feb-2022 09:06:02 UTC] PHP   1. {main}() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:0
+[02-Feb-2022 09:06:02 UTC] PHP   2. require() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:17
+[02-Feb-2022 09:06:02 UTC] PHP   3. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-blog-header.php:19
+[02-Feb-2022 09:06:02 UTC] PHP   4. include() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\template-loader.php:106
+[02-Feb-2022 09:06:02 UTC] PHP Warning:  Use of undefined constant 　 - assumed '　' (this will throw an Error in a future version of PHP) in C:\Users\taroe\Local Sites\portfolio\app\public\wp-content\themes\WP_original\single-works.php on line 15
+[02-Feb-2022 09:06:02 UTC] PHP Stack trace:
+[02-Feb-2022 09:06:02 UTC] PHP   1. {main}() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:0
+[02-Feb-2022 09:06:02 UTC] PHP   2. require() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:17
+[02-Feb-2022 09:06:02 UTC] PHP   3. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-blog-header.php:19
+[02-Feb-2022 09:06:02 UTC] PHP   4. include() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\template-loader.php:106
+[02-Feb-2022 09:06:02 UTC] PHP Warning:  Use of undefined constant 　 - assumed '　' (this will throw an Error in a future version of PHP) in C:\Users\taroe\Local Sites\portfolio\app\public\wp-content\themes\WP_original\single-works.php on line 54
+[02-Feb-2022 09:06:02 UTC] PHP Stack trace:
+[02-Feb-2022 09:06:02 UTC] PHP   1. {main}() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:0
+[02-Feb-2022 09:06:02 UTC] PHP   2. require() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:17
+[02-Feb-2022 09:06:02 UTC] PHP   3. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-blog-header.php:19
+[02-Feb-2022 09:06:02 UTC] PHP   4. include() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\template-loader.php:106
+[02-Feb-2022 09:06:02 UTC] PHP Warning:  Use of undefined constant 　 - assumed '　' (this will throw an Error in a future version of PHP) in C:\Users\taroe\Local Sites\portfolio\app\public\wp-content\themes\WP_original\single-works.php on line 91
+[02-Feb-2022 09:06:02 UTC] PHP Stack trace:
+[02-Feb-2022 09:06:02 UTC] PHP   1. {main}() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:0
+[02-Feb-2022 09:06:02 UTC] PHP   2. require() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:17
+[02-Feb-2022 09:06:02 UTC] PHP   3. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-blog-header.php:19
+[02-Feb-2022 09:06:02 UTC] PHP   4. include() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\template-loader.php:106
+[02-Feb-2022 09:06:03 UTC] PHP Warning:  Use of undefined constant 　 - assumed '　' (this will throw an Error in a future version of PHP) in C:\Users\taroe\Local Sites\portfolio\app\public\wp-content\themes\WP_original\single-works.php on line 13
+[02-Feb-2022 09:06:03 UTC] PHP Stack trace:
+[02-Feb-2022 09:06:03 UTC] PHP   1. {main}() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:0
+[02-Feb-2022 09:06:03 UTC] PHP   2. require() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:17
+[02-Feb-2022 09:06:03 UTC] PHP   3. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-blog-header.php:19
+[02-Feb-2022 09:06:03 UTC] PHP   4. include() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\template-loader.php:106
+[02-Feb-2022 09:06:03 UTC] PHP Warning:  Use of undefined constant 　 - assumed '　' (this will throw an Error in a future version of PHP) in C:\Users\taroe\Local Sites\portfolio\app\public\wp-content\themes\WP_original\single-works.php on line 15
+[02-Feb-2022 09:06:03 UTC] PHP Stack trace:
+[02-Feb-2022 09:06:03 UTC] PHP   1. {main}() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:0
+[02-Feb-2022 09:06:03 UTC] PHP   2. require() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:17
+[02-Feb-2022 09:06:03 UTC] PHP   3. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-blog-header.php:19
+[02-Feb-2022 09:06:03 UTC] PHP   4. include() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\template-loader.php:106
+[02-Feb-2022 09:06:03 UTC] PHP Warning:  Use of undefined constant 　 - assumed '　' (this will throw an Error in a future version of PHP) in C:\Users\taroe\Local Sites\portfolio\app\public\wp-content\themes\WP_original\single-works.php on line 54
+[02-Feb-2022 09:06:03 UTC] PHP Stack trace:
+[02-Feb-2022 09:06:03 UTC] PHP   1. {main}() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:0
+[02-Feb-2022 09:06:03 UTC] PHP   2. require() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:17
+[02-Feb-2022 09:06:03 UTC] PHP   3. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-blog-header.php:19
+[02-Feb-2022 09:06:03 UTC] PHP   4. include() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\template-loader.php:106
+[02-Feb-2022 09:06:03 UTC] PHP Warning:  Use of undefined constant 　 - assumed '　' (this will throw an Error in a future version of PHP) in C:\Users\taroe\Local Sites\portfolio\app\public\wp-content\themes\WP_original\single-works.php on line 91
+[02-Feb-2022 09:06:03 UTC] PHP Stack trace:
+[02-Feb-2022 09:06:03 UTC] PHP   1. {main}() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:0
+[02-Feb-2022 09:06:03 UTC] PHP   2. require() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:17
+[02-Feb-2022 09:06:03 UTC] PHP   3. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-blog-header.php:19
+[02-Feb-2022 09:06:03 UTC] PHP   4. include() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\template-loader.php:106
+[02-Feb-2022 09:14:47 UTC] PHP Warning:  Use of undefined constant 　 - assumed '　' (this will throw an Error in a future version of PHP) in C:\Users\taroe\Local Sites\portfolio\app\public\wp-content\themes\WP_original\single-works.php on line 13
+[02-Feb-2022 09:14:47 UTC] PHP Stack trace:
+[02-Feb-2022 09:14:47 UTC] PHP   1. {main}() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:0
+[02-Feb-2022 09:14:47 UTC] PHP   2. require() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:17
+[02-Feb-2022 09:14:47 UTC] PHP   3. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-blog-header.php:19
+[02-Feb-2022 09:14:47 UTC] PHP   4. include() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\template-loader.php:106
+[02-Feb-2022 09:14:47 UTC] PHP Warning:  Use of undefined constant 　 - assumed '　' (this will throw an Error in a future version of PHP) in C:\Users\taroe\Local Sites\portfolio\app\public\wp-content\themes\WP_original\single-works.php on line 15
+[02-Feb-2022 09:14:47 UTC] PHP Stack trace:
+[02-Feb-2022 09:14:47 UTC] PHP   1. {main}() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:0
+[02-Feb-2022 09:14:47 UTC] PHP   2. require() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:17
+[02-Feb-2022 09:14:47 UTC] PHP   3. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-blog-header.php:19
+[02-Feb-2022 09:14:47 UTC] PHP   4. include() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\template-loader.php:106
+[02-Feb-2022 09:14:47 UTC] PHP Warning:  Use of undefined constant 　 - assumed '　' (this will throw an Error in a future version of PHP) in C:\Users\taroe\Local Sites\portfolio\app\public\wp-content\themes\WP_original\single-works.php on line 54
+[02-Feb-2022 09:14:47 UTC] PHP Stack trace:
+[02-Feb-2022 09:14:47 UTC] PHP   1. {main}() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:0
+[02-Feb-2022 09:14:47 UTC] PHP   2. require() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:17
+[02-Feb-2022 09:14:47 UTC] PHP   3. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-blog-header.php:19
+[02-Feb-2022 09:14:47 UTC] PHP   4. include() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\template-loader.php:106
+[02-Feb-2022 09:14:47 UTC] PHP Warning:  Use of undefined constant 　 - assumed '　' (this will throw an Error in a future version of PHP) in C:\Users\taroe\Local Sites\portfolio\app\public\wp-content\themes\WP_original\single-works.php on line 91
+[02-Feb-2022 09:14:47 UTC] PHP Stack trace:
+[02-Feb-2022 09:14:47 UTC] PHP   1. {main}() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:0
+[02-Feb-2022 09:14:47 UTC] PHP   2. require() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:17
+[02-Feb-2022 09:14:47 UTC] PHP   3. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-blog-header.php:19
+[02-Feb-2022 09:14:47 UTC] PHP   4. include() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\template-loader.php:106
+[02-Feb-2022 11:15:17 UTC] PHP Warning:  Use of undefined constant 　 - assumed '　' (this will throw an Error in a future version of PHP) in C:\Users\taroe\Local Sites\portfolio\app\public\wp-content\themes\WP_original\single-works.php on line 13
+[02-Feb-2022 11:15:17 UTC] PHP Stack trace:
+[02-Feb-2022 11:15:17 UTC] PHP   1. {main}() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:0
+[02-Feb-2022 11:15:17 UTC] PHP   2. require() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:17
+[02-Feb-2022 11:15:17 UTC] PHP   3. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-blog-header.php:19
+[02-Feb-2022 11:15:17 UTC] PHP   4. include() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\template-loader.php:106
+[02-Feb-2022 11:15:17 UTC] PHP Warning:  Use of undefined constant 　 - assumed '　' (this will throw an Error in a future version of PHP) in C:\Users\taroe\Local Sites\portfolio\app\public\wp-content\themes\WP_original\single-works.php on line 15
+[02-Feb-2022 11:15:17 UTC] PHP Stack trace:
+[02-Feb-2022 11:15:17 UTC] PHP   1. {main}() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:0
+[02-Feb-2022 11:15:17 UTC] PHP   2. require() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:17
+[02-Feb-2022 11:15:17 UTC] PHP   3. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-blog-header.php:19
+[02-Feb-2022 11:15:17 UTC] PHP   4. include() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\template-loader.php:106
+[02-Feb-2022 11:15:17 UTC] PHP Warning:  Use of undefined constant 　 - assumed '　' (this will throw an Error in a future version of PHP) in C:\Users\taroe\Local Sites\portfolio\app\public\wp-content\themes\WP_original\single-works.php on line 52
+[02-Feb-2022 11:15:17 UTC] PHP Stack trace:
+[02-Feb-2022 11:15:17 UTC] PHP   1. {main}() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:0
+[02-Feb-2022 11:15:17 UTC] PHP   2. require() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:17
+[02-Feb-2022 11:15:17 UTC] PHP   3. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-blog-header.php:19
+[02-Feb-2022 11:15:17 UTC] PHP   4. include() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\template-loader.php:106
+[02-Feb-2022 11:15:17 UTC] PHP Warning:  Use of undefined constant 　 - assumed '　' (this will throw an Error in a future version of PHP) in C:\Users\taroe\Local Sites\portfolio\app\public\wp-content\themes\WP_original\single-works.php on line 91
+[02-Feb-2022 11:15:17 UTC] PHP Stack trace:
+[02-Feb-2022 11:15:17 UTC] PHP   1. {main}() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:0
+[02-Feb-2022 11:15:17 UTC] PHP   2. require() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:17
+[02-Feb-2022 11:15:17 UTC] PHP   3. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-blog-header.php:19
+[02-Feb-2022 11:15:17 UTC] PHP   4. include() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\template-loader.php:106

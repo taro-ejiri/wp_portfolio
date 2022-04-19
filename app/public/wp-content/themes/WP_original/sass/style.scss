@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/*
+Theme Name: WP_original
+Theme URI: http://portfolio.sept11.work/
+Author: ET ウェブデザイン
+Author URI: http: //portfolio.sept11.work/
+Description: ETのポートフォリオサイトです。
+Version: 2.0
+Text Domain: WP_original
+*/
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0  Reset
+2.0  base
+2.5  mixin
+3.0  Layout
+    3.1 header
+    3.2 navi
+    3.3 footer
+    3.4 Contents / page.php
+    3.5 Page: 404
+    3.6 front-page
+        3.6.1 jumbotron
+        3.6.2 PRINCIPLE and WORKS / About me
+        3.6.3 PRINCIPLE
+        3.6.4 WORKS
+    3.7 About
+        3.7.1 略歴
+        3.7.2 Policy
+    3.8 contact
+    3.9 thanks
+    3.10 archive アーカイブ
+        3.10.1 archive-works
+    3.11 single
+        3.11.1 single-works
+
+
+8.0 Elements 要素
+8.1 Back to top button
+9.0  Widgets ウィジェット
+10.0  Sections
+11.0  External Plugins
+--------------------------------------------------------------*/
+
+// Include Base Style
+@import "base/base";
+@import "mixin/mixin";
+// Styling Start
+@import "layout/layout";
+//@import "module/module";
+//@import "state/state";
