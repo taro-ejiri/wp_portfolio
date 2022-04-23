@@ -8,6 +8,7 @@ Description: ETのポートフォリオサイトです。
 Version: 2.0
 Text Domain: WP_original
 */
+
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
@@ -50,3 +51,7 @@ Text Domain: WP_original
 @import "layout/layout";
 //@import "module/module";
 //@import "state/state";
+
+// @use "base/base";
+// @use "mixin/mixin";
+// @use "layout/layout";
