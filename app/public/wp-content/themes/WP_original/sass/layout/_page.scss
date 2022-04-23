@@ -8,18 +8,16 @@
 /*------------------------------
 3.5 Page: 404
 ------------------------------*/
-#area404 {
+.area404 {
     padding-top: 200px;
     margin: 0 auto;
     min-height: 750px;
     margin-top: 50px;
     text-align: center;
-
     h2 {
         font-size: 30px;
         margin-bottom: 30px;
     }
-
     p {
         font-size: 16px;
         padding: 15px;
@@ -28,15 +26,13 @@
 
 /* iPadPro */
 @media screen and (max-width: 1112px) {
-    #area404 {
+    .area404 {
         padding-top: 300px;
         min-height: 1100px;
-
         h2 {
             font-size: 45px;
             margin-bottom: 40px;
         }
-
         p {
             font-size: 25px;
             padding: 30px;
@@ -46,16 +42,14 @@
 
 /* iPad */
 @media screen and (max-width: 768px) {
-    #area404 {
+    .area404 {
         padding-top: 200px;
         min-height: 800px;
         margin-top: 65px;
-
         h2 {
             font-size: 30px;
             margin-bottom: 30px;
         }
-
         p {
             font-size: 20px;
             padding: 15px;
@@ -65,15 +59,13 @@
 
 /* iPhone Plus*/
 @media screen and (max-width: 414px) {
-    #area404 {
+    .area404 {
         padding-top: 100px;
         min-height: 525px;
-
         h2 {
             font-size: 25px;
             padding: 0 10px;
         }
-
         p {
             font-size: 16px;
         }
@@ -82,7 +74,7 @@
 
 /* iPhone X/6/7/8*/
 @media screen and (max-width: 375px) {
-    #area404 {
+    .area404 {
         padding-top: 100px;
         min-height: 450px;
     }
@@ -90,16 +82,14 @@
 
 /* iPhone5/SE */
 @media screen and (max-width: 320px) {
-    #area404 {
+    .area404 {
         min-height: 300px;
         margin-top: 90px;
         padding-top: 50px;
-
         h2 {
             font-size: 20px;
             margin-bottom: 30px;
         }
-
         p {
             margin-bottom: 0;
         }

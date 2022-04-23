@@ -5,12 +5,10 @@ header {
     position: fixed;
     width: 100%;
     z-index: 999;
-
     li:hover {
         opacity: 0.5;
         filter: Alpha(opacity=50);
     }
-
     .header-content {
         margin: 0 auto;
         padding: 60px 10%;
@@ -20,29 +18,23 @@ header {
         -webkit-transition: padding 0.3s;
         transition: padding 0.3s;
     }
-
     .logo_pc {
         display: block;
     }
-
     .logo_sm {
         display: none;
-
         h1 {
             margin-top: 0;
         }
     }
-
     /* fixed 下にスライドする際のヘッダーの動き */
     /*
     .fixed {
         background-color: rgba(255, 255, 255, 0);
-
         .header-content {
             border-bottom: 0;
             padding: 25px 10%;
         }
-
         .nav-toggle {
             top: 18px;
         }
@@ -56,7 +48,6 @@ header {
 /* navi */
 .navigation {
     float: right;
-
     &.open {
         opacity: 0.9;
         visibility: visible;
@@ -65,18 +56,15 @@ header {
         -webkit-transition: opacity 0.5s;
         transition: opacity 0.5s;
     }
-
     li {
         display: inline-block;
     }
-
     a {
         color: rgba(0, 0, 0, 1);
         font-size: 19px;
         font-weight: 700;
         margin-left: 40px;
         letter-spacing: -1px;
-
         &:hover,
         &.active {
             color: #000;
@@ -102,7 +90,6 @@ header {
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
 }
-
 .nav-toggle:before,
 .nav-toggle:after {
     border-radius: 50%;
@@ -124,7 +111,6 @@ header {
     -webkit-transition-property: -webkit-transform;
     transition-property: transform;
 }
-
 .nav-toggle:before {
     background-color: #000;
     -moz-transform: scale(1);
@@ -136,7 +122,6 @@ header {
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
 }
-
 .nav-toggle:after {
     background-color: #000;
     -moz-transform: scale(0);
@@ -148,7 +133,6 @@ header {
     -webkit-transition-duration: 0s;
     transition-duration: 0s;
 }
-
 .nav-toggle span {
     background-color: #fff;
     bottom: auto;
@@ -165,7 +149,6 @@ header {
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
 }
-
 .nav-toggle span:before,
 .nav-toggle span:after {
     background-color: #fff;
@@ -187,58 +170,49 @@ header {
     -webkit-transition: -webkit-transform 0.3s;
     transition: transform 0.3s;
 }
-
 .nav-toggle span:before {
     -moz-transform: translateY(-6px) rotate(0deg);
     -ms-transform: translateY(-6px) rotate(0deg);
     -webkit-transform: translateY(-6px) rotate(0deg);
     transform: translateY(-6px) rotate(0deg);
 }
-
 .nav-toggle span:after {
     -moz-transform: translateY(6px) rotate(0deg);
     -ms-transform: translateY(6px) rotate(0deg);
     -webkit-transform: translateY(6px) rotate(0deg);
     transform: translateY(6px) rotate(0deg);
 }
-
 .nav-toggle.close-nav:before {
     -moz-transform: scale(0);
     -ms-transform: scale(0);
     -webkit-transform: scale(0);
     transform: scale(0);
 }
-
 .nav-toggle.close-nav:after {
     -moz-transform: scale(1);
     -ms-transform: scale(1);
     -webkit-transform: scale(1);
     transform: scale(1);
 }
-
 .nav-toggle.close-nav span {
     background-color: rgba(255, 255, 255, 0);
 }
-
 .nav-toggle.close-nav span:before,
 .nav-toggle.close-nav span:after {
     background-color: #fff;
 }
-
 .nav-toggle.close-nav span:before {
     -moz-transform: translateY(0) rotate(45deg);
     -ms-transform: translateY(0) rotate(45deg);
     -webkit-transform: translateY(0) rotate(45deg);
     transform: translateY(0) rotate(45deg);
 }
-
 .nav-toggle.close-nav span:after {
     -moz-transform: translateY(0) rotate(-45deg);
     -ms-transform: translateY(0) rotate(-45deg);
     -webkit-transform: translateY(0) rotate(-45deg);
     transform: translateY(0) rotate(-45deg);
 }
-
 /* ヘッダー用 shareボタン */
 ul.h_share_btn {
     display: none;
@@ -251,15 +225,12 @@ ul.h_share_btn {
         width: 90%;
         padding: 10px 0;
     }
-
     header.fixed .header-content {
         padding: 17px 0;
     }
-
     .nav-toggle {
         display: block;
     }
-
     .navigation {
         position: fixed;
         background-color: #fff;
@@ -273,7 +244,6 @@ ul.h_share_btn {
         -webkit-transition: opacity 0.5s, visibility 0s 0.5s;
         transition: opacity 0.5s, visibility 0s 0.5s;
     }
-
     .navigation .primary-nav {
         position: relative;
         top: 45%;
@@ -282,19 +252,16 @@ ul.h_share_btn {
         -webkit-transform: translateY(-45%);
         transform: translateY(-45%);
     }
-
     .navigation li {
         display: block;
         margin-bottom: 20px;
     }
-
     .navigation a {
         display: block;
         font-size: 35px;
         margin: 0;
         text-align: center;
     }
-
     /* ヘッダー用 shareボタン */
     ul.h_share_btn {
         display: block;
@@ -302,7 +269,6 @@ ul.h_share_btn {
         text-align: center;
         padding-left: 0;
     }
-
     ul.h_share_btn li {
         display: inline-block;
         padding: 0 15px;
@@ -315,11 +281,9 @@ ul.h_share_btn {
     header .header-content {
         padding: 10px 0%;
     }
-
     header.fixed .header-content {
         padding: 17px 0;
     }
-
     .navigation .primary-nav {
         padding-left: 0px;
     }
@@ -331,13 +295,10 @@ ul.h_share_btn {
     header .header-content {
         padding: 30px 0;
     }
-
     header.fixed .header-content {
         padding: 17px 0;
     }
 }
-
-
 
 /* Header width-480px
 ------------------------------*/
@@ -345,15 +306,12 @@ ul.h_share_btn {
     header .header-content {
         padding: 30px 0;
     }
-
     header.fixed .header-content {
         padding: 17px 0;
     }
-
     header .logo_pc {
         display: none;
     }
-
     header .logo_sm {
         display: block;
     }
@@ -372,7 +330,6 @@ ul.h_share_btn {
     header .header-content {
         padding: 30px 2%;
     }
-
     header.fixed .header-content {
         padding: 17px 0;
     }

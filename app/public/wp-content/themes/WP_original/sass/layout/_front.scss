@@ -4,7 +4,7 @@
 
 /* 3.6.1 jumbotron
 ------------------------------*/
-#jumbotron {
+.jumbotron {
     margin-top: 200px;
     background-image: url("../img/img_main_1.jpg");
     background-size: cover;
@@ -33,15 +33,17 @@
 
 /* iPadPro */
 @media screen and (max-width: 1112px) {
-    #jumbotron .slides_canvas {
-        max-width: 95%;
+    .jumbotron {
+        .slides_canvas {
+            max-width: 95%;
+        }
     }
 }
 
 /* jumbotron width-1024px以下
 ------------------------------*/
 @media only screen and (max-width: 1024px) {
-    #jumbotron {
+    .jumbotron {
         margin-top: 100px;
         background-position: 75%;
         padding: 30px 10px;
@@ -50,18 +52,20 @@
 
 /* iPad */
 @media only screen and (max-width: 768px) {
-    #jumbotron .slides_canvas {
-        max-width: 95%;
-    }
-    #jumbotron blockquote {
-        padding: 25px;
+    .jumbotron {
+        .slides_canvas {
+            max-width: 95%;
+        }
+        blockquote {
+            padding: 25px;
+        }
     }
 }
 
 /* jumbotron width-767px以下
 ------------------------------*/
 @media only screen and (max-width: 767px) {
-    #jumbotron {
+    .jumbotron {
         background-position: 75%;
         padding: 10px 10px;
         margin: 100px 0 10px;
@@ -117,7 +121,6 @@
     }
 }
 
-
 /* 更に詳しくボタン */
 .moreDetail {
     width: 100%;
@@ -142,85 +145,93 @@
     }
 }
 
-/* 3.6.3 PRINCIPLE
+/* 3.6.3 PRINCIPLE 方針・コンセプト
 ------------------------------*/
 .principle {
     padding: 50px 0;
-}
-.principle .items_three {
-    width: 33%;
-    float: left;
-    padding: 0 15px;
-}
-.point-circle {
-    width: 100px;
-    height: 100px;
-    margin: 0 auto;
-    font-size: 62px;
-    line-height: 105px;
-    color: #fff;
-    border-radius: 100%;
-    text-align: center;
-    i {
-        position: relative;
-        top: 25%;
-        transform: translateY(-50%);
-    }
-    &.building {
-        background-color: #4caf50;
-    }
-    &.display {
-        background-color: #ff9800;
-        padding: 10px;
-    }
-    &.wp_mark {
-        background-color: #0085ba;
-    }
-}
-h3.point-title {
-    font-size: 22px;
-    font-weight: 300;
-    letter-spacing: 0.4px;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-.point-description {
-    font-size: 14px;
-    line-height: 22.4px;
-    text-align: justify;
-    color: #000;
-    padding: 0 15px;
-}
-@media only screen and (max-width: 768px) {
-    .principle .items_three {
-        position: relative;
-        width: 100%;
-        min-height: 1px;
-        padding: 0 0 15px;
-    }
-    .point-frame {
-        width: 30%;
+    .items_three {
+        width: 33%;
         float: left;
+        padding: 0 15px;
+        .point-circle {
+            width: 100px;
+            height: 100px;
+            margin: 0 auto;
+            font-size: 62px;
+            line-height: 105px;
+            color: #fff;
+            border-radius: 100%;
+            text-align: center;
+            i {
+                position: relative;
+                top: 25%;
+                transform: translateY(-50%);
+            }
+            &.building {
+                background-color: #4caf50;
+            }
+            &.display {
+                background-color: #ff9800;
+                padding: 10px;
+            }
+            &.wp_mark {
+                background-color: #0085ba;
+            }
+        }
+        h3.point-title {
+            font-size: 22px;
+            font-weight: 300;
+            letter-spacing: 0.4px;
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .point-description {
+            font-size: 14px;
+            line-height: 22.4px;
+            text-align: justify;
+            color: #000;
+            padding: 0 15px;
+        }
     }
-    .point-description {
-        width: 70%;
-        float: right;
-        padding: 0;
-    }
-    h3.point-title {
-        font-size: 18px;
-        text-align: center;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .principle {
+        .items_three {
+            position: relative;
+            width: 100%;
+            min-height: 1px;
+            padding: 0 0 15px;
+            .point-frame {
+                width: 30%;
+                float: left;
+            }
+            .point-description {
+                width: 70%;
+                float: right;
+                padding: 0;
+            }
+            h3.point-title {
+                font-size: 18px;
+                text-align: center;
+            }
+        }
     }
 }
 
 @media only screen and (max-width: 414px) {
-    .point-frame {
-        width: 100%;
-        float: none;
-    }
-    .point-description {
-        width: 100%;
+    .principle {
+        .items_three {
+            .point-frame {
+                width: 100%;
+                float: none;
+            }
+            .point-description {
+                width: 100%;
+            }
+        }
     }
 }
 

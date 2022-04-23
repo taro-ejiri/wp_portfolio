@@ -7,11 +7,9 @@
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-
     @include max-screen($breakpoint-tablet) {
         //font-size: 18px;
     }
-
     @include max-screen($breakpoint-mobile) {
         //font-size: 16px;
     }
@@ -22,25 +20,21 @@
         max-width: 540px;
     }
 }
-
 @media (min-width: 768px) {
     .container {
         max-width: 720px;
     }
 }
-
 @media (min-width: 992px) {
     .container {
         max-width: 970px;
     }
 }
-
 @media (min-width: 1200px) {
     .container {
         max-width: 1170px;
     }
 }
-
 .wrapper {
     display: flex;
     flex-direction: column;

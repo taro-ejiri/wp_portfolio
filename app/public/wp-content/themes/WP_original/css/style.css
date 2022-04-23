@@ -653,12 +653,10 @@ header {
   /*
       .fixed {
           background-color: rgba(255, 255, 255, 0);
-
           .header-content {
               border-bottom: 0;
               padding: 25px 10%;
           }
-
           .nav-toggle {
               top: 18px;
           }
@@ -1044,86 +1042,86 @@ footer .cp_right {
 /*------------------------------
 3.5 Page: 404
 ------------------------------*/
-#area404 {
+.area404 {
   padding-top: 200px;
   margin: 0 auto;
   min-height: 750px;
   margin-top: 50px;
   text-align: center;
 }
-#area404 h2 {
+.area404 h2 {
   font-size: 30px;
   margin-bottom: 30px;
 }
-#area404 p {
+.area404 p {
   font-size: 16px;
   padding: 15px;
 }
 
 /* iPadPro */
 @media screen and (max-width: 1112px) {
-  #area404 {
+  .area404 {
     padding-top: 300px;
     min-height: 1100px;
   }
-  #area404 h2 {
+  .area404 h2 {
     font-size: 45px;
     margin-bottom: 40px;
   }
-  #area404 p {
+  .area404 p {
     font-size: 25px;
     padding: 30px;
   }
 }
 /* iPad */
 @media screen and (max-width: 768px) {
-  #area404 {
+  .area404 {
     padding-top: 200px;
     min-height: 800px;
     margin-top: 65px;
   }
-  #area404 h2 {
+  .area404 h2 {
     font-size: 30px;
     margin-bottom: 30px;
   }
-  #area404 p {
+  .area404 p {
     font-size: 20px;
     padding: 15px;
   }
 }
 /* iPhone Plus*/
 @media screen and (max-width: 414px) {
-  #area404 {
+  .area404 {
     padding-top: 100px;
     min-height: 525px;
   }
-  #area404 h2 {
+  .area404 h2 {
     font-size: 25px;
     padding: 0 10px;
   }
-  #area404 p {
+  .area404 p {
     font-size: 16px;
   }
 }
 /* iPhone X/6/7/8*/
 @media screen and (max-width: 375px) {
-  #area404 {
+  .area404 {
     padding-top: 100px;
     min-height: 450px;
   }
 }
 /* iPhone5/SE */
 @media screen and (max-width: 320px) {
-  #area404 {
+  .area404 {
     min-height: 300px;
     margin-top: 90px;
     padding-top: 50px;
   }
-  #area404 h2 {
+  .area404 h2 {
     font-size: 20px;
     margin-bottom: 30px;
   }
-  #area404 p {
+  .area404 p {
     margin-bottom: 0;
   }
 }
@@ -1132,7 +1130,7 @@ footer .cp_right {
 ------------------------------*/
 /* 3.6.1 jumbotron
 ------------------------------*/
-#jumbotron {
+.jumbotron {
   margin-top: 200px;
   background-image: url("../img/img_main_1.jpg");
   background-size: cover;
@@ -1140,35 +1138,35 @@ footer .cp_right {
   color: #fff;
   padding: 50px 50px;
 }
-#jumbotron .slides_canvas {
+.jumbotron .slides_canvas {
   max-width: 66.6%;
   margin: 0 auto;
 }
-#jumbotron blockquote {
+.jumbotron blockquote {
   border-style: none;
   padding: 50px 50px;
 }
-#jumbotron blockquote h2 {
+.jumbotron blockquote h2 {
   font-size: 40px;
   line-height: 200%;
   text-align: center;
   color: #fff;
 }
-#jumbotron blockquote p {
+.jumbotron blockquote p {
   line-height: 200%;
   color: #fff;
 }
 
 /* iPadPro */
 @media screen and (max-width: 1112px) {
-  #jumbotron .slides_canvas {
+  .jumbotron .slides_canvas {
     max-width: 95%;
   }
 }
 /* jumbotron width-1024px以下
 ------------------------------*/
 @media only screen and (max-width: 1024px) {
-  #jumbotron {
+  .jumbotron {
     margin-top: 100px;
     background-position: 75%;
     padding: 30px 10px;
@@ -1176,33 +1174,32 @@ footer .cp_right {
 }
 /* iPad */
 @media only screen and (max-width: 768px) {
-  #jumbotron .slides_canvas {
+  .jumbotron .slides_canvas {
     max-width: 95%;
   }
-
-  #jumbotron blockquote {
+  .jumbotron blockquote {
     padding: 25px;
   }
 }
 /* jumbotron width-767px以下
 ------------------------------*/
 @media only screen and (max-width: 767px) {
-  #jumbotron {
+  .jumbotron {
     background-position: 75%;
     padding: 10px 10px;
     margin: 100px 0 10px;
   }
-  #jumbotron blockquote {
+  .jumbotron blockquote {
     padding: 0px;
     margin-bottom: 0;
   }
-  #jumbotron blockquote h2 {
+  .jumbotron blockquote h2 {
     font-size: 25px;
   }
-  #jumbotron blockquote p {
+  .jumbotron blockquote p {
     font-size: 13px;
   }
-  #jumbotron .flexslider {
+  .jumbotron .flexslider {
     padding-bottom: 20px;
   }
 }
@@ -1265,19 +1262,17 @@ footer .cp_right {
   text-decoration: none !important;
 }
 
-/* 3.6.3 PRINCIPLE
+/* 3.6.3 PRINCIPLE 方針・コンセプト
 ------------------------------*/
 .principle {
   padding: 50px 0;
 }
-
 .principle .items_three {
   width: 33%;
   float: left;
   padding: 0 15px;
 }
-
-.point-circle {
+.principle .items_three .point-circle {
   width: 100px;
   height: 100px;
   margin: 0 auto;
@@ -1287,23 +1282,22 @@ footer .cp_right {
   border-radius: 100%;
   text-align: center;
 }
-.point-circle i {
+.principle .items_three .point-circle i {
   position: relative;
   top: 25%;
   transform: translateY(-50%);
 }
-.point-circle.building {
+.principle .items_three .point-circle.building {
   background-color: #4caf50;
 }
-.point-circle.display {
+.principle .items_three .point-circle.display {
   background-color: #ff9800;
   padding: 10px;
 }
-.point-circle.wp_mark {
+.principle .items_three .point-circle.wp_mark {
   background-color: #0085ba;
 }
-
-h3.point-title {
+.principle .items_three h3.point-title {
   font-size: 22px;
   font-weight: 300;
   letter-spacing: 0.4px;
@@ -1311,8 +1305,7 @@ h3.point-title {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-
-.point-description {
+.principle .items_three .point-description {
   font-size: 14px;
   line-height: 22.4px;
   text-align: justify;
@@ -1327,30 +1320,26 @@ h3.point-title {
     min-height: 1px;
     padding: 0 0 15px;
   }
-
-  .point-frame {
+  .principle .items_three .point-frame {
     width: 30%;
     float: left;
   }
-
-  .point-description {
+  .principle .items_three .point-description {
     width: 70%;
     float: right;
     padding: 0;
   }
-
-  h3.point-title {
+  .principle .items_three h3.point-title {
     font-size: 18px;
     text-align: center;
   }
 }
 @media only screen and (max-width: 414px) {
-  .point-frame {
+  .principle .items_three .point-frame {
     width: 100%;
     float: none;
   }
-
-  .point-description {
+  .principle .items_three .point-description {
     width: 100%;
   }
 }
@@ -1445,23 +1434,9 @@ h3.point-title {
 /*------------------------------
 3.7 About
 ------------------------------*/
-.about_frame {
-  width: 90%;
-  margin: 0 auto;
-}
-
-@media only screen and (max-width: 480px) {
-  .about_frame {
-    width: 100%;
-  }
-}
-#About p {
-  font-size: 14px;
-}
-
 /* 3.7.1 略歴
 ------------------------------*/
-#Bio h2.top {
+.About h2.top {
   color: #000;
   display: block;
   font-size: 45px;
@@ -1471,23 +1446,38 @@ h3.point-title {
   margin-bottom: 30px;
   text-align: center;
 }
-#Bio h3 {
+.About h3 {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, "Arial", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
   font-weight: 300;
   line-height: 1.2;
   font-size: 30px;
   margin-bottom: 15px;
 }
-#Bio p {
+@media only screen and (max-width: 699px) {
+  .About h3 {
+    font-size: 24px;
+    letter-spacing: -1px;
+  }
+}
+.About p {
   font-size: 14px;
   line-height: 22.4px;
   color: #6c7279;
   margin-bottom: 15px;
 }
-#Bio .dl-horizontal {
+.About .about_frame {
+  width: 90%;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 480px) {
+  .About .about_frame {
+    width: 100%;
+  }
+}
+.About .dl-horizontal {
   border-bottom: 1px rgba(200, 200, 200, 0.5) dashed;
 }
-#Bio .dl-horizontal dt {
+.About .dl-horizontal dt {
   padding: 1.1em 1em 1em 1em;
   line-height: 1.6;
   font-size: 15px;
@@ -1495,55 +1485,48 @@ h3.point-title {
   margin-right: 0px;
   border-top: 1px rgba(200, 200, 200, 0.5) dashed;
 }
-#Bio .dl-horizontal dd {
+.About .dl-horizontal dd {
   padding: 1.1em 1em 1em 10em;
   font-size: 15px;
   line-height: 1.6;
   border-top: 1px rgba(200, 200, 200, 0.5) dashed;
   margin-left: 110px;
 }
-
-@media only screen and (max-width: 699px) {
-  #About h3 {
-    font-size: 24px;
-    letter-spacing: -1px;
-  }
-}
 @media only screen and (max-width: 480px) {
-  #About .dl-horizontal {
+  .About .dl-horizontal {
     border-bottom: 0px rgba(200, 200, 200, 0.5) dashed;
   }
-  #About .dl-horizontal dt {
+  .About .dl-horizontal dt {
     padding: 1.5em 0 0.3em;
     border-top: 0;
     border-bottom: 1px #ddd solid;
     border-top: 0px rgba(200, 200, 200, 0.5) dashed;
     margin-left: 0px;
   }
-  #About .dl-horizontal dd {
+  .About .dl-horizontal dd {
     padding: 0.3em 0em 0em 0em;
     border-top: 0px rgba(200, 200, 200, 0.5) dashed;
     margin-left: 0px;
   }
-  #About ul {
+  .About .dl-horizontal ul {
     padding-left: 10px;
   }
 }
-/* 3.7.2 Policy
+
+/* 3.7.2 CODING POLICY / SMART PHONE
 ------------------------------*/
-#Policy,
-#smartphone {
+.Policy, .smartphone {
   padding: 70px 0;
 }
 
-#Policy .frame,
-#smartphone .frame {
+.Policy .frame,
+.smartphone .frame {
   width: 90%;
   margin: 0 auto;
 }
 
-#Policy p,
-#smartphone p {
+.Policy p,
+.smartphone p {
   font-size: 14px;
   line-height: 22.4px;
   color: #6c7279;
@@ -1581,7 +1564,7 @@ h3.point-title {
   line-height: 1.75;
 }
 
-#Policy .dl-horizontal dt {
+.Policy .dl-horizontal dt {
   padding: 2em 1em 1em 1em;
   line-height: 1.6;
   font-size: 15px;
@@ -1589,33 +1572,33 @@ h3.point-title {
   margin-right: 0px;
   border-top: 1px rgba(200, 200, 200, 0.5) solid;
 }
-#Policy .dl-horizontal dd {
+.Policy .dl-horizontal dd {
   padding: 1em 1em 1em 10em;
   font-size: 15px;
   line-height: 1.6;
   border-top: 1px rgba(200, 200, 200, 0.5) solid;
   margin-left: 40px;
 }
-#Policy li {
+.Policy li {
   list-style: disc;
   color: #000;
 }
-#Policy dl {
+.Policy dl {
   color: #000;
 }
-#Policy ul.environment li {
+.Policy ul.environment li {
   list-style: none;
 }
-#Policy ul.environment li dl {
+.Policy ul.environment li dl {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
-#Policy ul.environment li dt {
+.Policy ul.environment li dt {
   font-weight: normal;
 }
-#Policy ul.environment li dd:after {
+.Policy ul.environment li dd:after {
   content: "/";
   display: inline-block;
   background-size: contain;
@@ -1624,19 +1607,19 @@ h3.point-title {
   vertical-align: middle;
   margin: 0 10px;
 }
-#Policy ul.environment li dd:last-child:after {
+.Policy ul.environment li dd:last-child:after {
   content: none;
 }
 
 @media only screen and (max-width: 699px) {
-  #Policy .section-title,
-#smartphone .section-title {
+  .Policy .section-title,
+.smartphone .section-title {
     margin-top: 50px;
   }
 
-  #Policy .section-title h2,
-#Policy .section-title,
-#smartphone .section-title h2 {
+  .Policy .section-title h2,
+.Policy .section-title,
+.smartphone .section-title h2 {
     padding-bottom: 0;
     margin-bottom: 0;
     font-size: 35px;
@@ -1656,51 +1639,51 @@ h3.point-title {
   }
 }
 @media only screen and (max-width: 480px) {
-  #Policy .dl-horizontal dt {
+  .Policy .dl-horizontal dt {
     padding: 1.5em 0 0.3em;
     border-top: 0;
     margin-left: 0px;
   }
-  #Policy .dl-horizontal dd {
+  .Policy .dl-horizontal dd {
     padding: 0.3em 0em 0em 1.5em;
     margin-left: 0px;
   }
-  #Policy ul {
+  .Policy ul {
     padding-left: 10px;
   }
-  #Policy ul.environment {
+  .Policy ul.environment {
     padding-left: 0;
   }
-  #Policy ul.environment li {
+  .Policy ul.environment li {
     padding-left: 0;
     padding-right: 0;
   }
 
-  #Policy ul.browser,
-#smartphone ul.browser {
+  .Policy ul.browser,
+.smartphone ul.browser {
     padding-left: 30px;
   }
 
-  #Policy ul.environment li dt {
+  .Policy ul.environment li dt {
     width: 100%;
     padding-bottom: 10px;
   }
 }
 @media only screen and (max-width: 414px) {
-  #Policy,
-#smartphone {
+  .Policy,
+.smartphone {
     padding: 10px 0;
   }
 
-  #Policy .frame,
-#smartphone .frame {
+  .Policy .frame,
+.smartphone .frame {
     width: 100%;
   }
 }
 /*------------------------------
 3.8 contact
 ------------------------------*/
-#contact h2.top {
+.contact h2.top {
   color: #000;
   display: block;
   font-size: 45px;
@@ -1710,17 +1693,17 @@ h3.point-title {
   margin-bottom: 30px;
   text-align: center;
 }
-#contact .frame {
+.contact .frame {
   width: 65%;
   margin: 0 auto;
 }
-#contact p {
+.contact p {
   font-size: 14px;
   line-height: 22.4px;
   color: #6c7279;
   margin: 0 0 10px;
 }
-#contact legend {
+.contact legend {
   display: block;
   width: 100%;
   padding: 0;
@@ -1732,17 +1715,17 @@ h3.point-title {
   border: 0;
   border-bottom: 1px solid #e5e5e5;
 }
-#contact label {
+.contact label {
   font-size: 14px;
 }
 
 @media only screen and (max-width: 768px) {
-  #contact .frame {
+  .contact .frame {
     width: 90%;
   }
 }
 @media only screen and (max-width: 480px) {
-  #contact .frame {
+  .contact .frame {
     width: 100%;
   }
 }
@@ -1845,29 +1828,27 @@ span.wpcf7-not-valid-tip,
 /*------------------------------
 3.9 thanks
 ------------------------------*/
-#thanks {
+.thanks {
   width: 65%;
   margin: 0 auto;
   min-height: 600px;
 }
-#thanks h2 {
+.thanks h2 {
   font-size: 25px;
   line-height: 150%;
   padding: 15px;
 }
-
-.thanks_text {
+.thanks .thanks_text {
   padding: 15px;
 }
-.thanks_text p {
+.thanks .thanks_text p {
   font-size: 16px;
 }
-
-.topReturn {
+.thanks .topReturn {
   text-align: center;
   margin-top: 50px;
 }
-.topReturn a {
+.thanks .topReturn a {
   padding: 15px;
   height: 30px;
   border-radius: 5px;
@@ -1876,7 +1857,7 @@ span.wpcf7-not-valid-tip,
   color: #fff;
   text-decoration: none;
 }
-.topReturn a:before {
+.thanks .topReturn a:before {
   font-family: FontAwesome;
   content: "\f0da";
   font-weight: normal;
@@ -1884,14 +1865,14 @@ span.wpcf7-not-valid-tip,
 }
 
 @media only screen and (max-width: 768px) {
-  #thanks {
+  .thanks {
     width: 90%;
     margin: 0 auto;
     min-height: 630px;
   }
 }
 @media only screen and (max-width: 414px) {
-  #thanks {
+  .thanks {
     width: 100%;
     margin: 0 auto;
     min-height: auto;
@@ -2318,40 +2299,40 @@ span.wpcf7-not-valid-tip,
 ------------------------------*/
 /* worksTitle
 ------------------------------*/
-#worksTitle {
+.worksTitle {
   text-align: center !important;
   padding: 120px 0px 0px;
 }
-#worksTitle h2 {
+.worksTitle h2 {
   font-size: 24px;
   font-weight: 200;
   line-height: 1.6;
   letter-spacing: 0.12em;
   padding: 0 1px;
 }
-#worksTitle p {
+.worksTitle p {
   line-height: 1.6;
   font-family: "Spinnaker", sans-serif;
   font-weight: 400 !important;
   letter-spacing: 0.1em;
   -webkit-font-smoothing: subpixel-antialiased;
 }
-#worksTitle p a {
+.worksTitle p a {
   color: #262423;
   text-decoration: none;
 }
-#worksTitle p a:hover {
+.worksTitle p a:hover {
   opacity: 0.6;
 }
-#worksTitle .header_cat {
+.worksTitle .header_cat {
   font-size: 16px;
   margin-bottom: 0.5em;
 }
-#worksTitle .clientName {
+.worksTitle .clientName {
   font-size: 18px;
   color: #777;
 }
-#worksTitle .heading-sub-en {
+.worksTitle .heading-sub-en {
   margin-top: 5px;
   font-size: 13px;
   word-break: break-all;
@@ -2359,28 +2340,28 @@ span.wpcf7-not-valid-tip,
 }
 
 @media only screen and (min-width: 699px) {
-  #worksTitle {
+  .worksTitle {
     padding: 180px 80px 20px;
   }
 }
 /* Works-content 
 ------------------------------*/
-#Works-content {
+.Works-content {
   margin: 10px 0;
 }
-#Works-content .carousel {
+.Works-content .carousel {
   width: 100%;
   margin: auto;
 }
-#Works-content .carousel img {
+.Works-content .carousel img {
   width: 100%;
 }
-#Works-content .carousel-caption {
+.Works-content .carousel-caption {
   font-size: 18px;
   color: #6c7279;
   margin-bottom: 30px;
 }
-#Works-content .carousel-indicators li {
+.Works-content .carousel-indicators li {
   display: inline-block;
   width: 30px;
   height: 30px;
@@ -2391,7 +2372,7 @@ span.wpcf7-not-valid-tip,
   border: 1px solid #6c7279;
   border-radius: 20px;
 }
-#Works-content .carousel-indicators .active {
+.Works-content .carousel-indicators .active {
   width: 31px;
   height: 31px;
   margin: 9px;
@@ -2407,47 +2388,47 @@ span.wpcf7-not-valid-tip,
 }
 
 @media only screen and (min-width: 699px) {
-  #Works-content {
+  .Works-content {
     margin: 0 0 10px;
     max-width: 699px;
     margin: 0 auto;
     margin-bottom: 10px;
   }
-  #Works-content .carousel-caption {
+  .Works-content .carousel-caption {
     font-size: 25px;
   }
 }
 /* Works-comment
 ------------------------------*/
-#Works-comment {
+.Works-comment {
   max-width: 100%;
 }
-#Works-comment p {
+.Works-comment p {
   font-size: 14px;
   line-height: 22.4px;
   color: #6c7279;
   text-align: left;
 }
-#Works-comment dl {
+.Works-comment dl {
   width: 100%;
   margin: 0 0 25px;
   text-align: center;
   letter-spacing: 0.1em;
 }
-#Works-comment .comment {
+.Works-comment .comment {
   margin-bottom: 20px;
   padding: 0 15px;
 }
-#Works-comment .dl-center {
+.Works-comment .dl-center {
   border: 0;
   text-align: center;
 }
-#Works-comment .dl-center dt {
+.Works-comment .dl-center dt {
   margin-bottom: 5px;
   font-weight: 400 !important;
   font-size: 15px;
 }
-#Works-comment .dl-center dd {
+.Works-comment .dl-center dd {
   line-height: 1.7;
   font-weight: 400 !important;
   font-size: 15px;
@@ -2455,20 +2436,20 @@ span.wpcf7-not-valid-tip,
   word-break: break-all;
   padding: 0 10px;
 }
-#Works-comment .dl-center dd a {
+.Works-comment .dl-center dd a {
   color: #262423;
   text-decoration: none;
 }
-#Works-comment .dl-center dd a:hover {
+.Works-comment .dl-center dd a:hover {
   opacity: 0.6;
 }
 
 @media only screen and (min-width: 699px) {
-  #Works-comment {
+  .Works-comment {
     max-width: 580px;
     margin: 20px auto 0;
   }
-  #Works-comment .comment {
+  .Works-comment .comment {
     margin-bottom: 40px;
   }
 }

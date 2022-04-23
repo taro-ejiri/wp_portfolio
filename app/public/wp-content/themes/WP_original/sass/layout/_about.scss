@@ -1,24 +1,10 @@
 /*------------------------------
 3.7 About
 ------------------------------*/
-.about_frame {
-    width: 90%;
-    margin: 0 auto;
-}
-
-@media only screen and (max-width: 480px) {
-    .about_frame {
-        width: 100%;
-    }
-}
-
-#About p {
-    font-size: 14px;
-}
 
 /* 3.7.1 略歴
 ------------------------------*/
-#Bio {
+.About {
     h2 {
         &.top {
             color: #000;
@@ -31,7 +17,6 @@
             text-align: center;
         }
     }
-
     h3 {
         font-family: "Open Sans", "Helvetica Neue", Helvetica, "Arial",
             "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo,
@@ -41,17 +26,29 @@
         font-size: 30px;
         margin-bottom: 15px;
     }
-
+    @media only screen and (max-width: 699px) {
+        h3 {
+            font-size: 24px;
+            letter-spacing: -1px;
+        }
+    }
     p {
         font-size: 14px;
         line-height: 22.4px;
         color: #6c7279;
         margin-bottom: 15px;
+    }   
+    .about_frame {
+        width: 90%;
+        margin: 0 auto;
     }
-
+    @media only screen and (max-width: 480px) {
+        .about_frame {
+            width: 100%;
+        }
+    }
     .dl-horizontal {
         border-bottom: 1px rgba(200, 200, 200, 0.5) dashed;
-
         dt {
             padding: 1.1em 1em 1em 1em;
             line-height: 1.6;
@@ -60,7 +57,6 @@
             margin-right: 0px;
             border-top: 1px rgba(200, 200, 200, 0.5) dashed;
         }
-
         dd {
             padding: 1.1em 1em 1em 10em;
             font-size: 15px;
@@ -69,20 +65,9 @@
             margin-left: 110px;
         }
     }
-}
-
-@media only screen and (max-width: 699px) {
-    #About h3 {
-        font-size: 24px;
-        letter-spacing: -1px;
-    }
-}
-
-@media only screen and (max-width: 480px) {
-    #About {
+    @media only screen and (max-width: 480px) {
         .dl-horizontal {
             border-bottom: 0px rgba(200, 200, 200, 0.5) dashed;
-
             dt {
                 padding: 1.5em 0 0.3em;
                 border-top: 0;
@@ -90,41 +75,36 @@
                 border-top: 0px rgba(200, 200, 200, 0.5) dashed;
                 margin-left: 0px;
             }
-
             dd {
                 padding: 0.3em 0em 0em 0em;
                 border-top: 0px rgba(200, 200, 200, 0.5) dashed;
                 margin-left: 0px;
             }
-        }
-
-        ul {
-            padding-left: 10px;
+            ul {
+                padding-left: 10px;
+            }
         }
     }
 }
 
-/* 3.7.2 Policy
+
+/* 3.7.2 CODING POLICY / SMART PHONE
 ------------------------------*/
-#Policy,
-#smartphone {
+.Policy,.smartphone {
     padding: 70px 0;
 }
-
-#Policy .frame,
-#smartphone .frame {
+.Policy .frame,
+.smartphone .frame {
     width: 90%;
     margin: 0 auto;
 }
-
-#Policy p,
-#smartphone p {
+.Policy p,
+.smartphone p {
     font-size: 14px;
     line-height: 22.4px;
     color: #6c7279;
     margin: 0 0 10px;
 }
-
 .aboutUs {
     h3 {
         position: relative;
@@ -138,12 +118,10 @@
         pointer-events: none;
         padding-top: 10px;
     }
-
     h4 {
         font-size: 16px;
         line-height: 150%;
     }
-
     li {
         background: none;
         padding-left: 1.8em;
@@ -159,9 +137,7 @@
         line-height: 1.75;
     }
 }
-
-#Policy {
-
+.Policy {
     .dl-horizontal {
         dt {
             padding: 2em 1em 1em 1em;
@@ -171,7 +147,6 @@
             margin-right: 0px;
             border-top: 1px rgba(200, 200, 200, 0.5) solid;
         }
-
         dd {
             padding: 1em 1em 1em 10em;
             font-size: 15px;
@@ -180,30 +155,24 @@
             margin-left: 40px;
         }
     }
-
     li {
         list-style: disc;
         color: #000;
     }
-
     dl {
         color: #000;
     }
-
     ul.environment li {
         list-style: none;
-
         dl {
             display: -ms-flexbox;
             display: flex;
             -ms-flex-wrap: wrap;
             flex-wrap: wrap;
         }
-
         dt {
             font-weight: normal;
         }
-
         dd:after {
             content: "/";
             display: inline-block;
@@ -213,7 +182,6 @@
             vertical-align: middle;
             margin: 0 10px;
         }
-
         dd:last-child:after {
             content: none;
         }
@@ -221,31 +189,26 @@
 }
 
 @media only screen and (max-width: 699px) {
-
-    #Policy .section-title,
-    #smartphone .section-title {
+    .Policy .section-title,
+    .smartphone .section-title {
         margin-top: 50px;
     }
-
-    #Policy .section-title h2,
-    #Policy .section-title,
-    #smartphone .section-title h2 {
+    .Policy .section-title h2,
+    .Policy .section-title,
+    .smartphone .section-title h2 {
         padding-bottom: 0;
         margin-bottom: 0;
         font-size: 35px;
     }
-
     .aboutUs {
         h3 {
             padding: 25px 0 0;
             font-size: 20px;
             margin: 0 0 10px;
         }
-
         h4 {
             font-size: 18px;
         }
-
         li {
             padding-left: 0.6em;
             padding-right: 0.6em;
@@ -254,26 +217,22 @@
 }
 
 @media only screen and (max-width: 480px) {
-    #Policy {
+    .Policy {
         .dl-horizontal {
             dt {
                 padding: 1.5em 0 0.3em;
                 border-top: 0;
                 margin-left: 0px;
             }
-
             dd {
                 padding: 0.3em 0em 0em 1.5em;
                 margin-left: 0px;
             }
         }
-
         ul {
             padding-left: 10px;
-
             &.environment {
                 padding-left: 0;
-
                 li {
                     padding-left: 0;
                     padding-right: 0;
@@ -281,27 +240,23 @@
             }
         }
     }
-
-    #Policy ul.browser,
-    #smartphone ul.browser {
+    .Policy ul.browser,
+    .smartphone ul.browser {
         padding-left: 30px;
     }
-
-    #Policy ul.environment li dt {
+    .Policy ul.environment li dt {
         width: 100%;
         padding-bottom: 10px;
     }
 }
 
 @media only screen and (max-width: 414px) {
-
-    #Policy,
-    #smartphone {
+    .Policy,
+    .smartphone {
         padding: 10px 0;
     }
-
-    #Policy .frame,
-    #smartphone .frame {
+    .Policy .frame,
+    .smartphone .frame {
         width: 100%;
     }
 }
