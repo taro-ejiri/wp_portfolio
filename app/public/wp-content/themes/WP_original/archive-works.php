@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <!-- [archive-works .p]  -->
 <div id="mainArea">
-  	<section id="work-list">
+  	<section class="work-list">
 		<h2 class="top">WORKS</h2>
 		<h3>実績</h3>
 		<div class="menuFrame">

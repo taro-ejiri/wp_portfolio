@@ -1886,10 +1886,11 @@ span.wpcf7-not-valid-tip,
 ------------------------------*/
 /* section ID WORK List
 ------------------------------*/
-#work-list {
+.work-list {
   /* WORK List menuFrame */
+  /* WORK List menuContainer */
 }
-#work-list h2.top {
+.work-list h2.top {
   color: #000;
   display: block;
   font-size: 45px;
@@ -1899,7 +1900,7 @@ span.wpcf7-not-valid-tip,
   margin-bottom: 30px;
   text-align: center;
 }
-#work-list h3 {
+.work-list h3 {
   font-size: 18px;
   line-height: 30px;
   color: #5b4c5c;
@@ -1909,7 +1910,12 @@ span.wpcf7-not-valid-tip,
   text-align: center;
   padding-bottom: 10px;
 }
-#work-list p {
+@media only screen and (min-width: 699px) {
+  .work-list h3 {
+    padding-bottom: 35px;
+  }
+}
+.work-list p {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: 300;
@@ -1917,22 +1923,28 @@ span.wpcf7-not-valid-tip,
   letter-spacing: 0.2px;
   color: #444444;
 }
-#work-list .menuFrame {
+.work-list .menuFrame {
   display: block;
   margin: 0 auto;
   text-align: center;
 }
-#work-list .menuFrame ul {
+.work-list .menuFrame ul {
   margin: 0 auto;
   text-align: center;
   display: block;
   margin-bottom: 60px;
 }
-#work-list .menuFrame li {
+@media only screen and (max-width: 768px) {
+  .work-list .menuFrame ul {
+    margin-bottom: 10px;
+    padding-left: 0;
+  }
+}
+.work-list .menuFrame li {
   display: inline-block;
   margin: 0 -2px;
 }
-#work-list .menuFrame li:after {
+.work-list .menuFrame li:after {
   content: "";
   display: block;
   width: 1px;
@@ -1943,10 +1955,10 @@ span.wpcf7-not-valid-tip,
   top: 50%;
   margin-top: -5px;
 }
-#work-list .menuFrame li.last:after {
+.work-list .menuFrame li.last:after {
   background: #fff;
 }
-#work-list .menuFrame li a {
+.work-list .menuFrame li a {
   padding: 16px 30px;
   font-size: 11px;
   line-height: 15px;
@@ -1960,43 +1972,23 @@ span.wpcf7-not-valid-tip,
   transition-duration: 0.2s;
   -webkit-transition-duration: 0.2s;
 }
-#work-list .menuFrame li a:hover {
+.work-list .menuFrame li a:hover {
   border-color: #cfcfcf;
   color: #000;
   transition-duration: 0.2s;
   -webkit-transition-duration: 0.2s;
 }
-#work-list .menuFrame li a.current {
+.work-list .menuFrame li a.current {
   border: solid 1px #fff;
   color: #000;
 }
-
-@media only screen and (min-width: 699px) {
-  #work-list h3 {
-    padding-bottom: 35px;
-  }
-}
-@media only screen and (max-width: 768px) {
-  #work-list .menuFrame ul {
-    margin-bottom: 10px;
-    padding-left: 0;
-  }
-}
-/* WORK List Container 
-------------------------------*/
-#work-list ul.menuContainer {
+.work-list ul.menuContainer {
   display: block;
   padding: 0px;
   margin-bottom: 0;
   list-style-type: none;
 }
-
-@media screen and (max-width: 768px) {
-  .menuContainer {
-    width: 100%;
-  }
-}
-#work-list ul.menuContainer li {
+.work-list ul.menuContainer li {
   display: block;
   height: auto;
   padding: 10px;
@@ -2004,32 +1996,36 @@ span.wpcf7-not-valid-tip,
   cursor: pointer;
   border: 1px solid #fff;
 }
-
-#work-list ul.menuContainer li img {
+.work-list ul.menuContainer li img {
   width: 100% !important;
   height: auto;
   display: block;
 }
-
 @media (min-width: 576px) {
-  .worksFrame {
+  .work-list ul.menuContainer .worksFrame {
     width: 100%;
   }
 }
 @media (min-width: 768px) {
-  .worksFrame {
+  .work-list ul.menuContainer .worksFrame {
     -ms-flex: 0 0 33.333333%;
     flex: 0 0 33.333333%;
     max-width: 33.333333%;
   }
 }
 @media (min-width: 992px) {
-  .worksFrame {
+  .work-list ul.menuContainer .worksFrame {
     -ms-flex: 0 0 33.333333%;
     flex: 0 0 33.333333%;
     max-width: 33.333333%;
   }
 }
+@media screen and (max-width: 768px) {
+  .work-list ul.menuContainer {
+    width: 100%;
+  }
+}
+
 /* WORKリストがソートする際の動き */
 .isotope-item {
   z-index: 2;
@@ -2062,7 +2058,7 @@ span.wpcf7-not-valid-tip,
 
 /* WORK List Sections
 ------------------------------*/
-#work-list figure {
+.work-list figure {
   position: relative;
   overflow: hidden;
   margin: 0 1px 1px 0;
@@ -2071,7 +2067,7 @@ span.wpcf7-not-valid-tip,
   cursor: pointer;
 }
 
-#work-list figcaption {
+.work-list figcaption {
   position: absolute;
   top: 0;
   left: 0;
@@ -2079,7 +2075,7 @@ span.wpcf7-not-valid-tip,
   height: 100%;
 }
 
-#work-list .ot-portfolio-item figure figcaption > a {
+.work-list .ot-portfolio-item figure figcaption > a {
   z-index: 1000;
   text-indent: 200%;
   white-space: nowrap;
@@ -2087,7 +2083,7 @@ span.wpcf7-not-valid-tip,
   opacity: 0;
 }
 
-#work-list .ot-portfolio-item figure figcaption,
+.work-list .ot-portfolio-item figure figcaption,
 .ot-portfolio-item figure figcaption > a {
   position: absolute;
   top: 0;
@@ -2096,23 +2092,23 @@ span.wpcf7-not-valid-tip,
   height: 100%;
 }
 
-#work-list figure.effect-bubba {
+.work-list figure.effect-bubba {
   background: #000;
   margin-bottom: 1px;
 }
 
-#work-list figure.effect-bubba img {
+.work-list figure.effect-bubba img {
   opacity: 0.9;
   -webkit-transition: opacity 0.35s;
   transition: opacity 0.35s;
 }
 
-#work-list figure.effect-bubba:hover img {
+.work-list figure.effect-bubba:hover img {
   opacity: 0.4;
 }
 
-#work-list figure.effect-bubba figcaption::before,
-#work-list figure.effect-bubba figcaption::after {
+.work-list figure.effect-bubba figcaption::before,
+.work-list figure.effect-bubba figcaption::after {
   position: absolute;
   top: 20px;
   right: 20px;
@@ -2125,8 +2121,8 @@ span.wpcf7-not-valid-tip,
 }
 
 @media only screen and (max-width: 1024px) {
-  #work-list figure.effect-bubba figcaption::before,
-#work-list figure.effect-bubba figcaption::after {
+  .work-list figure.effect-bubba figcaption::before,
+.work-list figure.effect-bubba figcaption::after {
     top: 15px;
     right: 15px;
     bottom: 15px;
@@ -2134,8 +2130,8 @@ span.wpcf7-not-valid-tip,
   }
 }
 @media only screen and (max-width: 979px) {
-  #work-list figure.effect-bubba figcaption::before,
-#work-list figure.effect-bubba figcaption::after {
+  .work-list figure.effect-bubba figcaption::before,
+.work-list figure.effect-bubba figcaption::after {
     top: 10px;
     right: 10px;
     bottom: 10px;
@@ -2143,29 +2139,29 @@ span.wpcf7-not-valid-tip,
   }
 }
 @media only screen and (max-width: 699px) {
-  #work-list figure.effect-bubba figcaption::before,
-#work-list figure.effect-bubba figcaption::after {
+  .work-list figure.effect-bubba figcaption::before,
+.work-list figure.effect-bubba figcaption::after {
     top: 10px;
     right: 10px;
     bottom: 10px;
     left: 10px;
   }
 }
-#work-list figure.effect-bubba figcaption::before {
+.work-list figure.effect-bubba figcaption::before {
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
   -webkit-transform: scale(0, 1);
   transform: scale(0, 1);
 }
 
-#work-list figure.effect-bubba figcaption::after {
+.work-list figure.effect-bubba figcaption::after {
   border-right: 1px solid #fff;
   border-left: 1px solid #fff;
   -webkit-transform: scale(1, 0);
   transform: scale(1, 0);
 }
 
-#work-list figure.effect-bubba h2 {
+.work-list figure.effect-bubba h2 {
   opacity: 0;
   color: #fff;
   font-size: 20px;
@@ -2179,7 +2175,7 @@ span.wpcf7-not-valid-tip,
   transform: translate3d(0, -20px, 0);
 }
 
-#work-list figure.effect-bubba p {
+.work-list figure.effect-bubba p {
   color: #fff;
   font-size: 13px;
   font-weight: 500;
@@ -2191,25 +2187,25 @@ span.wpcf7-not-valid-tip,
   transform: translate3d(0, 20px, 0);
 }
 
-#work-list figure.effect-bubba:hover figcaption::before,
-#work-list figure.effect-bubba:hover figcaption::after {
+.work-list figure.effect-bubba:hover figcaption::before,
+.work-list figure.effect-bubba:hover figcaption::after {
   opacity: 1;
   -webkit-transform: scale(1);
   transform: scale(1);
 }
 
-#work-list figure.effect-bubba:hover h2,
-#work-list figure.effect-bubba:hover p {
+.work-list figure.effect-bubba:hover h2,
+.work-list figure.effect-bubba:hover p {
   opacity: 1;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
 
-#work-list span.small {
+.work-list span.small {
   color: #fff;
 }
 
-#work-list span.new {
+.work-list span.new {
   position: absolute;
   top: 30px;
   left: 30px;
@@ -2220,12 +2216,12 @@ span.wpcf7-not-valid-tip,
 }
 
 @media screen and (max-width: 1024px) {
-  #work-list figure.effect-bubba h2 {
+  .work-list figure.effect-bubba h2 {
     padding-top: 23%;
     font-size: 25px;
   }
 
-  #work-list span.new {
+  .work-list span.new {
     position: absolute;
     top: 28px;
     left: 28px;
@@ -2236,12 +2232,12 @@ span.wpcf7-not-valid-tip,
   }
 }
 @media screen and (max-width: 768px) {
-  #work-list figure.effect-bubba h2 {
+  .work-list figure.effect-bubba h2 {
     padding-top: 20%;
     font-size: 18px;
   }
 
-  #work-list span.new {
+  .work-list span.new {
     position: absolute;
     top: 15px;
     left: 15px;
@@ -2252,12 +2248,12 @@ span.wpcf7-not-valid-tip,
   }
 }
 @media screen and (max-width: 480px) {
-  #work-list figure.effect-bubba h2 {
+  .work-list figure.effect-bubba h2 {
     padding-top: 25%;
     font-size: 18px;
   }
 
-  #work-list span.new {
+  .work-list span.new {
     position: absolute;
     top: 20px;
     left: 20px;
@@ -2268,7 +2264,7 @@ span.wpcf7-not-valid-tip,
   }
 }
 @media screen and (max-width: 320px) {
-  #work-list figure.effect-bubba h2 {
+  .work-list figure.effect-bubba h2 {
     padding-top: 25%;
     font-size: 16px;
   }
