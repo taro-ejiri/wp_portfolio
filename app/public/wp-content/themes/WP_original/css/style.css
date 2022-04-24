@@ -52,12 +52,14 @@ Text Domain: WP_original
 /* Reset box-model
    ========================================================================== */
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 ::before,
 ::after {
-  box-sizing: inherit;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
 }
 
 /* Document
@@ -146,7 +148,8 @@ dd {
  * 2. Show the overflow in Edge and IE.
  */
 hr {
-  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
   /* 1 */
   height: 0;
   /* 1 */
@@ -194,7 +197,8 @@ abbr[title] {
   /* 1 */
   text-decoration: underline;
   /* 2 */
-  text-decoration: underline dotted;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
   /* 2 */
 }
 
@@ -275,7 +279,8 @@ optgroup,
 select,
 textarea {
   -webkit-appearance: none;
-  appearance: none;
+  -moz-appearance: none;
+       appearance: none;
   vertical-align: middle;
   color: inherit;
   font: inherit;
@@ -291,13 +296,15 @@ textarea {
 [type=checkbox] {
   /* 1 */
   -webkit-appearance: checkbox;
-  appearance: checkbox;
+  -moz-appearance: checkbox;
+       appearance: checkbox;
 }
 
 [type=radio] {
   /* 1 */
   -webkit-appearance: radio;
-  appearance: radio;
+  -moz-appearance: radio;
+       appearance: radio;
 }
 
 /**
@@ -329,7 +336,8 @@ button,
 [type=submit] {
   cursor: pointer;
   -webkit-appearance: none;
-  appearance: none;
+  -moz-appearance: none;
+       appearance: none;
 }
 
 button[disabled],
@@ -529,10 +537,13 @@ a {
 
 .col_3 {
   width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
   display: flex;
   display: -ms-flexbox;
   /* IE10 */
-  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   /* IE10 */
 }
@@ -564,7 +575,9 @@ a {
   height: 60px;
   cursor: pointer;
   background: #fff;
-  box-shadow: 0 0 4px 0px #555;
+  -webkit-box-shadow: 0 0 4px 0px #555;
+          box-shadow: 0 0 4px 0px #555;
+  -webkit-transition: all 0.6s;
   transition: all 0.6s;
   text-align: center;
   color: #ffffff;
@@ -588,6 +601,7 @@ a {
 }
 
 .fadein .column {
+  -webkit-transition: 0.8s;
   transition: 0.8s;
 }
 
@@ -637,8 +651,15 @@ a {
   }
 }
 .wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   min-height: 100vh;
 }
 
@@ -671,8 +692,6 @@ header .header-content {
   margin: 0 auto;
   padding: 60px 10%;
   width: 100%;
-  -moz-transition: padding 0.3s;
-  -o-transition: padding 0.3s;
   -webkit-transition: padding 0.3s;
   transition: padding 0.3s;
 }
@@ -696,8 +715,6 @@ header .logo_sm h1 {
 .navigation.open {
   opacity: 0.9;
   visibility: visible;
-  -moz-transition: opacity 0.5s;
-  -o-transition: opacity 0.5s;
   -webkit-transition: opacity 0.5s;
   transition: opacity 0.5s;
 }
@@ -728,8 +745,6 @@ header .logo_sm h1 {
   white-space: nowrap;
   width: 44px;
   z-index: 99999;
-  -moz-transition: all 0.3s;
-  -o-transition: all 0.3s;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
@@ -743,41 +758,30 @@ header .logo_sm h1 {
   position: absolute;
   top: 0;
   width: 100%;
-  -moz-transform: translateZ(0);
-  -ms-transform: translateZ(0);
   -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  -moz-backface-visibility: hidden;
+          transform: translateZ(0);
   -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -moz-transition-property: -moz-transform;
-  -o-transition-property: -o-transform;
+          backface-visibility: hidden;
   -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
   transition-property: transform;
+  transition-property: transform, -webkit-transform;
 }
 
 .nav-toggle:before {
   background-color: #000;
-  -moz-transform: scale(1);
-  -ms-transform: scale(1);
   -webkit-transform: scale(1);
-  transform: scale(1);
-  -moz-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
+          transform: scale(1);
   -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
+          transition-duration: 0.3s;
 }
 
 .nav-toggle:after {
   background-color: #000;
-  -moz-transform: scale(0);
-  -ms-transform: scale(0);
   -webkit-transform: scale(0);
-  transform: scale(0);
-  -moz-transition-duration: 0s;
-  -o-transition-duration: 0s;
+          transform: scale(0);
   -webkit-transition-duration: 0s;
-  transition-duration: 0s;
+          transition-duration: 0s;
 }
 
 .nav-toggle span {
@@ -791,10 +795,8 @@ header .logo_sm h1 {
   top: 50%;
   width: 18px;
   z-index: 10;
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -ms-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
 }
 
 .nav-toggle span:before,
@@ -806,45 +808,34 @@ header .logo_sm h1 {
   right: 0;
   top: 0;
   width: 100%;
-  -moz-transform: translateZ(0);
-  -ms-transform: translateZ(0);
   -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  -moz-backface-visibility: hidden;
+          transform: translateZ(0);
   -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -moz-transition: -moz-transform 0.3s;
-  -o-transition: -o-transform 0.3s;
+          backface-visibility: hidden;
   -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
   transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
 }
 
 .nav-toggle span:before {
-  -moz-transform: translateY(-6px) rotate(0deg);
-  -ms-transform: translateY(-6px) rotate(0deg);
   -webkit-transform: translateY(-6px) rotate(0deg);
-  transform: translateY(-6px) rotate(0deg);
+          transform: translateY(-6px) rotate(0deg);
 }
 
 .nav-toggle span:after {
-  -moz-transform: translateY(6px) rotate(0deg);
-  -ms-transform: translateY(6px) rotate(0deg);
   -webkit-transform: translateY(6px) rotate(0deg);
-  transform: translateY(6px) rotate(0deg);
+          transform: translateY(6px) rotate(0deg);
 }
 
 .nav-toggle.close-nav:before {
-  -moz-transform: scale(0);
-  -ms-transform: scale(0);
   -webkit-transform: scale(0);
-  transform: scale(0);
+          transform: scale(0);
 }
 
 .nav-toggle.close-nav:after {
-  -moz-transform: scale(1);
-  -ms-transform: scale(1);
   -webkit-transform: scale(1);
-  transform: scale(1);
+          transform: scale(1);
 }
 
 .nav-toggle.close-nav span {
@@ -857,17 +848,13 @@ header .logo_sm h1 {
 }
 
 .nav-toggle.close-nav span:before {
-  -moz-transform: translateY(0) rotate(45deg);
-  -ms-transform: translateY(0) rotate(45deg);
   -webkit-transform: translateY(0) rotate(45deg);
-  transform: translateY(0) rotate(45deg);
+          transform: translateY(0) rotate(45deg);
 }
 
 .nav-toggle.close-nav span:after {
-  -moz-transform: translateY(0) rotate(-45deg);
-  -ms-transform: translateY(0) rotate(-45deg);
   -webkit-transform: translateY(0) rotate(-45deg);
-  transform: translateY(0) rotate(-45deg);
+          transform: translateY(0) rotate(-45deg);
 }
 
 /* ヘッダー用 shareボタン */
@@ -908,10 +895,8 @@ ul.h_share_btn {
   .navigation .primary-nav {
     position: relative;
     top: 45%;
-    -moz-transform: translateY(-45%);
-    -ms-transform: translateY(-45%);
     -webkit-transform: translateY(-45%);
-    transform: translateY(-45%);
+            transform: translateY(-45%);
   }
 
   .navigation li {
@@ -1248,6 +1233,7 @@ footer .cp_right {
 .more_btn {
   display: inline-block;
   border: solid 1px #333;
+  -webkit-transition: 0.4s;
   transition: 0.4s;
   padding: 10px 16px;
   font-size: 18px;
@@ -1285,7 +1271,8 @@ footer .cp_right {
 .principle .items_three .point-circle i {
   position: relative;
   top: 25%;
-  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 .principle .items_three .point-circle.building {
   background-color: #4caf50;
@@ -1591,9 +1578,12 @@ footer .cp_right {
 }
 .Policy ul.environment li dl {
   display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
 }
 .Policy ul.environment li dt {
   font-weight: normal;
@@ -1766,7 +1756,8 @@ footer .cp_right {
   font-size: 100%;
   padding: 0.5em;
   border-radius: 4px;
-  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1) inset;
+  -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1) inset;
+          box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1) inset;
 }
 
 /* 「送信」ボタン */
@@ -1778,14 +1769,16 @@ footer .cp_right {
   font-size: 14px;
   color: #fff;
   text-decoration: none;
-  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+          box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
   border-bottom: solid 3px #216973;
 }
 
 .wpcf7 input[type=submit]:active {
   -webkit-transform: translateY(3px);
   transform: translateY(3px);
-  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
   border-bottom: none;
 }
 
@@ -2009,14 +2002,18 @@ span.wpcf7-not-valid-tip,
 @media (min-width: 768px) {
   .work-list ul.menuContainer .worksFrame {
     -ms-flex: 0 0 33.333333%;
-    flex: 0 0 33.333333%;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 33.333333%;
+            flex: 0 0 33.333333%;
     max-width: 33.333333%;
   }
 }
 @media (min-width: 992px) {
   .work-list ul.menuContainer .worksFrame {
     -ms-flex: 0 0 33.333333%;
-    flex: 0 0 33.333333%;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 33.333333%;
+            flex: 0 0 33.333333%;
     max-width: 33.333333%;
   }
 }
@@ -2039,21 +2036,21 @@ span.wpcf7-not-valid-tip,
 .isotope,
 .isotope .isotope-item {
   -webkit-transition-duration: 0.8s;
-  -moz-transition-duration: 0.8s;
   transition-duration: 0.8s;
 }
 
 .isotope {
   -webkit-transition-property: height, width;
-  -moz-transition-property: height, width;
   transition-property: height, width;
 }
 
 .isotope .isotope-item {
   padding: 0;
   -webkit-transition-property: -webkit-transform, opacity;
-  -moz-transition-property: -moz-transform, opacity;
+  -webkit-transition-property: opacity, -webkit-transform;
+  transition-property: opacity, -webkit-transform;
   transition-property: transform, opacity;
+  transition-property: transform, opacity, -webkit-transform;
 }
 
 /* WORK List Sections
@@ -2117,7 +2114,9 @@ span.wpcf7-not-valid-tip,
   content: "";
   opacity: 0;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -2170,7 +2169,9 @@ span.wpcf7-not-valid-tip,
   text-transform: uppercase;
   padding-top: 25%;
   -webkit-transition: -webkit-transform 0.35s;
+  transition: -webkit-transform 0.35s;
   transition: transform 0.35s;
+  transition: transform 0.35s, -webkit-transform 0.35s;
   -webkit-transform: translate3d(0, -20px, 0);
   transform: translate3d(0, -20px, 0);
 }
@@ -2182,7 +2183,9 @@ span.wpcf7-not-valid-tip,
   padding: 20px 2.5em;
   opacity: 0;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s;
   -webkit-transform: translate3d(0, 20px, 0);
   transform: translate3d(0, 20px, 0);
 }
