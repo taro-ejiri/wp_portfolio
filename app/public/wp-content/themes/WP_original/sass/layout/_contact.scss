@@ -108,9 +108,6 @@
     box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
     border-bottom: none;
 }
-.wpcf7 span.wpcf7-not-valid-tip {
-    font-size: 80%;
-}
 .submitFrame {
     text-align: center;
 }
@@ -118,8 +115,14 @@
 /* エラーメッセージ */
 span.wpcf7-not-valid-tip,
 .wpcf7-response-output.wpcf7-validation-errors {
+    display: block;
     color: red;
     font-weight: 600;
+}
+
+.wpcf7-response-output{
+    text-align: center;
+    margin-top: 20px;
 }
 
 /* 入力内容に問題があります。確認して再度お試しください。 */

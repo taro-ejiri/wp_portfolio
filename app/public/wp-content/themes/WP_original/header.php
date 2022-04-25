@@ -47,39 +47,6 @@ if(is_front_page()): ?>
 
 <!-- Bootstrap CSS -->
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-
-<style>
-body::after {
-	content: '';
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background-color: #fff;
-	/* 背景カラー */
-	z-index: 9999;
-	/* 一番手前に */
-	pointer-events: none;
-	/* 他の要素にアクセス可能にするためにポインターイベントは無効に */
-	opacity: 0;
-	/* 初期値では非表示 */
-	-webkit-transition: opacity .8s ease;
-	/* アニメーション時間は 0.8秒 */
-	-ms- transition: opacity .8s ease;
-	-moz- transition: opacity .8s ease;
-	transition: opacity .8s ease;
-}
-/*body要素に.fadeoutセレクタがある場合には、レイヤーが表示されるようにopacityを１に設定します。*/
-body.fadeout::after {
-	opacity: 1;
-}
-/*お好みで、.fadeoutセレクタ以下の他の要素にもアニメーション用のCSSを定義します*/
-/*DEMOではページ遷移時にarticle要素のスケールもアニメーションさせています*/
-body.fadeout article {
-
-}	
-</style>
 <!--[if lt IE 9]>
 <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/html5shiv.min.js"></script>
 <![endif]-->

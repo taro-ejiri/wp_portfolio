@@ -1,13 +1,14 @@
 </div><!-- /.wrapper -->
 
 <!-- Back to top button -->
-<div id="app-pagetop" v-cloak>
+<!-- <div id="app-pagetop" v-cloak>
 	<transition>
-		<div id="pagetop" v-show="scY > 200" @click="toTop" v-transition>
+		<div class="pagetop" v-show="scY > 200" @click="toTop" v-transition>
 			<i class="fa fa-chevron-up"></i>
 		</div>
 	</transition>
-</div>
+</div> -->
+
 <footer>
 	<div class="f_share_btn">
 		<ul>
@@ -26,9 +27,9 @@
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/content/jquery.waypoints.min.js"></script>
 
 <!-- vue.js -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.16/vue.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.16/vue.js"></script> -->
 <!-- vue back-top -->
-<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/vue-scripts.js"></script>
+<!-- <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/vue-scripts.js"></script> -->
 
 <!-- JS FILES -->
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/bootstrap.min.js"></script>

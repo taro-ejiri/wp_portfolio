@@ -525,6 +525,24 @@ template {
 /*--------------------------------------------------------------
 2.0 base
 ----------------------------------------------------------------*/
+body::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  z-index: 9999;
+  pointer-events: none;
+  opacity: 0;
+  -webkit-transition: opacity 0.8s ease;
+  transition: opacity 0.8s ease;
+}
+body.fadeout::after {
+  opacity: 1;
+}
+
 /* 2.1 Links
 ------------------------------*/
 a {
@@ -559,56 +577,9 @@ a {
   display: none;
 }
 
-#pagetop {
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-  width: 60px;
-  height: 60px;
-  cursor: pointer;
-  background: #fff;
-  -webkit-box-shadow: 0 0 4px 0px #555;
-          box-shadow: 0 0 4px 0px #555;
-  -webkit-transition: all 0.6s;
-  transition: all 0.6s;
-  text-align: center;
-  color: #ffffff;
-  background: #a9a9b1;
-  z-index: 3;
-}
-#pagetop.v-enter, #pagetop.v-leave-to {
-  opacity: 0;
-  bottom: 10px;
-}
-#pagetop i {
-  margin-top: 15px;
-  font-size: 28px;
-}
-
 /*------------------------------
 8.2 要素をフェードイン + 上移動
 ------------------------------*/
-.fadein {
-  overflow: hidden;
-}
-
-.fadein .column {
-  -webkit-transition: 0.8s;
-  transition: 0.8s;
-}
-
-.fadein-mv09 {
-  opacity: 0;
-  -webkit-transform: translate(0, 60px);
-          transform: translate(0, 60px);
-}
-
-.mv09 {
-  opacity: 1;
-  -webkit-transform: translate(0, 0);
-          transform: translate(0, 0);
-}
-
 /*--------------------------------------------------------------
 6.0 mixin
 ----------------------------------------------------------------*/
@@ -643,18 +614,6 @@ header {
   width: 100%;
   z-index: 999;
   /* fixed 下にスライドする際のヘッダーの動き */
-  /*
-      .fixed {
-          background-color: rgba(255, 255, 255, 0);
-          .header-content {
-              border-bottom: 0;
-              padding: 25px 10%;
-          }
-          .nav-toggle {
-              top: 18px;
-          }
-      }
-  */
 }
 header li:hover {
   opacity: 0.5;
@@ -720,9 +679,7 @@ header .logo_sm h1 {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
-
-.nav-toggle:before,
-.nav-toggle:after {
+.nav-toggle::before, .nav-toggle::after {
   border-radius: 50%;
   content: "";
   height: 100%;
@@ -730,6 +687,7 @@ header .logo_sm h1 {
   position: absolute;
   top: 0;
   width: 100%;
+  background-color: #000;
   -webkit-transform: translateZ(0);
           transform: translateZ(0);
   -webkit-backface-visibility: hidden;
@@ -739,23 +697,18 @@ header .logo_sm h1 {
   transition-property: transform;
   transition-property: transform, -webkit-transform;
 }
-
-.nav-toggle:before {
-  background-color: #000;
+.nav-toggle::before {
   -webkit-transform: scale(1);
           transform: scale(1);
   -webkit-transition-duration: 0.3s;
           transition-duration: 0.3s;
 }
-
-.nav-toggle:after {
-  background-color: #000;
+.nav-toggle::after {
   -webkit-transform: scale(0);
           transform: scale(0);
   -webkit-transition-duration: 0s;
           transition-duration: 0s;
 }
-
 .nav-toggle span {
   background-color: #fff;
   bottom: auto;
@@ -770,9 +723,7 @@ header .logo_sm h1 {
   -webkit-transform: translateX(-50%) translateY(-50%);
           transform: translateX(-50%) translateY(-50%);
 }
-
-.nav-toggle span:before,
-.nav-toggle span:after {
+.nav-toggle span::before, .nav-toggle span::after {
   background-color: #fff;
   content: "";
   height: 100%;
@@ -789,42 +740,33 @@ header .logo_sm h1 {
   transition: transform 0.3s;
   transition: transform 0.3s, -webkit-transform 0.3s;
 }
-
-.nav-toggle span:before {
+.nav-toggle span::before {
   -webkit-transform: translateY(-6px) rotate(0deg);
           transform: translateY(-6px) rotate(0deg);
 }
-
-.nav-toggle span:after {
+.nav-toggle span::after {
   -webkit-transform: translateY(6px) rotate(0deg);
           transform: translateY(6px) rotate(0deg);
 }
-
-.nav-toggle.close-nav:before {
+.nav-toggle.close-nav::before {
   -webkit-transform: scale(0);
           transform: scale(0);
 }
-
-.nav-toggle.close-nav:after {
+.nav-toggle.close-nav::after {
   -webkit-transform: scale(1);
           transform: scale(1);
 }
-
 .nav-toggle.close-nav span {
   background-color: rgba(255, 255, 255, 0);
 }
-
-.nav-toggle.close-nav span:before,
-.nav-toggle.close-nav span:after {
+.nav-toggle.close-nav span::before, .nav-toggle.close-nav span::after {
   background-color: #fff;
 }
-
-.nav-toggle.close-nav span:before {
+.nav-toggle.close-nav span::before {
   -webkit-transform: translateY(0) rotate(45deg);
           transform: translateY(0) rotate(45deg);
 }
-
-.nav-toggle.close-nav span:after {
+.nav-toggle.close-nav span::after {
   -webkit-transform: translateY(0) rotate(-45deg);
           transform: translateY(0) rotate(-45deg);
 }
@@ -1349,10 +1291,6 @@ footer .cp_right {
   border-bottom: none;
 }
 
-.wpcf7 span.wpcf7-not-valid-tip {
-  font-size: 80%;
-}
-
 .submitFrame {
   text-align: center;
 }
@@ -1360,8 +1298,14 @@ footer .cp_right {
 /* エラーメッセージ */
 span.wpcf7-not-valid-tip,
 .wpcf7-response-output.wpcf7-validation-errors {
+  display: block;
   color: red;
   font-weight: 600;
+}
+
+.wpcf7-response-output {
+  text-align: center;
+  margin-top: 20px;
 }
 
 /* 入力内容に問題があります。確認して再度お試しください。 */
@@ -1905,7 +1849,6 @@ span.wpcf7-not-valid-tip,
     width: 90%;
     padding: 10px 0;
   }
-
   header.fixed .header-content {
     padding: 17px 0;
   }
@@ -1927,19 +1870,16 @@ span.wpcf7-not-valid-tip,
     -webkit-transition: opacity 0.5s, visibility 0s 0.5s;
     transition: opacity 0.5s, visibility 0s 0.5s;
   }
-
   .navigation .primary-nav {
     position: relative;
     top: 45%;
     -webkit-transform: translateY(-45%);
             transform: translateY(-45%);
   }
-
   .navigation li {
     display: block;
     margin-bottom: 20px;
   }
-
   .navigation a {
     display: block;
     font-size: 35px;
@@ -1982,7 +1922,6 @@ span.wpcf7-not-valid-tip,
   header .header-content {
     padding: 10px 0%;
   }
-
   header.fixed .header-content {
     padding: 17px 0;
   }
@@ -2025,7 +1964,6 @@ span.wpcf7-not-valid-tip,
   header .header-content {
     padding: 30px 0;
   }
-
   header.fixed .header-content {
     padding: 17px 0;
   }
@@ -2034,15 +1972,12 @@ span.wpcf7-not-valid-tip,
   header .header-content {
     padding: 30px 0;
   }
-
   header.fixed .header-content {
     padding: 17px 0;
   }
-
   header .logo_pc {
     display: none;
   }
-
   header .logo_sm {
     display: block;
   }
@@ -2069,7 +2004,6 @@ span.wpcf7-not-valid-tip,
   header .header-content {
     padding: 30px 2%;
   }
-
   header.fixed .header-content {
     padding: 17px 0;
   }
