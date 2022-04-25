@@ -1,5 +1,13 @@
+/*
+src 参照元を指定
+dest 出力先を指定
+watch ファイル監視
+series(直列処理) と parallel(並列処理)
+*/
+
 // gulpプラグインの読み込み
 const { src, dest, watch } = require("gulp");
+
 // Sassをコンパイルするプラグインの読み込み
 const sass = require("gulp-sass")(require("sass"));
 // ベンダープレフィックス自動付与
@@ -15,32 +23,21 @@ const TARGET_BROWSERS = [
     "ie >= 11", // ie11以上を担保
     "Android >= 4", // Android4以上
     "ios_saf >= 8" // ios safari8以上
-  ];
+];
 
 /**
  * Sassをコンパイルするタスク
  */
-const compileSass = () =>
-  // style.scssファイルを取得
-  src("sass/**/*.scss")
-    // Sassのコンパイルを実行
-    .pipe(
-      // コンパイル後のCSSを展開
-      sass({
-        // 指定できるキー expanded(css見やすく) compressed(全CSSコードが1行になる)
-        outputStyle: "expanded"
-      })
-    )
-    .pipe(autoprefixer(TARGET_BROWSERS))
-    
-    // メディアクエリをまとめる
-    .pipe(postcss([mqpacker()]))
-
-    // cssフォルダー以下に保存
-    .pipe(dest("css"));
-
+const compileSass = () => {
+    return src("sass/**/*.scss") //コンパイル元 style.scssファイルを取得
+        .pipe(sass({outputStyle: "expanded"})) //Sassのコンパイルを実行 コンパイル後のCSSを展開
+        // 指定できるキー expanded(css見やすく) compressed(全CSSコードが1行になる)      
+        .pipe(autoprefixer(TARGET_BROWSERS)) //ベンダープレフィックス
+        .pipe(postcss([mqpacker()])) //メディアクエリをまとめる
+        .pipe(dest("css")); //cssフォルダー以下に保存 コンパイル先     
+    }
 /**
- * Sassファイルを監視し、変更があったらSassを変換します
+ * Sassファイルを監視し、変更があったらSassを変換しaます
  */
 const watchSassFiles = () => watch("sass/**/*.scss", compileSass);
 
