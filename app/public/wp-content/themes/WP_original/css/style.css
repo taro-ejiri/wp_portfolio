@@ -551,12 +551,6 @@ a {
 .col_3 > div {
   width: 33.33333%;
 }
-
-@media screen and (max-width: 960px) {
-  .col_3 > div {
-    width: 100%;
-  }
-}
 /*--------------------------------------------------------------
 8.0 Elements 要素
 --------------------------------------------------------------*/
@@ -629,26 +623,6 @@ a {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-}
-@media (min-width: 576px) {
-  .container {
-    max-width: 540px;
-  }
-}
-@media (min-width: 768px) {
-  .container {
-    max-width: 720px;
-  }
-}
-@media (min-width: 992px) {
-  .container {
-    max-width: 970px;
-  }
-}
-@media (min-width: 1200px) {
-  .container {
-    max-width: 1170px;
-  }
 }
 .wrapper {
   display: -webkit-box;
@@ -864,128 +838,14 @@ ul.h_share_btn {
 
 /* header width-1024px
 ------------------------------*/
-@media screen and (max-width: 1024px) {
-  header .header-content {
-    width: 90%;
-    padding: 10px 0;
-  }
-
-  header.fixed .header-content {
-    padding: 17px 0;
-  }
-
-  .nav-toggle {
-    display: block;
-  }
-
-  .navigation {
-    position: fixed;
-    background-color: #fff;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: 99999;
-    visibility: hidden;
-    opacity: 0;
-    -webkit-transition: opacity 0.5s, visibility 0s 0.5s;
-    transition: opacity 0.5s, visibility 0s 0.5s;
-  }
-
-  .navigation .primary-nav {
-    position: relative;
-    top: 45%;
-    -webkit-transform: translateY(-45%);
-            transform: translateY(-45%);
-  }
-
-  .navigation li {
-    display: block;
-    margin-bottom: 20px;
-  }
-
-  .navigation a {
-    display: block;
-    font-size: 35px;
-    margin: 0;
-    text-align: center;
-  }
-
-  /* ヘッダー用 shareボタン */
-  ul.h_share_btn {
-    display: block;
-    margin-top: 50px;
-    text-align: center;
-    padding-left: 0;
-  }
-
-  ul.h_share_btn li {
-    display: inline-block;
-    padding: 0 15px;
-  }
-}
 /* Header width-768px
 ------------------------------*/
-@media screen and (max-width: 768px) {
-  header .header-content {
-    padding: 10px 0%;
-  }
-
-  header.fixed .header-content {
-    padding: 17px 0;
-  }
-
-  .navigation .primary-nav {
-    padding-left: 0px;
-  }
-}
 /* Header width-640px
 ------------------------------*/
-@media screen and (max-width: 640px) {
-  header .header-content {
-    padding: 30px 0;
-  }
-
-  header.fixed .header-content {
-    padding: 17px 0;
-  }
-}
 /* Header width-480px
 ------------------------------*/
-@media screen and (max-width: 480px) {
-  header .header-content {
-    padding: 30px 0;
-  }
-
-  header.fixed .header-content {
-    padding: 17px 0;
-  }
-
-  header .logo_pc {
-    display: none;
-  }
-
-  header .logo_sm {
-    display: block;
-  }
-}
-@media screen and (max-width: 480px) {
-  ul.h_share_btn li {
-    display: inline-block;
-    padding: 0 10px;
-  }
-}
 /* Header width-320px
 ------------------------------*/
-@media screen and (max-width: 320px) {
-  header .header-content {
-    padding: 30px 2%;
-  }
-
-  header.fixed .header-content {
-    padding: 17px 0;
-  }
-}
 /*------------------------------
 3.3 footer
 ------------------------------*/
@@ -1012,11 +872,6 @@ footer .cp_right {
 }
 
 /* iPhone5/SE */
-@media screen and (max-width: 320px) {
-  footer .f_share_btn li {
-    padding: 0 10px;
-  }
-}
 /*------------------------------
 3.4 Contents / page.php
 ------------------------------*/
@@ -1044,72 +899,10 @@ footer .cp_right {
 }
 
 /* iPadPro */
-@media screen and (max-width: 1112px) {
-  .area404 {
-    padding-top: 300px;
-    min-height: 1100px;
-  }
-  .area404 h2 {
-    font-size: 45px;
-    margin-bottom: 40px;
-  }
-  .area404 p {
-    font-size: 25px;
-    padding: 30px;
-  }
-}
 /* iPad */
-@media screen and (max-width: 768px) {
-  .area404 {
-    padding-top: 200px;
-    min-height: 800px;
-    margin-top: 65px;
-  }
-  .area404 h2 {
-    font-size: 30px;
-    margin-bottom: 30px;
-  }
-  .area404 p {
-    font-size: 20px;
-    padding: 15px;
-  }
-}
 /* iPhone Plus*/
-@media screen and (max-width: 414px) {
-  .area404 {
-    padding-top: 100px;
-    min-height: 525px;
-  }
-  .area404 h2 {
-    font-size: 25px;
-    padding: 0 10px;
-  }
-  .area404 p {
-    font-size: 16px;
-  }
-}
 /* iPhone X/6/7/8*/
-@media screen and (max-width: 375px) {
-  .area404 {
-    padding-top: 100px;
-    min-height: 450px;
-  }
-}
 /* iPhone5/SE */
-@media screen and (max-width: 320px) {
-  .area404 {
-    min-height: 300px;
-    margin-top: 90px;
-    padding-top: 50px;
-  }
-  .area404 h2 {
-    font-size: 20px;
-    margin-bottom: 30px;
-  }
-  .area404 p {
-    margin-bottom: 0;
-  }
-}
 /*------------------------------
 3.6 front-page
 ------------------------------*/
@@ -1143,51 +936,11 @@ footer .cp_right {
 }
 
 /* iPadPro */
-@media screen and (max-width: 1112px) {
-  .jumbotron .slides_canvas {
-    max-width: 95%;
-  }
-}
 /* jumbotron width-1024px以下
 ------------------------------*/
-@media only screen and (max-width: 1024px) {
-  .jumbotron {
-    margin-top: 100px;
-    background-position: 75%;
-    padding: 30px 10px;
-  }
-}
 /* iPad */
-@media only screen and (max-width: 768px) {
-  .jumbotron .slides_canvas {
-    max-width: 95%;
-  }
-  .jumbotron blockquote {
-    padding: 25px;
-  }
-}
 /* jumbotron width-767px以下
 ------------------------------*/
-@media only screen and (max-width: 767px) {
-  .jumbotron {
-    background-position: 75%;
-    padding: 10px 10px;
-    margin: 100px 0 10px;
-  }
-  .jumbotron blockquote {
-    padding: 0px;
-    margin-bottom: 0;
-  }
-  .jumbotron blockquote h2 {
-    font-size: 25px;
-  }
-  .jumbotron blockquote p {
-    font-size: 13px;
-  }
-  .jumbotron .flexslider {
-    padding-bottom: 20px;
-  }
-}
 /* 3.6.2 PRINCIPLE and WORKS / About me
 ------------------------------*/
 .section-title h2 {
@@ -1299,37 +1052,6 @@ footer .cp_right {
   color: #000;
   padding: 0 15px;
 }
-
-@media only screen and (max-width: 768px) {
-  .principle .items_three {
-    position: relative;
-    width: 100%;
-    min-height: 1px;
-    padding: 0 0 15px;
-  }
-  .principle .items_three .point-frame {
-    width: 30%;
-    float: left;
-  }
-  .principle .items_three .point-description {
-    width: 70%;
-    float: right;
-    padding: 0;
-  }
-  .principle .items_three h3.point-title {
-    font-size: 18px;
-    text-align: center;
-  }
-}
-@media only screen and (max-width: 414px) {
-  .principle .items_three .point-frame {
-    width: 100%;
-    float: none;
-  }
-  .principle .items_three .point-description {
-    width: 100%;
-  }
-}
 /* 3.6.4 WORKS
 ------------------------------*/
 .portfolio {
@@ -1383,41 +1105,6 @@ footer .cp_right {
 .slick-track {
   padding-bottom: 30px;
 }
-
-@media only screen and (max-width: 768px) {
-  .portfolio {
-    margin-top: 30px;
-  }
-  .portfolio p {
-    margin: 20px 30px 60px;
-  }
-  .portfolio .slider_frame {
-    width: 85%;
-  }
-
-  .center-item .slick-next {
-    right: 30px;
-    z-index: 99;
-  }
-  .center-item .slick-prev {
-    left: 15px;
-    z-index: 100;
-  }
-}
-@media only screen and (max-width: 414px) {
-  .portfolio p {
-    margin: 30px 0;
-    font-size: 14px;
-    line-height: 22.4px;
-  }
-  .portfolio .slider_frame {
-    width: 100%;
-  }
-  .portfolio .slick-prev:before,
-.portfolio .slick-next:before {
-    font-size: 40px;
-  }
-}
 /*------------------------------
 3.7 About
 ------------------------------*/
@@ -1440,12 +1127,6 @@ footer .cp_right {
   font-size: 30px;
   margin-bottom: 15px;
 }
-@media only screen and (max-width: 699px) {
-  .About h3 {
-    font-size: 24px;
-    letter-spacing: -1px;
-  }
-}
 .About p {
   font-size: 14px;
   line-height: 22.4px;
@@ -1455,11 +1136,6 @@ footer .cp_right {
 .About .about_frame {
   width: 90%;
   margin: 0 auto;
-}
-@media only screen and (max-width: 480px) {
-  .About .about_frame {
-    width: 100%;
-  }
 }
 .About .dl-horizontal {
   border-bottom: 1px rgba(200, 200, 200, 0.5) dashed;
@@ -1478,26 +1154,6 @@ footer .cp_right {
   line-height: 1.6;
   border-top: 1px rgba(200, 200, 200, 0.5) dashed;
   margin-left: 110px;
-}
-@media only screen and (max-width: 480px) {
-  .About .dl-horizontal {
-    border-bottom: 0px rgba(200, 200, 200, 0.5) dashed;
-  }
-  .About .dl-horizontal dt {
-    padding: 1.5em 0 0.3em;
-    border-top: 0;
-    border-bottom: 1px #ddd solid;
-    border-top: 0px rgba(200, 200, 200, 0.5) dashed;
-    margin-left: 0px;
-  }
-  .About .dl-horizontal dd {
-    padding: 0.3em 0em 0em 0em;
-    border-top: 0px rgba(200, 200, 200, 0.5) dashed;
-    margin-left: 0px;
-  }
-  .About .dl-horizontal ul {
-    padding-left: 10px;
-  }
 }
 
 /* 3.7.2 CODING POLICY / SMART PHONE
@@ -1600,76 +1256,6 @@ footer .cp_right {
 .Policy ul.environment li dd:last-child:after {
   content: none;
 }
-
-@media only screen and (max-width: 699px) {
-  .Policy .section-title,
-.smartphone .section-title {
-    margin-top: 50px;
-  }
-
-  .Policy .section-title h2,
-.Policy .section-title,
-.smartphone .section-title h2 {
-    padding-bottom: 0;
-    margin-bottom: 0;
-    font-size: 35px;
-  }
-
-  .aboutUs h3 {
-    padding: 25px 0 0;
-    font-size: 20px;
-    margin: 0 0 10px;
-  }
-  .aboutUs h4 {
-    font-size: 18px;
-  }
-  .aboutUs li {
-    padding-left: 0.6em;
-    padding-right: 0.6em;
-  }
-}
-@media only screen and (max-width: 480px) {
-  .Policy .dl-horizontal dt {
-    padding: 1.5em 0 0.3em;
-    border-top: 0;
-    margin-left: 0px;
-  }
-  .Policy .dl-horizontal dd {
-    padding: 0.3em 0em 0em 1.5em;
-    margin-left: 0px;
-  }
-  .Policy ul {
-    padding-left: 10px;
-  }
-  .Policy ul.environment {
-    padding-left: 0;
-  }
-  .Policy ul.environment li {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  .Policy ul.browser,
-.smartphone ul.browser {
-    padding-left: 30px;
-  }
-
-  .Policy ul.environment li dt {
-    width: 100%;
-    padding-bottom: 10px;
-  }
-}
-@media only screen and (max-width: 414px) {
-  .Policy,
-.smartphone {
-    padding: 10px 0;
-  }
-
-  .Policy .frame,
-.smartphone .frame {
-    width: 100%;
-  }
-}
 /*------------------------------
 3.8 contact
 ------------------------------*/
@@ -1708,17 +1294,6 @@ footer .cp_right {
 .contact label {
   font-size: 14px;
 }
-
-@media only screen and (max-width: 768px) {
-  .contact .frame {
-    width: 90%;
-  }
-}
-@media only screen and (max-width: 480px) {
-  .contact .frame {
-    width: 100%;
-  }
-}
 /* メールフォーム注意書き */
 .border-wrap-small {
   color: #000;
@@ -1736,12 +1311,6 @@ footer .cp_right {
 .asterisk {
   margin: 0 0 0 0.2em;
   color: #f00;
-}
-
-@media only screen and (max-width: 768px) {
-  .border-wrap-small {
-    padding: 15px 10px 15px 0;
-  }
 }
 .wpcf7 input[type=text],
 .wpcf7 input[type=email],
@@ -1809,15 +1378,6 @@ span.wpcf7-not-valid-tip,
   margin-bottom: 30px;
   text-align: center;
 }
-
-@media only screen and (max-width: 768px) {
-  .wpcf7-response-output.wpcf7-validation-errors {
-    width: 100%;
-    font-size: 14px;
-    padding: 15px 0;
-    text-align: left;
-  }
-}
 /*------------------------------
 3.9 thanks
 ------------------------------*/
@@ -1856,21 +1416,6 @@ span.wpcf7-not-valid-tip,
   font-weight: normal;
   padding-right: 10px;
 }
-
-@media only screen and (max-width: 768px) {
-  .thanks {
-    width: 90%;
-    margin: 0 auto;
-    min-height: 630px;
-  }
-}
-@media only screen and (max-width: 414px) {
-  .thanks {
-    width: 100%;
-    margin: 0 auto;
-    min-height: auto;
-  }
-}
 /*------------------------------
 3.10 archive アーカイブ
 ------------------------------*/
@@ -1903,11 +1448,6 @@ span.wpcf7-not-valid-tip,
   text-align: center;
   padding-bottom: 10px;
 }
-@media only screen and (min-width: 699px) {
-  .work-list h3 {
-    padding-bottom: 35px;
-  }
-}
 .work-list p {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -1926,12 +1466,6 @@ span.wpcf7-not-valid-tip,
   text-align: center;
   display: block;
   margin-bottom: 60px;
-}
-@media only screen and (max-width: 768px) {
-  .work-list .menuFrame ul {
-    margin-bottom: 10px;
-    padding-left: 0;
-  }
 }
 .work-list .menuFrame li {
   display: inline-block;
@@ -1993,34 +1527,6 @@ span.wpcf7-not-valid-tip,
   width: 100% !important;
   height: auto;
   display: block;
-}
-@media (min-width: 576px) {
-  .work-list ul.menuContainer .worksFrame {
-    width: 100%;
-  }
-}
-@media (min-width: 768px) {
-  .work-list ul.menuContainer .worksFrame {
-    -ms-flex: 0 0 33.333333%;
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 0 33.333333%;
-            flex: 0 0 33.333333%;
-    max-width: 33.333333%;
-  }
-}
-@media (min-width: 992px) {
-  .work-list ul.menuContainer .worksFrame {
-    -ms-flex: 0 0 33.333333%;
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 0 33.333333%;
-            flex: 0 0 33.333333%;
-    max-width: 33.333333%;
-  }
-}
-@media screen and (max-width: 768px) {
-  .work-list ul.menuContainer {
-    width: 100%;
-  }
 }
 
 /* WORKリストがソートする際の動き */
@@ -2118,34 +1624,6 @@ span.wpcf7-not-valid-tip,
   transition: opacity 0.35s, transform 0.35s;
   transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s;
 }
-
-@media only screen and (max-width: 1024px) {
-  .work-list figure.effect-bubba figcaption::before,
-.work-list figure.effect-bubba figcaption::after {
-    top: 15px;
-    right: 15px;
-    bottom: 15px;
-    left: 15px;
-  }
-}
-@media only screen and (max-width: 979px) {
-  .work-list figure.effect-bubba figcaption::before,
-.work-list figure.effect-bubba figcaption::after {
-    top: 10px;
-    right: 10px;
-    bottom: 10px;
-    left: 10px;
-  }
-}
-@media only screen and (max-width: 699px) {
-  .work-list figure.effect-bubba figcaption::before,
-.work-list figure.effect-bubba figcaption::after {
-    top: 10px;
-    right: 10px;
-    bottom: 10px;
-    left: 10px;
-  }
-}
 .work-list figure.effect-bubba figcaption::before {
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
@@ -2217,78 +1695,11 @@ span.wpcf7-not-valid-tip,
   height: 46px;
   text-indent: -9999px;
 }
-
-@media screen and (max-width: 1024px) {
-  .work-list figure.effect-bubba h2 {
-    padding-top: 23%;
-    font-size: 25px;
-  }
-
-  .work-list span.new {
-    position: absolute;
-    top: 28px;
-    left: 28px;
-    background: url(../img/works/icon_new.png);
-    width: 46px;
-    height: 46px;
-    text-indent: -9999px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .work-list figure.effect-bubba h2 {
-    padding-top: 20%;
-    font-size: 18px;
-  }
-
-  .work-list span.new {
-    position: absolute;
-    top: 15px;
-    left: 15px;
-    background: url(../img/works/icon_new.png);
-    width: 46px;
-    height: 46px;
-    text-indent: -9999px;
-  }
-}
-@media screen and (max-width: 480px) {
-  .work-list figure.effect-bubba h2 {
-    padding-top: 25%;
-    font-size: 18px;
-  }
-
-  .work-list span.new {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    background: url(../img/works/icon_new.png);
-    width: 46px;
-    height: 46px;
-    text-indent: -9999px;
-  }
-}
-@media screen and (max-width: 320px) {
-  .work-list figure.effect-bubba h2 {
-    padding-top: 25%;
-    font-size: 16px;
-  }
-}
 .client_mini {
   display: none;
 }
 .client_mini p {
   text-align: center;
-}
-
-@media screen and (max-width: 1024px) {
-  .client_mini {
-    display: block;
-    min-height: 50px;
-  }
-}
-@media screen and (max-width: 414px) {
-  .client_mini {
-    min-height: 30px;
-  }
 }
 /*--------------------------------------------------------------
 3.11 single
@@ -2337,12 +1748,6 @@ span.wpcf7-not-valid-tip,
   word-break: break-all;
   padding: 0 10px;
 }
-
-@media only screen and (min-width: 699px) {
-  .worksTitle {
-    padding: 180px 80px 20px;
-  }
-}
 /* Works-content 
 ------------------------------*/
 .Works-content {
@@ -2384,18 +1789,6 @@ span.wpcf7-not-valid-tip,
 }
 .intra img {
   opacity: 0.2;
-}
-
-@media only screen and (min-width: 699px) {
-  .Works-content {
-    margin: 0 0 10px;
-    max-width: 699px;
-    margin: 0 auto;
-    margin-bottom: 10px;
-  }
-  .Works-content .carousel-caption {
-    font-size: 25px;
-  }
 }
 /* Works-comment
 ------------------------------*/
@@ -2442,16 +1835,6 @@ span.wpcf7-not-valid-tip,
 .Works-comment .dl-center dd a:hover {
   opacity: 0.6;
 }
-
-@media only screen and (min-width: 699px) {
-  .Works-comment {
-    max-width: 580px;
-    margin: 20px auto 0;
-  }
-  .Works-comment .comment {
-    margin-bottom: 40px;
-  }
-}
 /*--------------------------------------------------------------
 9.0 Widgets ウィジェット
 --------------------------------------------------------------*/
@@ -2478,3 +1861,538 @@ span.wpcf7-not-valid-tip,
 /*--------------------------------------------------------------
 11.0 External Plugins 外部プラグイン
 --------------------------------------------------------------*/
+@media screen and (max-width: 960px) {
+  .col_3 > div {
+    width: 100%;
+  }
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+  .work-list ul.menuContainer .worksFrame {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+  .work-list ul.menuContainer .worksFrame {
+    -ms-flex: 0 0 33.333333%;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 33.333333%;
+            flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 970px;
+  }
+  .work-list ul.menuContainer .worksFrame {
+    -ms-flex: 0 0 33.333333%;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 33.333333%;
+            flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  header .header-content {
+    width: 90%;
+    padding: 10px 0;
+  }
+
+  header.fixed .header-content {
+    padding: 17px 0;
+  }
+
+  .nav-toggle {
+    display: block;
+  }
+
+  .navigation {
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: opacity 0.5s, visibility 0s 0.5s;
+    transition: opacity 0.5s, visibility 0s 0.5s;
+  }
+
+  .navigation .primary-nav {
+    position: relative;
+    top: 45%;
+    -webkit-transform: translateY(-45%);
+            transform: translateY(-45%);
+  }
+
+  .navigation li {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .navigation a {
+    display: block;
+    font-size: 35px;
+    margin: 0;
+    text-align: center;
+  }
+
+  /* ヘッダー用 shareボタン */
+  ul.h_share_btn {
+    display: block;
+    margin-top: 50px;
+    text-align: center;
+    padding-left: 0;
+  }
+
+  ul.h_share_btn li {
+    display: inline-block;
+    padding: 0 15px;
+  }
+  .work-list figure.effect-bubba h2 {
+    padding-top: 23%;
+    font-size: 25px;
+  }
+
+  .work-list span.new {
+    position: absolute;
+    top: 28px;
+    left: 28px;
+    background: url(../img/works/icon_new.png);
+    width: 46px;
+    height: 46px;
+    text-indent: -9999px;
+  }
+  .client_mini {
+    display: block;
+    min-height: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  header .header-content {
+    padding: 10px 0%;
+  }
+
+  header.fixed .header-content {
+    padding: 17px 0;
+  }
+
+  .navigation .primary-nav {
+    padding-left: 0px;
+  }
+  .area404 {
+    padding-top: 200px;
+    min-height: 800px;
+    margin-top: 65px;
+  }
+  .area404 h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  .area404 p {
+    font-size: 20px;
+    padding: 15px;
+  }
+  .work-list ul.menuContainer {
+    width: 100%;
+  }
+  .work-list figure.effect-bubba h2 {
+    padding-top: 20%;
+    font-size: 18px;
+  }
+
+  .work-list span.new {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background: url(../img/works/icon_new.png);
+    width: 46px;
+    height: 46px;
+    text-indent: -9999px;
+  }
+}
+@media screen and (max-width: 640px) {
+  header .header-content {
+    padding: 30px 0;
+  }
+
+  header.fixed .header-content {
+    padding: 17px 0;
+  }
+}
+@media screen and (max-width: 480px) {
+  header .header-content {
+    padding: 30px 0;
+  }
+
+  header.fixed .header-content {
+    padding: 17px 0;
+  }
+
+  header .logo_pc {
+    display: none;
+  }
+
+  header .logo_sm {
+    display: block;
+  }
+  ul.h_share_btn li {
+    display: inline-block;
+    padding: 0 10px;
+  }
+  .work-list figure.effect-bubba h2 {
+    padding-top: 25%;
+    font-size: 18px;
+  }
+
+  .work-list span.new {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: url(../img/works/icon_new.png);
+    width: 46px;
+    height: 46px;
+    text-indent: -9999px;
+  }
+}
+@media screen and (max-width: 320px) {
+  header .header-content {
+    padding: 30px 2%;
+  }
+
+  header.fixed .header-content {
+    padding: 17px 0;
+  }
+  footer .f_share_btn li {
+    padding: 0 10px;
+  }
+  .area404 {
+    min-height: 300px;
+    margin-top: 90px;
+    padding-top: 50px;
+  }
+  .area404 h2 {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  .area404 p {
+    margin-bottom: 0;
+  }
+  .work-list figure.effect-bubba h2 {
+    padding-top: 25%;
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 1112px) {
+  .area404 {
+    padding-top: 300px;
+    min-height: 1100px;
+  }
+  .area404 h2 {
+    font-size: 45px;
+    margin-bottom: 40px;
+  }
+  .area404 p {
+    font-size: 25px;
+    padding: 30px;
+  }
+  .jumbotron .slides_canvas {
+    max-width: 95%;
+  }
+}
+@media screen and (max-width: 414px) {
+  .area404 {
+    padding-top: 100px;
+    min-height: 525px;
+  }
+  .area404 h2 {
+    font-size: 25px;
+    padding: 0 10px;
+  }
+  .area404 p {
+    font-size: 16px;
+  }
+  .client_mini {
+    min-height: 30px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .area404 {
+    padding-top: 100px;
+    min-height: 450px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .jumbotron {
+    margin-top: 100px;
+    background-position: 75%;
+    padding: 30px 10px;
+  }
+  .work-list figure.effect-bubba figcaption::before,
+.work-list figure.effect-bubba figcaption::after {
+    top: 15px;
+    right: 15px;
+    bottom: 15px;
+    left: 15px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .jumbotron .slides_canvas {
+    max-width: 95%;
+  }
+  .jumbotron blockquote {
+    padding: 25px;
+  }
+  .principle .items_three {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding: 0 0 15px;
+  }
+  .principle .items_three .point-frame {
+    width: 30%;
+    float: left;
+  }
+  .principle .items_three .point-description {
+    width: 70%;
+    float: right;
+    padding: 0;
+  }
+  .principle .items_three h3.point-title {
+    font-size: 18px;
+    text-align: center;
+  }
+  .portfolio {
+    margin-top: 30px;
+  }
+  .portfolio p {
+    margin: 20px 30px 60px;
+  }
+  .portfolio .slider_frame {
+    width: 85%;
+  }
+
+  .center-item .slick-next {
+    right: 30px;
+    z-index: 99;
+  }
+  .center-item .slick-prev {
+    left: 15px;
+    z-index: 100;
+  }
+  .contact .frame {
+    width: 90%;
+  }
+  .border-wrap-small {
+    padding: 15px 10px 15px 0;
+  }
+  .wpcf7-response-output.wpcf7-validation-errors {
+    width: 100%;
+    font-size: 14px;
+    padding: 15px 0;
+    text-align: left;
+  }
+  .thanks {
+    width: 90%;
+    margin: 0 auto;
+    min-height: 630px;
+  }
+  .work-list .menuFrame ul {
+    margin-bottom: 10px;
+    padding-left: 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .jumbotron {
+    background-position: 75%;
+    padding: 10px 10px;
+    margin: 100px 0 10px;
+  }
+  .jumbotron blockquote {
+    padding: 0px;
+    margin-bottom: 0;
+  }
+  .jumbotron blockquote h2 {
+    font-size: 25px;
+  }
+  .jumbotron blockquote p {
+    font-size: 13px;
+  }
+  .jumbotron .flexslider {
+    padding-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .principle .items_three .point-frame {
+    width: 100%;
+    float: none;
+  }
+  .principle .items_three .point-description {
+    width: 100%;
+  }
+  .portfolio p {
+    margin: 30px 0;
+    font-size: 14px;
+    line-height: 22.4px;
+  }
+  .portfolio .slider_frame {
+    width: 100%;
+  }
+  .portfolio .slick-prev:before,
+.portfolio .slick-next:before {
+    font-size: 40px;
+  }
+  .Policy,
+.smartphone {
+    padding: 10px 0;
+  }
+
+  .Policy .frame,
+.smartphone .frame {
+    width: 100%;
+  }
+  .thanks {
+    width: 100%;
+    margin: 0 auto;
+    min-height: auto;
+  }
+}
+@media only screen and (max-width: 699px) {
+  .About h3 {
+    font-size: 24px;
+    letter-spacing: -1px;
+  }
+  .Policy .section-title,
+.smartphone .section-title {
+    margin-top: 50px;
+  }
+
+  .Policy .section-title h2,
+.Policy .section-title,
+.smartphone .section-title h2 {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-size: 35px;
+  }
+
+  .aboutUs h3 {
+    padding: 25px 0 0;
+    font-size: 20px;
+    margin: 0 0 10px;
+  }
+  .aboutUs h4 {
+    font-size: 18px;
+  }
+  .aboutUs li {
+    padding-left: 0.6em;
+    padding-right: 0.6em;
+  }
+  .work-list figure.effect-bubba figcaption::before,
+.work-list figure.effect-bubba figcaption::after {
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .About .about_frame {
+    width: 100%;
+  }
+  .About .dl-horizontal {
+    border-bottom: 0px rgba(200, 200, 200, 0.5) dashed;
+  }
+  .About .dl-horizontal dt {
+    padding: 1.5em 0 0.3em;
+    border-top: 0;
+    border-bottom: 1px #ddd solid;
+    border-top: 0px rgba(200, 200, 200, 0.5) dashed;
+    margin-left: 0px;
+  }
+  .About .dl-horizontal dd {
+    padding: 0.3em 0em 0em 0em;
+    border-top: 0px rgba(200, 200, 200, 0.5) dashed;
+    margin-left: 0px;
+  }
+  .About .dl-horizontal ul {
+    padding-left: 10px;
+  }
+  .Policy .dl-horizontal dt {
+    padding: 1.5em 0 0.3em;
+    border-top: 0;
+    margin-left: 0px;
+  }
+  .Policy .dl-horizontal dd {
+    padding: 0.3em 0em 0em 1.5em;
+    margin-left: 0px;
+  }
+  .Policy ul {
+    padding-left: 10px;
+  }
+  .Policy ul.environment {
+    padding-left: 0;
+  }
+  .Policy ul.environment li {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .Policy ul.browser,
+.smartphone ul.browser {
+    padding-left: 30px;
+  }
+
+  .Policy ul.environment li dt {
+    width: 100%;
+    padding-bottom: 10px;
+  }
+  .contact .frame {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 699px) {
+  .work-list h3 {
+    padding-bottom: 35px;
+  }
+  .worksTitle {
+    padding: 180px 80px 20px;
+  }
+  .Works-content {
+    margin: 0 0 10px;
+    max-width: 699px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  .Works-content .carousel-caption {
+    font-size: 25px;
+  }
+  .Works-comment {
+    max-width: 580px;
+    margin: 20px auto 0;
+  }
+  .Works-comment .comment {
+    margin-bottom: 40px;
+  }
+}
+@media only screen and (max-width: 979px) {
+  .work-list figure.effect-bubba figcaption::before,
+.work-list figure.effect-bubba figcaption::after {
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
+  }
+}

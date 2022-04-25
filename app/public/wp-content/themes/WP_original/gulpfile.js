@@ -2,10 +2,12 @@
 const { src, dest, watch } = require("gulp");
 // Sassをコンパイルするプラグインの読み込み
 const sass = require("gulp-sass")(require("sass"));
-// Autoprefixと一緒に使うもの
-// const postcss = require("gulp-postcss"); 
 // ベンダープレフィックス自動付与
 const autoprefixer = require('gulp-autoprefixer');
+//css-mqpackerを使うために必要
+const postcss = require("gulp-postcss");
+//メディアクエリをまとめる
+const mqpacker = require('css-mqpacker');
 
 //ベンダープレフィックスを付与する条件
 const TARGET_BROWSERS = [
@@ -30,6 +32,10 @@ const compileSass = () =>
       })
     )
     .pipe(autoprefixer(TARGET_BROWSERS))
+    
+    // メディアクエリをまとめる
+    .pipe(postcss([mqpacker()]))
+
     // cssフォルダー以下に保存
     .pipe(dest("css"));
 
