@@ -165,9 +165,7 @@
     ul.environment li {
         list-style: none;
         dl {
-            display: -ms-flexbox;
             display: flex;
-            -ms-flex-wrap: wrap;
             flex-wrap: wrap;
         }
         dt {
@@ -210,8 +208,7 @@
             font-size: 18px;
         }
         li {
-            padding-left: 0.6em;
-            padding-right: 0.6em;
+            padding: 0;
         }
     }
 }
@@ -239,10 +236,6 @@
                 }
             }
         }
-    }
-    .Policy ul.browser,
-    .smartphone ul.browser {
-        padding-left: 30px;
     }
     .Policy ul.environment li dt {
         width: 100%;

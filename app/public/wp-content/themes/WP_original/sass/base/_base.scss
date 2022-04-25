@@ -16,11 +16,7 @@ a {
 .col_3 {
     width: 100%;
     display: flex;
-    display: -ms-flexbox;
-    /* IE10 */
     flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    /* IE10 */
 }
 
 .col_3>div {
@@ -57,13 +53,11 @@ a {
     color: #ffffff;
     background: #a9a9b1;
     z-index: 3;
-
     &.v-enter,
     &.v-leave-to {
         opacity: 0;
         bottom: 10px;
     }
-
     i {
         margin-top: 15px;
         font-size: 28px;
@@ -76,19 +70,14 @@ a {
 .fadein {
     overflow: hidden;
 }
-
 .fadein .column {
     transition: 0.8s;
 }
-
 .fadein-mv09 {
     opacity: 0;
     transform: translate(0, 60px);
-    -webkit-transform: translate(0, 60px);
 }
-
 .mv09 {
     opacity: 1;
     transform: translate(0, 0);
-    -webkit-transform: translate(0, 0);
 }

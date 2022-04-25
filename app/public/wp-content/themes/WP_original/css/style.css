@@ -539,13 +539,11 @@ a {
   width: 100%;
   display: -webkit-box;
   display: -webkit-flex;
-  display: flex;
   display: -ms-flexbox;
-  /* IE10 */
+  display: flex;
   -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
           flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  /* IE10 */
 }
 
 .col_3 > div {
@@ -601,14 +599,14 @@ a {
 
 .fadein-mv09 {
   opacity: 0;
-  transform: translate(0, 60px);
   -webkit-transform: translate(0, 60px);
+          transform: translate(0, 60px);
 }
 
 .mv09 {
   opacity: 1;
-  transform: translate(0, 0);
   -webkit-transform: translate(0, 0);
+          transform: translate(0, 0);
 }
 
 /*--------------------------------------------------------------
@@ -1233,12 +1231,12 @@ footer .cp_right {
   list-style: none;
 }
 .Policy ul.environment li dl {
-  display: -ms-flexbox;
   display: -webkit-box;
   display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
           flex-wrap: wrap;
 }
 .Policy ul.environment li dt {
@@ -1345,7 +1343,7 @@ footer .cp_right {
 
 .wpcf7 input[type=submit]:active {
   -webkit-transform: translateY(3px);
-  transform: translateY(3px);
+          transform: translateY(3px);
   -webkit-box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
   border-bottom: none;
@@ -1496,14 +1494,14 @@ span.wpcf7-not-valid-tip,
   text-decoration: none;
   border-right: none;
   letter-spacing: 2px;
-  transition-duration: 0.2s;
   -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
 }
 .work-list .menuFrame li a:hover {
   border-color: #cfcfcf;
   color: #000;
-  transition-duration: 0.2s;
   -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
 }
 .work-list .menuFrame li a.current {
   border: solid 1px #fff;
@@ -1542,7 +1540,7 @@ span.wpcf7-not-valid-tip,
 .isotope,
 .isotope .isotope-item {
   -webkit-transition-duration: 0.8s;
-  transition-duration: 0.8s;
+          transition-duration: 0.8s;
 }
 
 .isotope {
@@ -1552,7 +1550,6 @@ span.wpcf7-not-valid-tip,
 
 .isotope .isotope-item {
   padding: 0;
-  -webkit-transition-property: -webkit-transform, opacity;
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
   transition-property: transform, opacity;
@@ -1628,14 +1625,14 @@ span.wpcf7-not-valid-tip,
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
   -webkit-transform: scale(0, 1);
-  transform: scale(0, 1);
+          transform: scale(0, 1);
 }
 
 .work-list figure.effect-bubba figcaption::after {
   border-right: 1px solid #fff;
   border-left: 1px solid #fff;
   -webkit-transform: scale(1, 0);
-  transform: scale(1, 0);
+          transform: scale(1, 0);
 }
 
 .work-list figure.effect-bubba h2 {
@@ -1651,7 +1648,7 @@ span.wpcf7-not-valid-tip,
   transition: transform 0.35s;
   transition: transform 0.35s, -webkit-transform 0.35s;
   -webkit-transform: translate3d(0, -20px, 0);
-  transform: translate3d(0, -20px, 0);
+          transform: translate3d(0, -20px, 0);
 }
 
 .work-list figure.effect-bubba p {
@@ -1665,21 +1662,21 @@ span.wpcf7-not-valid-tip,
   transition: opacity 0.35s, transform 0.35s;
   transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s;
   -webkit-transform: translate3d(0, 20px, 0);
-  transform: translate3d(0, 20px, 0);
+          transform: translate3d(0, 20px, 0);
 }
 
 .work-list figure.effect-bubba:hover figcaption::before,
 .work-list figure.effect-bubba:hover figcaption::after {
   opacity: 1;
   -webkit-transform: scale(1);
-  transform: scale(1);
+          transform: scale(1);
 }
 
 .work-list figure.effect-bubba:hover h2,
 .work-list figure.effect-bubba:hover p {
   opacity: 1;
   -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
 }
 
 .work-list span.small {
@@ -1879,9 +1876,9 @@ span.wpcf7-not-valid-tip,
     max-width: 720px;
   }
   .work-list ul.menuContainer .worksFrame {
-    -ms-flex: 0 0 33.333333%;
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 33.333333%;
+        -ms-flex: 0 0 33.333333%;
             flex: 0 0 33.333333%;
     max-width: 33.333333%;
   }
@@ -1891,9 +1888,9 @@ span.wpcf7-not-valid-tip,
     max-width: 970px;
   }
   .work-list ul.menuContainer .worksFrame {
-    -ms-flex: 0 0 33.333333%;
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 33.333333%;
+        -ms-flex: 0 0 33.333333%;
             flex: 0 0 33.333333%;
     max-width: 33.333333%;
   }
@@ -2297,8 +2294,7 @@ span.wpcf7-not-valid-tip,
     font-size: 18px;
   }
   .aboutUs li {
-    padding-left: 0.6em;
-    padding-right: 0.6em;
+    padding: 0;
   }
   .work-list figure.effect-bubba figcaption::before,
 .work-list figure.effect-bubba figcaption::after {
@@ -2348,11 +2344,6 @@ span.wpcf7-not-valid-tip,
   .Policy ul.environment li {
     padding-left: 0;
     padding-right: 0;
-  }
-
-  .Policy ul.browser,
-.smartphone ul.browser {
-    padding-left: 30px;
   }
 
   .Policy ul.environment li dt {
