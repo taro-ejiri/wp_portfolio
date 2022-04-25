@@ -234,10 +234,10 @@ add_action( 'wp_enqueue_scripts', 'my_contact_enqueue_scripts');
 //ここから
 add_action( 'wp_footer', 'mycustom_wp_footer' );
 
-//WordPressでpタグやdivタグなどが自動生成されるタグを制御するコマンド
-remove_filter('the_content', 'wpautop');
-remove_filter('the_excerpt', 'wpautop');
-
+// WordPressでpタグやdivタグなどが自動挿入されるタグを制御するコマンド
+// このサイトでは固定ページなどでpタグをそのまま使用したいので、コメントアウト
+// remove_filter('the_content', 'wpautop');
+// remove_filter('the_excerpt', 'wpautop');
 
 // スクリプトを読み込むときに自動で挿入される［type属性］を削除して、かつtype属性とasync属性を置換。またjquery.min.jsは除外する
 //　参考ページ　https://naoyu.net/async-js/
@@ -251,7 +251,6 @@ function replace_script_tag ( $tag ) {
 add_filter( 'script_loader_tag', 'replace_script_tag' );
 }
 
-
 // type="text/css" 等の文字列を出力させないようにする。
 //　参考ページ　https://on-ze.com/archives/2513
 function remove_style_type($tag) {
@@ -260,11 +259,10 @@ function remove_style_type($tag) {
 }
 add_filter('style_loader_tag','remove_style_type');
 
-
 function mycustom_wp_footer() {
 ?>
 <script>
-  if(jQuery('.wpcf7').length){　//formのclassが存在するか判定
+  if(jQuery('.wpcf7').length){ //formのclassが存在するか判定
     var wpcf7Elm = document.querySelector( '.wpcf7' );
     wpcf7Elm.addEventListener( 'wpcf7mailsent', function( event ) {
      location.replace('http://portfolio.sept11.site/thanks/');
@@ -274,6 +272,4 @@ function mycustom_wp_footer() {
 <?php
 }
 //ここまで
-
-
 ;?>
