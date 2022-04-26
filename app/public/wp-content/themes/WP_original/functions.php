@@ -96,13 +96,13 @@ add_filter('the_content', 'replace_text_wps');
 
 // ファビコンを表示する
 function blog_favicon() {
-  echo '<link rel="shortcut icon" type="image/x-icon" href="'.get_bloginfo('template_url').'/images/favicon.ico" />'."\n";
+  echo '<link rel="shortcut icon" type="image/x-icon" href="'.get_bloginfo('template_url').'/img/favicon.ico" />'."\n";
 }
 add_action('wp_head', 'blog_favicon');
 
 //管理画面にもファビコン
 function admin_favicon() {
-  echo '<link rel="shortcut icon" type="image/x-icon" href="'.get_bloginfo('template_url').'/images/admin-favicon.icon" />';
+  echo '<link rel="shortcut icon" type="image/x-icon" href="'.get_bloginfo('template_url').'/img/admin-favicon.icon" />';
 }
 add_action('admin_head', 'admin_favicon');
 
@@ -271,5 +271,16 @@ function mycustom_wp_footer() {
 </script>
 <?php
 }
+
+//Migrate読込停止（ブラウザコンソールでjQueryと一緒にMigrateも読み込まれるがその表示を停止する）
+function remove_migrate($scripts){
+  if(!is_admin()){    
+      $scripts->remove('jquery');
+      $scripts->add('jquery',false,array('jquery-core'));
+  }
+}
+add_filter('wp_default_scripts','remove_migrate');
+
+
 //ここまで
 ;?>

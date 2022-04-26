@@ -29,7 +29,7 @@ if(is_front_page()): ?>
 <meta name="twitter:site" content="http://portfolio.sept11.work/"><!-- サイトのURL貼る -->
 <meta name="twitter:image" content=""><!-- ogpのURL貼る -->
 <!-- favicon -->
-<link rel="icon" type="image/x-icon" href="デフォルト">
+<link rel="icon" type="image/x-icon" href="<?php bloginfo('template_url'); ?>/img/favicon.ico">
 
 <!-- CSS -->
 <!-- font-awesome -->
@@ -37,16 +37,30 @@ if(is_front_page()): ?>
 <!-- style.css-->
 <link href="<?php bloginfo('template_url'); ?>/css/style.css" rel="stylesheet" type="text/css">
 <!-- <link href="<?php bloginfo('template_url'); ?>/css/style.min.css" rel="stylesheet" type="text/css"> -->
+
+
+
+<!-- test start -->
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/js/slick/slick.css" >
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/js/slick/slick-theme.css">
+<!-- test end -->
+
+
 <?php // front_page css
 if(is_front_page()): ?>
-<link href="<?php bloginfo('template_url'); ?>/css/flexslider.css" rel="stylesheet">
+
+<!-- <link href="<?php bloginfo('template_url'); ?>/css/flexslider.css" rel="stylesheet"> -->
+
 <!-- カルーセルスライダーslick　css-->
-<link href="<?php bloginfo('template_url'); ?>/js/slick/slick.css" rel="stylesheet" type="text/css" media="screen">
-<link href="<?php bloginfo('template_url'); ?>/js/slick/slick-theme.css" rel="stylesheet" type="text/css" media="screen">
+
+<!-- <link href="<?php bloginfo('template_url'); ?>/js/slick/slick.css" rel="stylesheet" type="text/css" media="screen">
+<link href="<?php bloginfo('template_url'); ?>/js/slick/slick-theme.css" rel="stylesheet" type="text/css" media="screen"> -->
+
 <?php endif; ?>
 
 <!-- Bootstrap CSS -->
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
 <!--[if lt IE 9]>
 <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/html5shiv.min.js"></script>
 <![endif]-->

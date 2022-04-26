@@ -68,7 +68,7 @@
 			<p>これまでコーポレートサイト、キャンペーンページの制作に携わってまいりました。今ではレスポンシブ対応が必須であり、最近携わったサイトは全てレスポンシブ対応しております。<br>SNSとの連動、GAでのサイト閲覧者の把握、それに伴ったSEO対策、改修など、サイト制作するにあたりこれらを義務付けし、顧客獲得に取り組みたいと考えております。</p>
 		</div>
 		<div class="slider_frame">
-			<ul class="slider center-item">
+			<ul class="slick01 slider center-item">
 				<li><a href="/works/selfu/"><img src="<?php bloginfo('template_url'); ?>/img/works/selfu.jpg" alt="株式会社Showcase Gig"></a></li>
 				<li><a href="/works/onepi/"><img src="<?php bloginfo('template_url'); ?>/img/works/onepi.jpg" alt="株式会社DeNA Games Tokyo"></a></li>
 				<li><a href="/works/pawa_app_fes/"><img src="<?php bloginfo('template_url'); ?>/img/works/pawapro.jpg" alt="株式会社コナミデジタルエンタテインメント"></a></li>
@@ -78,12 +78,60 @@
 				<li><a href="/works/selen/"><img src="<?php bloginfo('template_url'); ?>/img/works/selen.jpg" alt="株式会社SELEN"></a></li>
 				<li><a href="/works/mac_upgrade/"><img src="<?php bloginfo('template_url'); ?>/img/works/mac_upgrade.jpg" alt="Macアップグレードプログラム"></a></li>
 				<li><a href="/works/chubo/"><img src="<?php bloginfo('template_url'); ?>/img/works/chubo.jpg" alt="業務用厨房用品"></a></li>
-				<!--li><a href="/works/auplus/"><img src="<?php bloginfo('template_url'); ?>/img/works/au_faq.jpg" alt="Auプラス"></a></li>
+
+				<li><a href="/works/auplus/"><img src="<?php bloginfo('template_url'); ?>/img/works/au_faq.jpg" alt="Auプラス"></a></li>
 					<li><a href="/works/nttcom/"><img src="<?php bloginfo('template_url'); ?>/img/works/ntt.jpg" alt="NTTコミュニケーションズ"></a></li>
 					<li><a href="/works/members-mobile/"><img src="<?php bloginfo('template_url'); ?>/img/works/members-mobile.jpg" alt="メンバーズモバイル"></a></li>
-					<li><a href="/works/uchida/"><img src="<?php bloginfo('template_url'); ?>/img/works/uchida.jpg" alt="NTTコミュニケーションズ"></a></li-->
+					<li><a href="/works/uchida/"><img src="<?php bloginfo('template_url'); ?>/img/works/uchida.jpg" alt="NTTコミュニケーションズ"></a></li>
 			</ul>
 		</div>
+
+		<section class="slick01 slider">
+			<div>
+				<img src="<?php bloginfo('template_url'); ?>/img/img1.png">
+			</div>
+			<div>
+				<img src="<?php bloginfo('template_url'); ?>/img/img2.png">
+			</div>
+			<div>
+				<img src="<?php bloginfo('template_url'); ?>/img/img3.png">
+			</div>
+		</section>
+		
+		<style type="text/css">
+    /* html, body {
+      margin: 0;
+      padding: 0;
+    }
+    * {
+      box-sizing: border-box;
+    } */
+    .slider {
+        width: 50%;
+        margin: 100px auto;
+    }
+    .slick-slide {
+      margin: 0px 20px;
+    }
+    .slick-slide img {
+      width: 100%;
+    }
+    .slick-prev:before,
+    .slick-next:before {
+      color: black;
+    }
+    .slick-slide {
+      transition: all ease-in-out .3s;
+      opacity: .2;
+    }
+    .slick-active {
+      opacity: .5;
+    }
+    .slick-current {
+      opacity: 1;
+    }
+  </style>
+
 	</div>
 	<div class="moreDetail">
 		<a href="/works/" class="more_btn">更に詳しく&nbsp;<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
