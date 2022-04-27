@@ -1,26 +1,20 @@
 <?php get_header(); ?>
 <!-- [front-page.p] -->
 <section class="jumbotron">
-	<div class="flexslider">
-		<ul class="slides">
-			<li>
-				<div class="slides_canvas">
-					<blockquote class="coding">
-						<h2>CODING</h2>
-						<p>デザインの意図を理解し、動きや効果を適切に使用することでWebサイトの仕上がりは大きく変わります。ヒアリングに基づいたプランに沿って、デザインを作成いたします。Javascriptを使用した動きのあるサイトなど、様々なサイトのコーディングを行っております。インターフェースの重要性が増す中でデザインの役割を理解し、そのプランに最適な提案をさせていただきます。</p>
-					</blockquote>
-				</div>
-			</li>
-			<li>
-				<div class="slides_canvas">
-					<blockquote class="design">
-						<h2>Responsive Design</h2>
-						<p>Googleが推奨するレスポンシブデザインを構築する事で、更新する際の効率とモバイルフレンドリーである事で検索結果に支障がなく、SEO効果の高いより質の高いサイトを目指し、またPC/スマートフォンなど閲覧するデバイスによって違いがある事を常に意識して、使う人が迷わない、目的を達成できるデザインを心がけています。</p>
-					</blockquote>
-				</div>
-			</li>
-		</ul>
-	</div>
+	<Ul class="text-slides">
+		<li>
+			<blockquote>
+				<h2>CODING</h2>
+				<p>デザインの意図を理解し、動きや効果を適切に使用することでWebサイトの仕上がりは大きく変わります。ヒアリングに基づいたプランに沿って、デザインを作成いたします。Javascriptを使用した動きのあるサイトなど、様々なサイトのコーディングを行っております。インターフェースの重要性が増す中でデザインの役割を理解し、そのプランに最適な提案をさせていただきます。</p>
+			</blockquote>
+		</li>
+		<li>
+			<blockquote>
+				<h2>Responsive Design</h2>
+				<p>Googleが推奨するレスポンシブデザインを構築する事で、更新する際の効率とモバイルフレンドリーである事で検索結果に支障がなく、SEO効果の高いより質の高いサイトを目指し、またPC/スマートフォンなど閲覧するデバイスによって違いがある事を常に意識して、使う人が迷わない、目的を達成できるデザインを心がけています。</p>
+			</blockquote>
+		</li>
+	</Ul>	
 </section>
 
 <section class="principle">

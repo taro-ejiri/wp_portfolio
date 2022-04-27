@@ -57,12 +57,9 @@ if(is_front_page()): ?>
 <?php // front_page css
 if(is_front_page()): ?>
 
-<!-- <link href="<?php bloginfo('template_url'); ?>/css/flexslider.css" rel="stylesheet"> -->
+<!-- もう不要<link href="<?php bloginfo('template_url'); ?>/css/flexslider.css" rel="stylesheet"> -->
 
-<!-- カルーセルスライダーslick　css-->
 
-<!-- <link href="<?php bloginfo('template_url'); ?>/js/slick/slick.css" rel="stylesheet" type="text/css" media="screen">
-<link href="<?php bloginfo('template_url'); ?>/js/slick/slick-theme.css" rel="stylesheet" type="text/css" media="screen"> -->
 
 <?php endif; ?>
 

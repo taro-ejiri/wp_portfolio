@@ -30,6 +30,14 @@
 	<script src="<?php bloginfo('template_url'); ?>/js/slick/jquery-2.2.0.min.js" type="text/javascript" charset="utf-8"></script>
 	<script src="<?php bloginfo('template_url'); ?>/js/slick/slick.min.js" type="text/javascript" charset="utf-8"></script>
 	<script type="text/javascript">
+		// text-slider
+		$('.text-slides').slick({
+			arrows: false,
+			autoplay: true,
+			autoplaySpeed:4500,
+			fade: true,
+		});
+		// works-slider
 		$('.slick01').slick({
 			arrows: true,
 			autoplay:true,
@@ -38,6 +46,10 @@
 		});
 	</script>
 	<!-- slick -->
+	
+<!-- front-page jumbotron 内の文言を自動送り もう不要-->
+<!-- <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/front/jquery.fancybox.pack.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/front/jquery.flexslider-min.js"></script> -->
 
 
 
@@ -56,12 +68,11 @@
 <!-- <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/content/main.js"></script> -->
 
-<!-- front-page jumbotron 内の文言を自動送り-->
-<!-- <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/front/jquery.fancybox.pack.js"></script>
-<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/front/jquery.flexslider-min.js"></script> -->
 
-<!-- カルーセルスライダー slick　js -->
-<!-- <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/slick/slick.min.js"></script> -->
+
+
+
+
 
 
 

@@ -854,23 +854,23 @@ footer .cp_right {
   background-size: cover;
   background-position: center 20%;
   color: #fff;
-  padding: 50px 50px;
+  padding: 50px;
 }
-.jumbotron .slides_canvas {
+.jumbotron .text-slides {
   max-width: 66.6%;
   margin: 0 auto;
 }
-.jumbotron blockquote {
+.jumbotron .text-slides blockquote {
   border-style: none;
-  padding: 50px 50px;
+  padding: 50px;
 }
-.jumbotron blockquote h2 {
+.jumbotron .text-slides blockquote h2 {
   font-size: 40px;
   line-height: 200%;
   text-align: center;
   color: #fff;
 }
-.jumbotron blockquote p {
+.jumbotron .text-slides blockquote p {
   line-height: 200%;
   color: #fff;
 }
@@ -2035,8 +2035,11 @@ span.wpcf7-not-valid-tip,
     font-size: 25px;
     padding: 30px;
   }
-  .jumbotron .slides_canvas {
+  .jumbotron .text-slides {
     max-width: 95%;
+  }
+  .jumbotron .text-slides blockquote {
+    padding: 0;
   }
 }
 @media screen and (max-width: 414px) {
@@ -2076,11 +2079,8 @@ span.wpcf7-not-valid-tip,
   }
 }
 @media only screen and (max-width: 768px) {
-  .jumbotron .slides_canvas {
-    max-width: 95%;
-  }
   .jumbotron blockquote {
-    padding: 25px;
+    padding: 0;
   }
   .principle .items_three {
     position: relative;

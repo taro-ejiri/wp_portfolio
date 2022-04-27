@@ -10,23 +10,23 @@
     background-size: cover;
     background-position: center 20%;
     color: #fff;
-    padding: 50px 50px;
-    .slides_canvas {
+    padding: 50px;
+    .text-slides {
         max-width: 66.6%;
         margin: 0 auto;
-    }
-    blockquote {
-        border-style: none;
-        padding: 50px 50px;
-        h2 {
-            font-size: 40px;
-            line-height: 200%;
-            text-align: center;
-            color: #fff;
-        }
-        p {
-            line-height: 200%;
-            color: #fff;
+        blockquote {
+            border-style: none;
+            padding: 50px;
+            h2 {
+                font-size: 40px;
+                line-height: 200%;
+                text-align: center;
+                color: #fff;
+            }
+            p {
+                line-height: 200%;
+                color: #fff;
+            }
         }
     }
 }
@@ -34,8 +34,11 @@
 /* iPadPro */
 @media screen and (max-width: 1112px) {
     .jumbotron {
-        .slides_canvas {
+        .text-slides {
             max-width: 95%;
+            blockquote {
+                padding: 0;
+            }
         }
     }
 }
@@ -53,11 +56,8 @@
 /* iPad */
 @media only screen and (max-width: 768px) {
     .jumbotron {
-        .slides_canvas {
-            max-width: 95%;
-        }
         blockquote {
-            padding: 25px;
+            padding: 0;
         }
     }
 }
