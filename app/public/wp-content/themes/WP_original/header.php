@@ -28,12 +28,16 @@ if(is_front_page()): ?>
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="http://portfolio.sept11.work/"><!-- サイトのURL貼る -->
 <meta name="twitter:image" content=""><!-- ogpのURL貼る -->
+
+
 <!-- favicon -->
 <link rel="icon" type="image/x-icon" href="<?php bloginfo('template_url'); ?>/img/favicon.ico">
 
-<!-- CSS -->
+
 <!-- font-awesome -->
-<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+<link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+
 <!-- style.css-->
 <link href="<?php bloginfo('template_url'); ?>/css/style.css" rel="stylesheet" type="text/css">
 <!-- <link href="<?php bloginfo('template_url'); ?>/css/style.min.css" rel="stylesheet" type="text/css"> -->

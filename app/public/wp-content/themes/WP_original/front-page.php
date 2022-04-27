@@ -14,7 +14,8 @@
 				<p>Googleが推奨するレスポンシブデザインを構築する事で、更新する際の効率とモバイルフレンドリーである事で検索結果に支障がなく、SEO効果の高いより質の高いサイトを目指し、またPC/スマートフォンなど閲覧するデバイスによって違いがある事を常に意識して、使う人が迷わない、目的を達成できるデザインを心がけています。</p>
 			</blockquote>
 		</li>
-	</Ul>	
+	</Ul>
+	
 </section>
 
 <section class="principle">
@@ -43,7 +44,7 @@
 			</div>
 			<div class="items_three">
 				<div class="point-frame">
-					<div class="point-circle wp_mark"><i class="fa fa-wordpress"></i></div>
+					<div class="point-circle wp_mark"><i class="fa-brands fa-wordpress"></i></div>
 					<h3 class="point-title">WordPress<br><span class="small">CMS</span></h3>
 				</div>
 				<p class="point-description">現在、世界中のウェブサイトのうち26.5%はWordPressで作成され、また内部SEOを最適化する最も有効なCMSとも言われています。管理画面上からコンテンツの更新が簡単に出来ますので、作業時間は大幅に減り、プラグインが多数あるのでより自由度の高いサイトを構築出来ます。尚、このサイトはテンプレートを使用せず、オリジナルで作成してます。</p>

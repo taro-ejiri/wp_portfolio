@@ -963,7 +963,7 @@ footer .cp_right {
 }
 .principle .items_three .point-circle i {
   position: relative;
-  top: 25%;
+  top: 30%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
 }
