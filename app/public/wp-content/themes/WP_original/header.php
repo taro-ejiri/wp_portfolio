@@ -41,8 +41,16 @@ if(is_front_page()): ?>
 
 
 <!-- test start -->
+
+<!-- slick -->
+<?php if(is_front_page()): ?>
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/js/slick/slick.css" >
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/js/slick/slick-theme.css">
+<?php endif; ?>
+<!-- slick -->
+
+
+
 <!-- test end -->
 
 
