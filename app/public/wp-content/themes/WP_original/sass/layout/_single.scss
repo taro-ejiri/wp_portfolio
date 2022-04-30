@@ -9,6 +9,9 @@
 .worksTitle {
     text-align: center !important;
     padding: 120px 0px 0px;
+    @media only screen and (min-width: 699px) {
+        padding: 200px 80px 20px;
+    }
     h2 {
         font-size: 24px;
         font-weight: 200;
@@ -45,16 +48,17 @@
         padding: 0 10px;
     }
 }
-@media only screen and (min-width: 699px) {
-    .worksTitle {
-        padding: 200px 80px 20px;
-    }
-}
 
 /* Works-content 
 ------------------------------*/
 .Works-content {
     margin: 10px 0;
+    @media only screen and (min-width: 699px) {
+        margin: 0 0 10px;
+        max-width: 699px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
     .carousel {
         width: 100%;
         margin: auto;
@@ -66,6 +70,9 @@
         font-size: 18px;
         color: #6c7279;
         margin-bottom: 30px;
+        @media only screen and (min-width: 699px) {
+            font-size: 25px;
+        }
     }
     .carousel-indicators {
         li {
@@ -95,22 +102,15 @@
         opacity: 0.2;
     }
 }
-@media only screen and (min-width: 699px) {
-    .Works-content {
-        margin: 0 0 10px;
-        max-width: 699px;
-        margin: 0 auto;
-        margin-bottom: 10px;
-        .carousel-caption {
-            font-size: 25px;
-        }
-    }
-}
 
 /* Works-comment
 ------------------------------*/
 .Works-comment {
     max-width: 100%;
+    @media only screen and (min-width: 699px) {
+        max-width: 580px;
+        margin: 20px auto 0;
+    }
     p {
         font-size: 14px;
         line-height: 22.4px;
@@ -126,6 +126,9 @@
     .comment {
         margin-bottom: 20px;
         padding: 0 15px;
+        @media only screen and (min-width: 699px) {
+            margin-bottom: 40px;
+        }
     }
     .dl-center {
         border: 0;
@@ -149,16 +152,6 @@
                     opacity: 0.6;
                 }
             }
-        }
-    }
-}
-
-@media only screen and (min-width: 699px) {
-    .Works-comment {
-        max-width: 580px;
-        margin: 20px auto 0;
-        .comment {
-            margin-bottom: 40px;
         }
     }
 }

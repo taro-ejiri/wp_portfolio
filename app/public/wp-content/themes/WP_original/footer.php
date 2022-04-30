@@ -128,13 +128,13 @@
 </script> -->
 
 <!-- シェアボタン js -->
-<!-- <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/content/jquery.easy-rollover.min.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/content/jquery.easy-rollover.min.js"></script>
 <script type="text/javascript">
 	$(function () {
 		//シェアボタン　マウスオーバー挙動
 		$('img').easyRollover();
 	});
-</script> -->
+</script>
 
 <!-- <script type="text/javascript">
 	// ページ移動の際の表示設定

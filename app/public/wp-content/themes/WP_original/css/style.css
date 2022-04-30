@@ -838,11 +838,6 @@ footer .cp_right {
   padding: 15px;
 }
 
-/* iPadPro */
-/* iPad */
-/* iPhone Plus*/
-/* iPhone X/6/7/8*/
-/* iPhone5/SE */
 /*------------------------------
 3.6 front-page
 ------------------------------*/
@@ -1229,6 +1224,7 @@ footer .cp_right {
 .contact label {
   font-size: 14px;
 }
+
 /* メールフォーム注意書き */
 .border-wrap-small {
   color: #000;
@@ -1247,6 +1243,7 @@ footer .cp_right {
   margin: 0 0 0 0.2em;
   color: #f00;
 }
+
 .wpcf7 input[type=text],
 .wpcf7 input[type=email],
 .wpcf7 input[type=tel],
@@ -1320,6 +1317,7 @@ span.wpcf7-not-valid-tip,
   margin-bottom: 30px;
   text-align: center;
 }
+
 /*------------------------------
 3.9 thanks
 ------------------------------*/
@@ -1358,6 +1356,7 @@ span.wpcf7-not-valid-tip,
   font-weight: normal;
   padding-right: 10px;
 }
+
 /*------------------------------
 3.10 archive アーカイブ
 ------------------------------*/
@@ -1647,6 +1646,7 @@ span.wpcf7-not-valid-tip,
   word-break: break-all;
   padding: 0 10px;
 }
+
 /* Works-content 
 ------------------------------*/
 .Works-content {
@@ -1689,6 +1689,7 @@ span.wpcf7-not-valid-tip,
 .intra img {
   opacity: 0.2;
 }
+
 /* Works-comment
 ------------------------------*/
 .Works-comment {
@@ -1734,6 +1735,7 @@ span.wpcf7-not-valid-tip,
 .Works-comment .dl-center dd a:hover {
   opacity: 0.6;
 }
+
 /*--------------------------------------------------------------
 9.0 Widgets ウィジェット
 --------------------------------------------------------------*/
@@ -2000,7 +2002,6 @@ span.wpcf7-not-valid-tip,
 }
 @media screen and (max-width: 375px) {
   .area404 {
-    padding-top: 100px;
     min-height: 450px;
   }
 }

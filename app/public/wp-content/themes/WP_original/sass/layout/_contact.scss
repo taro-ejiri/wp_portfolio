@@ -17,6 +17,12 @@
     .frame {
         width: 65%;
         margin: 0 auto;
+        @media only screen and (max-width: 768px) {
+            width: 90%;
+        }
+        @media only screen and (max-width: 480px) {
+            width: 100%;
+        }
     }
     p {
         font-size: 14px;
@@ -41,23 +47,15 @@
     }
 }
 
-@media only screen and (max-width: 768px) {
-    .contact .frame {
-        width: 90%;
-    }
-}
-@media only screen and (max-width: 480px) {
-    .contact .frame {
-        width: 100%;
-    }
-}
-
 /* メールフォーム注意書き */
 .border-wrap-small {
     color: #000;
     border: 1px #766f6c dashed;
     padding: 1.5em 2.5em 0;
     margin: 2em 0;
+    @media only screen and (max-width: 768px) {
+        padding: 15px 10px 15px 25px;
+    }
     li {
         list-style-type: disc;
         font-size: 15px;
@@ -68,12 +66,6 @@
 .asterisk {
     margin: 0 0 0 0.2em;
     color: #f00;
-}
-
-@media only screen and (max-width: 768px) {
-    .border-wrap-small {
-        padding: 15px 10px 15px 25px;
-    }
 }
 .wpcf7 input[type="text"],
 .wpcf7 input[type="email"],
@@ -90,7 +82,6 @@
     border-radius: 4px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1) inset;
 }
-
 
 /* 「送信」ボタン */
 .wpcf7 input[type="submit"] {
@@ -143,9 +134,7 @@ span.wpcf7-not-valid-tip,
     margin-top: 15px;
     margin-bottom: 30px;
     text-align: center;
-}
-@media only screen and (max-width: 768px) {
-    .wpcf7-response-output.wpcf7-validation-errors {
+    @media only screen and (max-width: 768px) {
         width: 100%;
         font-size: 14px;
         padding: 15px 0;
@@ -160,6 +149,16 @@ span.wpcf7-not-valid-tip,
     width: 65%;
     margin: 0 auto;
     min-height: 600px;
+    @media only screen and (max-width: 768px) {
+        width: 90%;
+        margin: 0 auto;
+        min-height: 630px;
+    }
+    @media only screen and (max-width: 414px) {
+        width: 100%;
+        margin: 0 auto;
+        min-height: auto;
+    }
     h2 {
         font-size: 25px;
         line-height: 150%;
@@ -189,21 +188,5 @@ span.wpcf7-not-valid-tip,
                 padding-right: 10px;
             }
         }
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    .thanks {
-        width: 90%;
-        margin: 0 auto;
-        min-height: 630px;
-    }
-}
-
-@media only screen and (max-width: 414px) {
-    .thanks {
-        width: 100%;
-        margin: 0 auto;
-        min-height: auto;
     }
 }

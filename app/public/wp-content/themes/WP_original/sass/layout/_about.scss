@@ -25,9 +25,7 @@
         line-height: 1.2;
         font-size: 30px;
         margin-bottom: 15px;
-    }
-    @media only screen and (max-width: 699px) {
-        h3 {
+        @media only screen and (max-width: 699px) {
             font-size: 24px;
             letter-spacing: -1px;
         }
@@ -41,14 +39,15 @@
     .about_frame {
         width: 90%;
         margin: 0 auto;
-    }
-    @media only screen and (max-width: 480px) {
-        .about_frame {
+        @media only screen and (max-width: 480px) {
             width: 100%;
         }
     }
     .dl-horizontal {
         border-bottom: 1px rgba(200, 200, 200, 0.5) dashed;
+        @media only screen and (max-width: 480px) {
+            border-bottom: 0px rgba(200, 200, 200, 0.5) dashed;
+        }
         dt {
             padding: 1.1em 1em 1em 1em;
             line-height: 1.6;
@@ -56,6 +55,13 @@
             font-weight: 500;
             margin-right: 0px;
             border-top: 1px rgba(200, 200, 200, 0.5) dashed;
+            @media only screen and (max-width: 480px) {
+                padding: 1.5em 0 0.3em;
+                border-top: 0;
+                border-bottom: 1px #ddd solid;
+                border-top: 0px rgba(200, 200, 200, 0.5) dashed;
+                margin-left: 0px;
+            }
         }
         dd {
             padding: 1.1em 1em 1em 10em;
@@ -63,23 +69,15 @@
             line-height: 1.6;
             border-top: 1px rgba(200, 200, 200, 0.5) dashed;
             margin-left: 110px;
-        }
-    }
-    @media only screen and (max-width: 480px) {
-        .dl-horizontal {
-            border-bottom: 0px rgba(200, 200, 200, 0.5) dashed;
-            dt {
-                padding: 1.5em 0 0.3em;
-                border-top: 0;
-                border-bottom: 1px #ddd solid;
-                border-top: 0px rgba(200, 200, 200, 0.5) dashed;
-                margin-left: 0px;
-            }
-            dd {
+            @media only screen and (max-width: 480px) {
                 padding: 0.3em 0em 0em 0em;
                 border-top: 0px rgba(200, 200, 200, 0.5) dashed;
                 margin-left: 0px;
             }
+        }
+    }
+    @media only screen and (max-width: 480px) {
+        .dl-horizontal {
             ul {
                 padding-left: 10px;
             }
