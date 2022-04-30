@@ -86,7 +86,7 @@
 		<dl class="dl-center">
 			<!-- 使用ツール -->
 			<dt>TOOL:</dt>
-			<dd><?php the_field('tool_used'); ?></dd>
+			<dd><?php the_field('tool'); ?></dd>
 			<!-- 作業範囲 -->
 			<dt>SCOPE:</dt>
 			<dd><?php the_field('scope'); ?></dd>
