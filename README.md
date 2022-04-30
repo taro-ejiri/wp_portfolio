@@ -1,6 +1,6 @@
 # wp_portfolio
 
-WordPress版 ET ウェブデザイン（ポートフォリオ）ポートフォリオ
+WordPress版 ET ウェブデザイン（ポートフォリオ）
 
 ## Authors
 
