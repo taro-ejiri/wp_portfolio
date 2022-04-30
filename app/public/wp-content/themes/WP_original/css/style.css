@@ -1289,7 +1289,8 @@ footer .cp_right {
 
 /* エラーメッセージ */
 #wpcf7-f121-p9-o1-ve-your-name,
-#wpcf7-f121-p9-o1-ve-your-email {
+#wpcf7-f121-p9-o1-ve-your-email,
+#wpcf7-f121-p9-o1-ve-your-tel {
   display: none;
 }
 

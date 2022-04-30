@@ -107,7 +107,8 @@
 /* エラーメッセージ */
 
 #wpcf7-f121-p9-o1-ve-your-name,
-#wpcf7-f121-p9-o1-ve-your-email {
+#wpcf7-f121-p9-o1-ve-your-email,
+#wpcf7-f121-p9-o1-ve-your-tel {
     display: none;
 }
 
@@ -118,7 +119,7 @@ span.wpcf7-not-valid-tip,
     font-weight: 600;
 }
 
-.wpcf7-response-output{
+.wpcf7-response-output {
     text-align: center;
     margin-top: 20px;
 }
