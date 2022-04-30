@@ -2,7 +2,7 @@
 <!-- [archive-works .p]  -->
 <div id="mainArea">
   	<section class="work-list">
-		<h2 class="top">WORKS</h2>
+		<h2>WORKS</h2>
 		<h3>実績</h3>
 		<div class="menuFrame">
 			<ul>
@@ -14,7 +14,7 @@
 				<li><a href="#" data-filter=".responsive">RESPONSIVE</a></li>
 				<li class="last"><a href="#" data-filter=".other">OTHER</a></li>
 			</ul>
-		</div>	
+		</div>
 		<ul class="menuContainer container">
 			<?php if (have_posts()) : ?>
 				<?php
@@ -37,33 +37,32 @@
 					<?php endforeach; ?>
 					<?php endif; ?> worksFrame">
 					<a href="<?php the_permalink(); ?>">
-						<div class="ot-portfolio-item">
-							<figure class="effect-bubba">
-								<?php //写真設定
-								$image = get_field('archiveIMG');
-								$alt = $image['alt'];
-								$url = $image['sizes']['large'];
+						<figure>
+							<?php //写真設定
+							$image = get_field('archiveIMG');
+							$alt = $image['alt'];
+							$url = $image['sizes']['large'];
+							?>
+							<img src="<?php echo $url ?>" alt="<?php echo $alt ?>">
+							<figcaption>
+								<div class="title"><?php echo get_the_title(); ?><br><span class="small"><?php the_field('client'); ?></span></div>
+								<!-- <h2><?php echo get_the_title(); ?><br><span class="small"><?php the_field('client'); ?></span></h2> -->
+								<?php 
+									$checked = get_field('newMark');
+									if($checked){ //管理画面で「NEW」のチェックボックスを入れていたら
+									echo '<span class="new">NEW</span>'; //アイコンを表示
+									}
 								?>
-								<img src="<?php echo $url ?>" alt="<?php echo $alt ?>">
-								<figcaption>
-									<h2><?php echo get_the_title(); ?><br><span class="small">BY <?php the_field('client'); ?></span></h2>
-									<?php 
-										$checked = get_field('newMark');
-										if($checked){ //管理画面で「NEW」のチェックボックスを入れていたら
-										echo '<span class="new">NEW</span>'; //赤のアイコンを表示する
-										}
-									?>
-								</figcaption>
-							</figure>
-						</div>
+							</figcaption>
+						</figure>
 						<div class="client_mini">
-							<p><?php the_field('sitename'); ?> BY <?php the_field('client'); ?></p>
+							<p><?php the_field('sitename'); ?> <br>BY <?php the_field('client'); ?></p>
 						</div>
 					</a>
 				</li>
 			<?php endwhile; // end of the loop. ?>
 		</ul>
-		<?php wp_reset_query(); ?><!-- ここでリセット -->
+		<?php wp_reset_query(); ?><!-- リセット -->
 	</section>
 	<?php endif; ?>
 </div>

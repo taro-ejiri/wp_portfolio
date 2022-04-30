@@ -1370,7 +1370,7 @@ span.wpcf7-not-valid-tip,
   /* WORK List menuFrame */
   /* WORK List menuContainer */
 }
-.work-list h2.top {
+.work-list h2 {
   color: #000;
   display: block;
   font-size: 45px;
@@ -1504,60 +1504,29 @@ span.wpcf7-not-valid-tip,
 ------------------------------*/
 .work-list figure {
   position: relative;
+  cursor: pointer;
   overflow: hidden;
   margin: 0 1px 1px 0;
   background: #726fb9;
-  text-align: center;
-  cursor: pointer;
-}
-
-.work-list figcaption {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.work-list .ot-portfolio-item figure figcaption > a {
-  z-index: 1000;
-  text-indent: 200%;
-  white-space: nowrap;
-  font-size: 0;
-  opacity: 0;
-}
-
-.work-list .ot-portfolio-item figure figcaption,
-.ot-portfolio-item figure figcaption > a {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.work-list figure.effect-bubba {
   background: #000;
-  margin-bottom: 1px;
+  text-align: center;
 }
-
-.work-list figure.effect-bubba img {
-  opacity: 0.9;
-  -webkit-transition: opacity 0.35s;
-  transition: opacity 0.35s;
-}
-
-.work-list figure.effect-bubba:hover img {
+.work-list figure:hover img {
   opacity: 0.4;
 }
-
-.work-list figure.effect-bubba figcaption::before,
-.work-list figure.effect-bubba figcaption::after {
+.work-list figure figcaption {
   position: absolute;
-  top: 20px;
-  right: 20px;
-  bottom: 20px;
-  left: 20px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.work-list figure figcaption:before, .work-list figure figcaption:after {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  bottom: 10px;
+  left: 10px;
   content: "";
   opacity: 0;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
@@ -1565,69 +1534,56 @@ span.wpcf7-not-valid-tip,
   transition: opacity 0.35s, transform 0.35s;
   transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s;
 }
-.work-list figure.effect-bubba figcaption::before {
+.work-list figure figcaption:before {
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
   -webkit-transform: scale(0, 1);
           transform: scale(0, 1);
 }
-
-.work-list figure.effect-bubba figcaption::after {
+.work-list figure figcaption:after {
   border-right: 1px solid #fff;
   border-left: 1px solid #fff;
   -webkit-transform: scale(1, 0);
           transform: scale(1, 0);
 }
-
-.work-list figure.effect-bubba h2 {
+.work-list figure .title {
   opacity: 0;
   color: #fff;
   font-size: 20px;
   font-weight: 700;
   line-height: 120%;
   text-transform: uppercase;
-  padding-top: 25%;
   -webkit-transition: -webkit-transform 0.35s;
   transition: -webkit-transform 0.35s;
   transition: transform 0.35s;
   transition: transform 0.35s, -webkit-transform 0.35s;
   -webkit-transform: translate3d(0, -20px, 0);
           transform: translate3d(0, -20px, 0);
+  position: relative;
+  top: 25%;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
-
-.work-list figure.effect-bubba p {
-  color: #fff;
-  font-size: 13px;
-  font-weight: 500;
-  padding: 20px 2.5em;
-  opacity: 0;
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s;
-  -webkit-transform: translate3d(0, 20px, 0);
-          transform: translate3d(0, 20px, 0);
+.work-list figure .title .small {
+  font-size: 65%;
+  font-weight: 400;
+  line-height: 1;
 }
-
-.work-list figure.effect-bubba:hover figcaption::before,
-.work-list figure.effect-bubba:hover figcaption::after {
+.work-list figure:hover figcaption:before, .work-list figure:hover figcaption:after {
   opacity: 1;
   -webkit-transform: scale(1);
           transform: scale(1);
 }
-
-.work-list figure.effect-bubba:hover h2,
-.work-list figure.effect-bubba:hover p {
+.work-list figure:hover .title, .work-list figure:hover p {
   opacity: 1;
   -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
 }
-
-.work-list span.small {
+.work-list figure span.small {
   color: #fff;
 }
-
-.work-list span.new {
+.work-list figure span.new {
   position: absolute;
   top: 30px;
   left: 30px;
@@ -1636,12 +1592,14 @@ span.wpcf7-not-valid-tip,
   height: 46px;
   text-indent: -9999px;
 }
-.client_mini {
+.work-list .client_mini {
   display: none;
 }
-.client_mini p {
+.work-list .client_mini p {
   text-align: center;
+  font-size: 12px;
 }
+
 /*--------------------------------------------------------------
 3.11 single
 --------------------------------------------------------------*/
@@ -1899,21 +1857,15 @@ span.wpcf7-not-valid-tip,
     display: inline-block;
     padding: 0 15px;
   }
-  .work-list figure.effect-bubba h2 {
+  .work-list figure .title {
     padding-top: 23%;
     font-size: 25px;
   }
-
-  .work-list span.new {
-    position: absolute;
-    top: 28px;
-    left: 28px;
-    background: url(../img/works/icon_new.png);
-    width: 46px;
-    height: 46px;
-    text-indent: -9999px;
+  .work-list figure span.new {
+    top: 15px;
+    left: 15px;
   }
-  .client_mini {
+  .work-list .client_mini {
     display: block;
     min-height: 50px;
   }
@@ -1945,19 +1897,9 @@ span.wpcf7-not-valid-tip,
   .work-list ul.menuContainer {
     width: 100%;
   }
-  .work-list figure.effect-bubba h2 {
+  .work-list figure .title {
     padding-top: 20%;
     font-size: 18px;
-  }
-
-  .work-list span.new {
-    position: absolute;
-    top: 15px;
-    left: 15px;
-    background: url(../img/works/icon_new.png);
-    width: 46px;
-    height: 46px;
-    text-indent: -9999px;
   }
 }
 @media screen and (max-width: 640px) {
@@ -1985,19 +1927,13 @@ span.wpcf7-not-valid-tip,
     display: inline-block;
     padding: 0 10px;
   }
-  .work-list figure.effect-bubba h2 {
+  .work-list figure .title {
     padding-top: 25%;
     font-size: 18px;
   }
-
-  .work-list span.new {
-    position: absolute;
+  .work-list figure span.new {
     top: 20px;
     left: 20px;
-    background: url(../img/works/icon_new.png);
-    width: 46px;
-    height: 46px;
-    text-indent: -9999px;
   }
 }
 @media screen and (max-width: 320px) {
@@ -2022,8 +1958,7 @@ span.wpcf7-not-valid-tip,
   .area404 p {
     margin-bottom: 0;
   }
-  .work-list figure.effect-bubba h2 {
-    padding-top: 25%;
+  .work-list figure .title {
     font-size: 16px;
   }
 }
@@ -2059,7 +1994,7 @@ span.wpcf7-not-valid-tip,
   .area404 p {
     font-size: 16px;
   }
-  .client_mini {
+  .work-list .client_mini {
     min-height: 30px;
   }
 }
@@ -2075,8 +2010,7 @@ span.wpcf7-not-valid-tip,
     background-position: 75%;
     padding: 30px 10px;
   }
-  .work-list figure.effect-bubba figcaption::before,
-.work-list figure.effect-bubba figcaption::after {
+  .work-list figure figcaption:before, .work-list figure figcaption:after {
     top: 15px;
     right: 15px;
     bottom: 15px;
@@ -2245,13 +2179,6 @@ span.wpcf7-not-valid-tip,
   .aboutUs li {
     padding: 0;
   }
-  .work-list figure.effect-bubba figcaption::before,
-.work-list figure.effect-bubba figcaption::after {
-    top: 10px;
-    right: 10px;
-    bottom: 10px;
-    left: 10px;
-  }
 }
 @media only screen and (max-width: 480px) {
   .About .about_frame {
@@ -2328,8 +2255,7 @@ span.wpcf7-not-valid-tip,
   }
 }
 @media only screen and (max-width: 979px) {
-  .work-list figure.effect-bubba figcaption::before,
-.work-list figure.effect-bubba figcaption::after {
+  .work-list figure figcaption:before, .work-list figure figcaption:after {
     top: 10px;
     right: 10px;
     bottom: 10px;
