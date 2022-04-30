@@ -1255,7 +1255,7 @@ footer .cp_right {
 .wpcf7 textarea {
   background-color: #fff;
   color: #333;
-  width: 95%;
+  width: 100%;
   border: 1px solid #ddd;
   font-size: 100%;
   padding: 0.5em;
@@ -1291,6 +1291,11 @@ footer .cp_right {
 }
 
 /* エラーメッセージ */
+#wpcf7-f121-p9-o1-ve-your-name,
+#wpcf7-f121-p9-o1-ve-your-email {
+  display: none;
+}
+
 span.wpcf7-not-valid-tip,
 .wpcf7-response-output.wpcf7-validation-errors {
   display: block;
@@ -2131,7 +2136,7 @@ span.wpcf7-not-valid-tip,
     width: 90%;
   }
   .border-wrap-small {
-    padding: 15px 10px 15px 0;
+    padding: 15px 10px 15px 25px;
   }
   .wpcf7-response-output.wpcf7-validation-errors {
     width: 100%;
