@@ -5,10 +5,6 @@ header {
     position: fixed;
     width: 100%;
     z-index: 999;
-    li:hover {
-        opacity: 0.5;
-        filter: Alpha(opacity=50);
-    }
     .header-content {
         margin: 0 auto;
         padding: 60px 10%;
@@ -20,149 +16,8 @@ header {
     }
     .logo_sm {
         display: none;
-        h1 {
-            margin-top: 0;
-        }
     }
-    /* fixed 下にスライドする際のヘッダーの動き */
-    // .fixed {
-    //     background-color: rgba(255, 255, 255, 0);
-    //     .header-content {
-    //         border-bottom: 0;
-    //         padding: 25px 10%;
-    //     }
-    //     .nav-toggle {
-    //         top: 18px;
-    //     }
-    // }
-}
-
-/*------------------------------
-3.2 navi
-------------------------------*/
-/* navi */
-.navigation {
-    float: right;
-    &.open {
-        opacity: 0.9;
-        visibility: visible;
-        transition: opacity 0.5s;
-    }
-    li {
-        display: inline-block;
-    }
-    a {
-        color: rgba(0, 0, 0, 1);
-        font-size: 19px;
-        font-weight: 700;
-        margin-left: 40px;
-        letter-spacing: -1px;
-        &:hover,
-        &.active {
-            color: #000;
-            text-decoration: none;
-        }
-    }
-}
-
-/* hamburger button */
-.nav-toggle {
-    display: none;
-    height: 44px;
-    overflow: hidden;
-    position: fixed;
-    right: 5%;
-    text-indent: 100%;
-    top: 32px;
-    white-space: nowrap;
-    width: 44px;
-    z-index: 99999;
-    transition: all 0.3s;
-    &::before,
-    &::after {
-        border-radius: 50%;
-        content: "";
-        height: 100%;
-        left: 0;
-        position: absolute;
-        top: 0;
-        width: 100%;
-        background-color: #000;
-        transform: translateZ(0);
-        backface-visibility: hidden;
-        transition-property: transform;
-    }
-    &::before {
-        transform: scale(1);
-        transition-duration: 0.3s;
-    }
-    &::after {
-        transform: scale(0);
-        transition-duration: 0s;
-    }
-    span {
-        background-color: #fff;
-        bottom: auto;
-        display: inline-block;
-        height: 3px;
-        left: 50%;
-        position: absolute;
-        right: auto;
-        top: 50%;
-        width: 18px;
-        z-index: 10;
-        transform: translateX(-50%) translateY(-50%);
-        &::before,
-        &::after {
-            background-color: #fff;
-            content: "";
-            height: 100%;
-            position: absolute;
-            right: 0;
-            top: 0;
-            width: 100%;
-            transform: translateZ(0);
-            backface-visibility: hidden;
-            transition: transform 0.3s;
-        }
-        &::before {
-            transform: translateY(-6px) rotate(0deg);
-        }
-        &::after {
-            transform: translateY(6px) rotate(0deg);
-        }
-    }
-    &.close-nav {
-        &::before {
-            transform: scale(0);
-        }
-        &::after {
-            transform: scale(1);
-        }
-        span {
-            background-color: rgba(255, 255, 255, 0);
-            &::before,
-            &::after {
-                background-color: #fff;
-            }
-            &::before {
-                transform: translateY(0) rotate(45deg);
-            }
-            &::after {
-                transform: translateY(0) rotate(-45deg);
-            }
-        }
-    }
-}
-/* ヘッダー用 shareボタン */
-ul.h_share_btn {
-    display: none;
-}
-
-/* header width-1024px
-------------------------------*/
-@media screen and (max-width: 1024px) {
-    header {
+    @media screen and (max-width: 1024px) {
         .header-content {
             width: 90%;
             padding: 10px 0;
@@ -171,97 +26,14 @@ ul.h_share_btn {
             .header-content {
                 padding: 17px 0;
             }
-        }
+        } 
     }
-    .nav-toggle {
-        display: block;
-    }
-    .navigation {
-        position: fixed;
-        background-color: #fff;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        z-index: 99999;
-        visibility: hidden;
-        opacity: 0;
-        transition: opacity 0.5s, visibility 0s 0.5s;
-        .primary-nav {
-            position: relative;
-            top: 45%;
-            transform: translateY(-45%);
-        }
-        li {
-            display: block;
-            margin-bottom: 20px;
-        }
-        a {
-            display: block;
-            font-size: 35px;
-            margin: 0;
-            text-align: center;
-        }
-    }
-    /* ヘッダー用 shareボタン */
-    ul.h_share_btn {
-        display: block;
-        margin-top: 50px;
-        text-align: center;
-        padding-left: 0;
-    }
-    ul.h_share_btn li {
-        display: inline-block;
-        padding: 0 15px;
-    }
-}
-
-/* Header width-768px
-------------------------------*/
-@media screen and (max-width: 768px) {
-    header {
-        .header-content {
-            padding: 10px 0%;
-        }
-        &.fixed {
-            .header-content {
-                padding: 17px 0;
-            }
-        }
-    }
-    .navigation {
-        .primary-nav {
-            padding-left: 0px;
-        }
-    }
-}
-
-/* Header width-640px
-------------------------------*/
-@media screen and (max-width: 640px) {
-    header {
+    @media screen and (max-width: 480px) {
         .header-content {
             padding: 30px 0;
         }
-        &.fixed {
-            .header-content {
-                padding: 17px 0;
-            }
-        }
-    }
-}
-
-/* Header width-480px
-------------------------------*/
-@media screen and (max-width: 480px) {
-    header {
-        .header-content {
-            padding: 30px 0;
-        }
-        &.fixed {
-            .header-content {
-                padding: 17px 0;
-            }
+        h1 {
+            margin-top: 0;
         }
         .logo_pc {
             display: none;
@@ -271,24 +43,137 @@ ul.h_share_btn {
         }
     }
 }
-@media screen and (max-width: 480px) {
-    ul.h_share_btn li {
-        display: inline-block;
-        padding: 0 10px;
-    }
-}
 
-/* Header width-320px
-------------------------------*/
-@media screen and (max-width: 320px) {
-    header {
-        .header-content {
-            padding: 30px 2%;
+/*------------------------------
+3.2 navi
+------------------------------*/  
+nav {
+    position: relative;
+    .size_pc {
+        position: absolute;
+        right: 0%;
+        @media screen and (max-width: 1024px) {
+            display: none;
         }
-        &.fixed {
-            .header-content {
-                padding: 17px 0;
+        li {
+            display: inline-block;
+            a {
+                color: rgb(0, 0, 0);
+                font-size: 19px;
+                font-weight: 700;
+                margin-left: 40px;
+                letter-spacing: -1px;
+                &:hover,
+                &.active {
+                    color: #000;
+                    text-decoration: none;
+                }
             }
         }
+    }
+    .size_sm {
+        #toggle-nav {
+            display: none;
+            &:checked {
+                ~ .hamburger {
+                    height: 28px;
+                    div {
+                        background-color: #fff;
+                        &:nth-of-type(1) {
+                            margin-top: 6px;
+                            transform: rotate(135deg);
+                        }
+                        &:nth-of-type(2) {
+                            opacity: 0;
+                        }
+                        &:nth-of-type(3) {
+                            margin-top: -12px;
+                            transform: rotate(-135deg);
+                        }
+                    }
+                }      
+                 ~ .menu {
+                    opacity: 1;
+                    visibility: visible;
+                }
+            }
+        }      
+        .hamburger {
+            cursor: pointer;
+            position: fixed;
+            z-index: 1020;
+            top: 32px;
+            right: 32px;
+            width: 32px;
+            height: 14px;
+            margin: 0;
+            padding: 0;
+            display: none;
+            div {
+                position: relative;
+                width: 100%;
+                height: 2px;
+                background-color: #000;
+                transition: background-color .5s, transform .5s;
+                &:nth-of-type(2) {
+                    margin: 4px 0;
+                }
+            }
+            @media screen and (max-width: 1024px) {
+                display: block;
+            }
+        }      
+        .menu {
+            position: fixed;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            z-index: 1010;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+            background-color: #b3b3bb;        
+            opacity: 0;
+            visibility: hidden;
+            transition: all .5s ease-out;
+            will-change: opacity, visibility;
+            text-align: center;
+            ul {
+                margin: 0;
+                padding: 0;
+                list-style-type: none;
+                li {
+                    margin-bottom: 4px;
+                    font-size: 32px;
+                    a {
+                    color: #fff;
+                    text-decoration: none;
+                    transition: all .3s;
+                    }
+                    &:hover,
+                    &.active {
+                        opacity:0.8;
+                    }
+                    ul.h_share_btn {
+                            display: block;
+                            margin-top: 50px;
+                            text-align: center;
+                            padding-left: 0;
+                         li {
+                            display: inline-block;
+                            padding: 0 15px;
+                            &:hover,
+                            &.active {
+                                opacity:1;
+                            }
+                        }
+                    } 
+                } 
+            }
+        }    
     }
 }

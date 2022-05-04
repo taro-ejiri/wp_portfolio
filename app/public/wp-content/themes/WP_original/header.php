@@ -102,25 +102,49 @@ if(is_front_page()): ?>
 <body <?php body_class(); ?> class="fadeout">
 	<header id="header">
 		<div class="header-content">
-			<div class="logo_pc"><h1><a href="<?php bloginfo('url'); ?>/" ><img src="<?php bloginfo('template_url'); ?>/img/logo.png" alt="<?php bloginfo('name'); ?>"></a></h1></div>
-			<div class="logo_sm"><h1><a href="<?php bloginfo('url'); ?>/" ><img src="<?php bloginfo('template_url'); ?>/img/miniLogo.png" alt="<?php bloginfo('name'); ?>"></a></h1></div>
-			<nav class="navigation" role="navigation">
-				<ul class="primary-nav">
-					<li><a href="/about/">About</a></li>
-					<li><a href="/works/">Works</a></li>
-					<li><a href="/contact/">Contact</a></li>
-					<li>
-						<ul class="h_share_btn">
-							<li><a href="https://twitter.com/sept11_1976"><img src="<?php bloginfo('template_url'); ?>/img/sns/twitter_out.png" alt="twitter" width="50"></a></li>
-							<li><a href="https://www.facebook.com/sept.eleven.jpn" ><img src="<?php bloginfo('template_url'); ?>/img/sns/fb_out.png" alt="facebook" width="50"></a></li>
-							<li><a href="https://github.com/taro-ejiri/portfolio.local" ><img src="<?php bloginfo('template_url'); ?>/img/sns/github_out.png" alt="github" width="50"></a></li>
-							<li><a href="<?php bloginfo('url'); ?>" ><img src="<?php bloginfo('template_url'); ?>/img/sns/line_out.png" alt="LINE" width="50"></a></li>
-							<!--li><a href="<?php bloginfo('url'); ?>" ><img src="<?php bloginfo('template_url'); ?>/img/sns/instagram_out.png" alt="instagram" width="50"></a></li-->
+			<h1>
+				<div class="logo_pc">
+					<a href="<?php bloginfo('url'); ?>/" ><img src="<?php bloginfo('template_url'); ?>/img/logo.png" alt="<?php bloginfo('name'); ?>"></a>
+				</div>
+				<div class="logo_sm">
+					<a href="<?php bloginfo('url'); ?>/" ><img src="<?php bloginfo('template_url'); ?>/img/miniLogo.png" alt="<?php bloginfo('name'); ?>"></a>
+				</div>	
+			</h1>
+			<nav>
+				<div class="size_pc">
+					<ul>
+						<li><a href="/about/">About</a></li>
+						<li><a href="/works/">Works</a></li>
+						<li><a href="/contact/">Contact</a></li>
+						<li><a href="#">blog</a></li>
+					</ul>
+				</div>
+				<div class="size_sm">				
+					<input type="checkbox" id="toggle-nav">
+					<label for="toggle-nav" class="hamburger">
+						<div></div>
+						<div></div>
+						<div></div>
+					</label>
+					<div class="menu">
+						<ul>
+							<li><a href="/about/">About</a></li>
+							<li><a href="/works/">Works</a></li>
+							<li><a href="/contact/">Contact</a></li>
+							<li><a href="#">blog</a></li>
+							<li>
+								<ul class="h_share_btn">
+									<li><a href="https://twitter.com/sept11_1976"><img src="<?php bloginfo('template_url'); ?>/img/sns/twitter_out.png" alt="twitter" width="50"></a></li>
+									<li><a href="https://www.facebook.com/sept.eleven.jpn" ><img src="<?php bloginfo('template_url'); ?>/img/sns/fb_out.png" alt="facebook" width="50"></a></li>
+									<li><a href="https://github.com/taro-ejiri/portfolio.local" ><img src="<?php bloginfo('template_url'); ?>/img/sns/github_out.png" alt="github" width="50"></a></li>
+									<li><a href="<?php bloginfo('url'); ?>" ><img src="<?php bloginfo('template_url'); ?>/img/sns/line_out.png" alt="LINE" width="50"></a></li>
+									<!--li><a href="<?php bloginfo('url'); ?>" ><img src="<?php bloginfo('template_url'); ?>/img/sns/instagram_out.png" alt="instagram" width="50"></a></li-->
+								</ul>
+							</li>
 						</ul>
-					</li>
-				</ul>
-			</nav>
-			<a href="#" class="nav-toggle">Menu<span></span></a>
+					</div>					
+				</div>
+			</nav>			
 		</div>
 	</header>
 
