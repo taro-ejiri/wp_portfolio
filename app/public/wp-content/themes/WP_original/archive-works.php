@@ -4,6 +4,53 @@
   	<section class="work-list">
 		<h2>WORKS</h2>
 		<h3>実績</h3>
+
+
+		<!-- test  -->
+		<div class="test">
+			<ul class="filter-button">
+				<li id="all" class="is-checked">すべて</li>
+				<li id="corporate">corporate</li>
+				<li id="campaign">campaign</li>
+				<li id="wordpress">wordpress</li>				
+				<li id="game">Game content</li>
+				<li id="other">OTHER</li>
+				<li id="responsive">RESPONSIVE</li>
+			</ul>
+
+			<div class="contents">
+				<div class="grid">
+					<div class="itembox campaign">
+						<p>campaign</p>
+					</div>
+					<div class="itembox wordpress">
+						<p>wordpress</p>
+					</div>
+					<div class="itembox other">
+						<p>OTHER</p>
+					</div>
+					<div class="itembox campaign responsive">
+						<p>campaign</p>
+						<p>RESPONSIVE</p>
+					</div>
+					<div class="itembox game">
+						<p>Game content</p>
+					</div>
+					<div class="itembox corporate">
+						<p>corporate</p>
+					</div>
+					<div class="itembox corporate responsive">
+						<p>corporate</p>
+						<p>RESPONSIVE</p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+
+		<!-- test  -->
+
 		<div class="menuFrame">
 			<ul>
 				<li><a href="#" data-filter="*" class="current">ALL</a></li>

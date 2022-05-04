@@ -94,6 +94,10 @@
 	<!-- MENU List ソート用 js -->
 	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/works/custom.js"></script>
 
+
+	<script src="<?php bloginfo('template_url'); ?>/js/test/jquery-2.1.4.min.js"></script>
+	<script src="<?php bloginfo('template_url'); ?>/js/test/masonry.pkgd.min.js"></script>
+	<script src="<?php bloginfo('template_url'); ?>/js/test/extention.js"></script>
 <?php endif; ?>
 
 

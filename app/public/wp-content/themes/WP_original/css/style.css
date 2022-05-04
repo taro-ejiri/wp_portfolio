@@ -1381,6 +1381,66 @@ span.wpcf7-not-valid-tip,
   letter-spacing: 0.2px;
   color: #444444;
 }
+.work-list .test .filter-button {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0;
+  margin: 20px 0;
+  list-style: none;
+}
+.work-list .test .filter-button li {
+  padding: 10px 20px;
+  margin: 0 10px 0 0;
+  color: #333;
+  text-align: center;
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid #333;
+  border-radius: 5px;
+}
+.work-list .test .filter-button li:last-child {
+  margin: 0;
+}
+.work-list .test .filter-button li:hover, .work-list .test .filter-button li.is-checked {
+  color: #fff;
+  background: #333;
+}
+.work-list .test .contents {
+  width: 900px;
+  padding: 30px 0;
+  margin: 0 auto;
+}
+.work-list .test .grid {
+  width: calc(100% + 20px);
+}
+.work-list .test .grid .itembox {
+  width: 210px;
+  /* 必ず横幅指定 */
+  margin: 0 20px 20px 0;
+  color: #fff;
+  text-align: center;
+}
+.work-list .test .itembox.corporate {
+  background: rgb(224, 121, 73);
+}
+.work-list .test .itembox.campaign {
+  background: rgb(190, 99, 183);
+}
+.work-list .test .itembox.wordpress {
+  background: #238c00;
+}
+.work-list .test .itembox.game {
+  background: rgb(26, 175, 168);
+}
+.work-list .test .itembox.other {
+  background: #fc0;
+}
 .work-list .menuFrame {
   display: block;
   margin: 0 auto;
@@ -1895,6 +1955,20 @@ span.wpcf7-not-valid-tip,
   .area404 p {
     font-size: 20px;
     padding: 15px;
+  }
+  .work-list .test .filter-button li {
+    font-size: 14px;
+  }
+  .work-list .test .contents {
+    width: calc(100% - 20px);
+    padding: 30px 10px;
+  }
+  .work-list .test .grid {
+    width: calc(100% + 10px);
+  }
+  .work-list .test .grid .itembox {
+    width: 110px;
+    margin: 0 10px 10px 0;
   }
   .work-list ul.menuContainer {
     width: 100%;
