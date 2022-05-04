@@ -37,46 +37,38 @@
 				<?php else: ?>
 					<img src="<?php echo $url ?>" alt="<?php echo $alt ?>" class="img-responsive"/>
 				<?php endif; ?>
-
-			<?php else: ?>
-				<!-- ○ の表示 -->
-				<ol class="carousel-indicators">
-					<li data-target="#carousel" data-slide-to="0" class="active"></li>
-					<li data-target="#carousel" data-slide-to="1" class=""></li>
-					<li data-target="#carousel" data-slide-to="2" class=""></li>
-				</ol>
-				<!-- スライドの中身 -->
-				<div class="carousel-inner">
-					<div class="item active">
+			<?php else: // 通常 ?> 
+				<ul class="slider works-slider">
+					<li>
 						<?php //写真設定
 							$image = get_field('slideImage_pc');
 							$alt = $image['alt'];
 							$url = $image['sizes']['large'];
 						?>
 						<img src="<?php echo $url ?>" alt="<?php echo $alt ?>" class="img-responsive"/>
-						<div class="carousel-caption">PCサイズ</div>
-					</div>
-					<div class="item">
+						<div class="size">PCサイズ</div>
+					</li>
+					<li>
 						<?php //写真設定
 							$image = get_field('slideImage_tab');
 							$alt = $image['alt'];
 							$url = $image['sizes']['large'];
 						?>
 						<img src="<?php echo $url ?>" alt="<?php echo $alt ?>" class="img-responsive"/>
-						<div class="carousel-caption">タブレットサイズ</div>
-					</div>
-					<div class="item">
+						<div class="size">タブレットサイズ</div>
+					</li>
+					<li>
 						<?php //写真設定
 							$image = get_field('slideImage_sp');
 							$alt = $image['alt'];
 							$url = $image['sizes']['large'];
 						?>
 						<img src="<?php echo $url ?>" alt="<?php echo $alt ?>" class="img-responsive"/>
-						<div class="carousel-caption">スマートフォンサイズ</div>
-					</div>
-				</div><!-- /.carousel-inner -->
+						<div class="size">スマートフォンサイズ</div>
+					</li>
+				</ul>
 			<?php endif; ?>
-		</div><!-- /#carousel -->			
+		</div>		
 	</div>
 	<div class="Works-comment">
 		<div class="comment">

@@ -37,13 +37,19 @@
 			autoplaySpeed:4500,
 			fade: true,
 		});
-		// works-slider
-		$('.slick01').slick({
+		// front-slider
+		$('.front-slick').slick({
 			arrows: true,
 			autoplay:true,
 			autoplaySpeed:3000,
 			dots:true
 		});
+		// works-slider
+		$('.works-slider').slick({
+			arrows: false,
+			dots:true
+		});
+
 	</script>
 	<!-- slick -->
 	

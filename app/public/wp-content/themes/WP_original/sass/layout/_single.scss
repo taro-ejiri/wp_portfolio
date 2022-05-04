@@ -59,38 +59,44 @@
         margin: 0 auto;
         margin-bottom: 10px;
     }
-    .carousel {
-        width: 100%;
-        margin: auto;
-        img {
-            width: 100%;
-        }
-    }
-    .carousel-caption {
-        font-size: 18px;
-        color: #6c7279;
-        margin-bottom: 30px;
-        @media only screen and (min-width: 699px) {
-            font-size: 25px;
-        }
-    }
-    .carousel-indicators {
+    .works-slider {
+        // スライダーの中身
         li {
-            display: inline-block;
-            width: 30px;
-            height: 30px;
-            margin: 10px;
-            text-indent: -999px;
-            cursor: pointer;
-            background-color: rgba(0, 0, 0, 0);
-            border: 1px solid #6c7279;
-            border-radius: 20px;
+            position: relative;
+            text-align: center;
+            .size {
+                position: absolute;
+                bottom: 20%;
+                left: 50%;
+                transform: translateX(-50%);
+                font-size: 25px;
+                color: #6c7279;
+                text-shadow: 0 1px 2px rgb(0 0 0 / 60%);
+                @media screen and (max-width: 480px) {
+                    font-size: 18px;
+                }
+            }
         }
-        .active {
-            width: 31px;
-            height: 31px;
-            margin: 9px;
-            background-color: #6c7279;
+        // インジケーター
+        .slick-dots {
+            bottom: 15%;
+            left: 50%;
+            transform: translateX(-50%);
+            li {
+                width: 40px;
+                button:before {
+                    font-size: 32px;
+                    line-height: 48px;
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 480px) {
+        .carousel {
+            img {
+                width: 90%;
+                margin: 0 auto;
+            }
         }
     }
 }

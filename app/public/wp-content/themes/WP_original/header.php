@@ -47,7 +47,7 @@ if(is_front_page()): ?>
 <!-- test start -->
 
 <!-- slick -->
-<?php if(is_front_page()): ?>
+<?php if ( is_front_page() || is_singular('works') ) : ?>
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/js/slick/slick.css" >
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/js/slick/slick-theme.css">
 <?php endif; ?>
@@ -58,13 +58,8 @@ if(is_front_page()): ?>
 <!-- test end -->
 
 
-<?php // front_page css
-if(is_front_page()): ?>
-
+<?php if(is_front_page()): ?>
 <!-- もう不要<link href="<?php bloginfo('template_url'); ?>/css/flexslider.css" rel="stylesheet"> -->
-
-
-
 <?php endif; ?>
 
 <!-- Bootstrap CSS -->

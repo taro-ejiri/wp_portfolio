@@ -1636,34 +1636,32 @@ span.wpcf7-not-valid-tip,
 .Works-content {
   margin: 10px 0;
 }
-.Works-content .carousel {
-  width: 100%;
-  margin: auto;
+.Works-content .works-slider li {
+  position: relative;
+  text-align: center;
 }
-.Works-content .carousel img {
-  width: 100%;
-}
-.Works-content .carousel-caption {
-  font-size: 18px;
+.Works-content .works-slider li .size {
+  position: absolute;
+  bottom: 20%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  font-size: 25px;
   color: #6c7279;
-  margin-bottom: 30px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 }
-.Works-content .carousel-indicators li {
-  display: inline-block;
-  width: 30px;
-  height: 30px;
-  margin: 10px;
-  text-indent: -999px;
-  cursor: pointer;
-  background-color: rgba(0, 0, 0, 0);
-  border: 1px solid #6c7279;
-  border-radius: 20px;
+.Works-content .works-slider .slick-dots {
+  bottom: 15%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
-.Works-content .carousel-indicators .active {
-  width: 31px;
-  height: 31px;
-  margin: 9px;
-  background-color: #6c7279;
+.Works-content .works-slider .slick-dots li {
+  width: 40px;
+}
+.Works-content .works-slider .slick-dots li button:before {
+  font-size: 32px;
+  line-height: 48px;
 }
 
 /* イントラサイトの場合 */
@@ -1835,6 +1833,13 @@ span.wpcf7-not-valid-tip,
   .work-list figure span.new {
     top: 20px;
     left: 20px;
+  }
+  .Works-content .works-slider li .size {
+    font-size: 18px;
+  }
+  .Works-content .carousel img {
+    width: 90%;
+    margin: 0 auto;
   }
 }
 @media screen and (max-width: 320px) {
@@ -2158,9 +2163,6 @@ span.wpcf7-not-valid-tip,
     max-width: 699px;
     margin: 0 auto;
     margin-bottom: 10px;
-  }
-  .Works-content .carousel-caption {
-    font-size: 25px;
   }
   .Works-comment {
     max-width: 580px;
