@@ -1404,30 +1404,11 @@ span.wpcf7-not-valid-tip,
   text-align: center;
 }
 .work-list .test .filter-button li {
-  cursor: pointer;
-  margin: 0 10px 0 0;
-  border: 1px solid #333;
-  border-radius: 5px;
-  background: #fff;
-  padding: 10px 20px;
-  color: #333;
-  text-align: center;
-}
-.work-list .test .filter-button li:last-child {
-  margin: 0;
-}
-.work-list .test .filter-button li:hover, .work-list .test .filter-button li.is-checked {
-  background: #333;
-  color: #fff;
-}
-.work-list .test .filter-button li {
-  display: inline-block;
-  margin: 0 -2px;
-}
-.work-list .test .filter-button li a {
   -webkit-transition-duration: 0.2s;
-  display: block;
+  display: inline-block;
           transition-duration: 0.2s;
+  cursor: pointer;
+  margin: 0 -2px;
   border-right: none;
   padding: 16px 30px;
   color: #6f6470;
@@ -1438,14 +1419,9 @@ span.wpcf7-not-valid-tip,
   text-decoration: none;
   text-transform: uppercase;
 }
-.work-list .test .filter-button li a:hover {
+.work-list .test .filter-button li:hover, .work-list .test .filter-button li.is-checked {
   -webkit-transition-duration: 0.2s;
           transition-duration: 0.2s;
-  border-color: #cfcfcf;
-  color: #000;
-}
-.work-list .test .filter-button li a.current {
-  border: solid 1px #fff;
   color: #000;
 }
 .work-list .test .contents {
@@ -1467,63 +1443,6 @@ span.wpcf7-not-valid-tip,
   font-size: 12px;
   text-align: center;
 }
-.work-list .menuFrame {
-  display: block;
-  margin: 0 auto;
-  text-align: center;
-}
-.work-list .menuFrame ul {
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 60px;
-  text-align: center;
-}
-.work-list .menuFrame li {
-  display: inline-block;
-}
-.work-list .menuFrame li a {
-  -webkit-transition-duration: 0.2s;
-  display: block;
-          transition-duration: 0.2s;
-  border-right: none;
-  padding: 16px 30px;
-  color: #6f6470;
-  font-weight: bold;
-  font-size: 11px;
-  line-height: 15px;
-  letter-spacing: 2px;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-.work-list .menuFrame li a:hover {
-  -webkit-transition-duration: 0.2s;
-          transition-duration: 0.2s;
-  border-color: #cfcfcf;
-  color: #000;
-}
-.work-list .menuFrame li a.current {
-  border: solid 1px #fff;
-  color: #000;
-}
-.work-list ul.menuContainer {
-  display: block;
-  margin-bottom: 0;
-  padding: 0px;
-  list-style-type: none;
-}
-.work-list ul.menuContainer li {
-  display: block;
-  cursor: pointer;
-  margin: 0px;
-  border: 1px solid #fff;
-  padding: 10px;
-  height: auto;
-}
-.work-list ul.menuContainer li img {
-  display: block;
-  width: 100% !important;
-  height: auto;
-}
 
 /* WORKリストがソートする際の動き */
 /* WORK List Sections
@@ -1532,7 +1451,6 @@ span.wpcf7-not-valid-tip,
   position: relative;
   cursor: pointer;
   margin: 0 1px 1px 0;
-  background: #726fb9;
   background: #000;
   overflow: hidden;
   text-align: center;
@@ -1620,13 +1538,6 @@ span.wpcf7-not-valid-tip,
   width: 46px;
   height: 46px;
   text-indent: -9999px;
-}
-.work-list .client_mini {
-  display: none;
-}
-.work-list .client_mini p {
-  font-size: 12px;
-  text-align: center;
 }
 
 /*--------------------------------------------------------------
@@ -1836,10 +1747,6 @@ span.wpcf7-not-valid-tip,
     top: 15px;
     left: 15px;
   }
-  .work-list .client_mini {
-    display: block;
-    min-height: 50px;
-  }
 }
 @media only screen and (max-width: 1024px) {
   .jumbotron {
@@ -1902,9 +1809,6 @@ span.wpcf7-not-valid-tip,
   }
   .work-list .test .filter-button li {
     font-size: 14px;
-  }
-  .work-list ul.menuContainer {
-    width: 100%;
   }
   .work-list figure .title {
     padding-top: 20%;
@@ -1978,10 +1882,6 @@ span.wpcf7-not-valid-tip,
     min-height: 630px;
   }
   .work-list .test .filter-button ul {
-    margin-bottom: 10px;
-    padding-left: 0;
-  }
-  .work-list .menuFrame ul {
     margin-bottom: 10px;
     padding-left: 0;
   }
@@ -2146,9 +2046,6 @@ span.wpcf7-not-valid-tip,
     display: block;
     min-height: 30px;
   }
-  .work-list .client_mini {
-    min-height: 30px;
-  }
 }
 @media only screen and (max-width: 414px) {
   .principle .items_three .point-frame {
@@ -2227,9 +2124,6 @@ span.wpcf7-not-valid-tip,
   .container {
     max-width: 540px;
   }
-  .work-list ul.menuContainer .worksFrame {
-    width: 100%;
-  }
 }
 @media only screen and (min-width: 699px) {
   .work-list h3 {
@@ -2256,24 +2150,10 @@ span.wpcf7-not-valid-tip,
   .container {
     max-width: 720px;
   }
-  .work-list ul.menuContainer .worksFrame {
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 0 33.333333%;
-        -ms-flex: 0 0 33.333333%;
-            flex: 0 0 33.333333%;
-    max-width: 33.333333%;
-  }
 }
 @media (min-width: 992px) {
   .container {
     max-width: 970px;
-  }
-  .work-list ul.menuContainer .worksFrame {
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 0 33.333333%;
-        -ms-flex: 0 0 33.333333%;
-            flex: 0 0 33.333333%;
-    max-width: 33.333333%;
   }
 }
 @media (min-width: 1200px) {

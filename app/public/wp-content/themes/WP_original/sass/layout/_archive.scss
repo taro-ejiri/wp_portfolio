@@ -63,59 +63,28 @@
                 }
             }
             li {
-                padding: 10px 20px;
-                margin: 0 10px 0 0;
-                color: #333;
-                text-align: center;
                 cursor: pointer;
-                background: #fff;
-                border: 1px solid #333;
-                border-radius: 5px;
-                &:last-child {
-                    margin: 0;
-                }
-                &:hover,&.is-checked{
-                    color: #fff;
-                    background: #333;
-                }
-            }
-            li {
                 display: inline-block;
                 margin: 0 -2px;
-                a {
-                    padding: 16px 30px;
-                    font-size: 11px;
-                    line-height: 15px;
-                    font-weight: bold;
-                    color: #6f6470;
-                    text-transform: uppercase;
-                    display: block;
-                    text-decoration: none;
-                    border-right: none;
-                    letter-spacing: 2px;
+                padding: 16px 30px;
+                font-size: 11px;
+                line-height: 15px;
+                font-weight: bold;
+                color: #6f6470;
+                text-transform: uppercase;
+                text-decoration: none;
+                border-right: none;
+                letter-spacing: 2px;
+                transition-duration: 0.2s;
+               &:hover,&.is-checked{
+                    color: #000;
                     transition-duration: 0.2s;
-                    &:hover {
-                        border-color: #cfcfcf;
-                        color: #000;
-                        transition-duration: 0.2s;
-                    }
-                    &.current {
-                        border: solid 1px #fff;
-                        color: #000;
-                    }
                 }
-
                 @media screen and (max-width: 768px) {
                     font-size: 14px;
                 }
-
             }
-
-
-
         }
-
-
 
         .contents {
             width: 1200px;
@@ -177,101 +146,102 @@
 
 
     /* WORK List menuFrame */
-    .menuFrame {
-        display: block;
-        margin: 0 auto;
-        text-align: center;
-        ul {
-            margin: 0 auto;
-            text-align: center;
-            display: block;
-            margin-bottom: 60px;
-            @media only screen and (max-width: 768px) {
-                margin-bottom: 10px;
-                padding-left: 0;
-            }
-        }
-        li {
-            display: inline-block;
-            // margin: 0 -2px;
-            // &:after {
-            //     content: "";
-            //     display: block;
-            //     width: 1px;
-            //     height: 10px;
-            //     background: #938b94;
-            //     position: absolute;
-            //     right: 0;
-            //     top: 50%;
-            //     margin-top: -5px;
-            // }
-            // &.last:after {
-            //     background: #fff;
-            // }
-            a {
-                padding: 16px 30px;
-                font-size: 11px;
-                line-height: 15px;
-                font-weight: bold;
-                color: #6f6470;
-                text-transform: uppercase;
-                display: block;
-                text-decoration: none;
-                border-right: none;
-                letter-spacing: 2px;
-                transition-duration: 0.2s;
-                &:hover {
-                    border-color: #cfcfcf;
-                    color: #000;
-                    transition-duration: 0.2s;
-                }
-                &.current {
-                    border: solid 1px #fff;
-                    color: #000;
-                }
-            }
-        }
-    }
+    // .menuFrame {
+    //     display: block;
+    //     margin: 0 auto;
+    //     text-align: center;
+    //     // ul {
+    //     //     margin: 0 auto;
+    //     //     text-align: center;
+    //     //     display: block;
+    //     //     margin-bottom: 60px;
+    //     //     @media only screen and (max-width: 768px) {
+    //     //         margin-bottom: 10px;
+    //     //         padding-left: 0;
+    //     //     }
+    //     // }
+    //     li {
+    //         display: inline-block;
+    //         // margin: 0 -2px;
+    //         // &:after {
+    //         //     content: "";
+    //         //     display: block;
+    //         //     width: 1px;
+    //         //     height: 10px;
+    //         //     background: #938b94;
+    //         //     position: absolute;
+    //         //     right: 0;
+    //         //     top: 50%;
+    //         //     margin-top: -5px;
+    //         // }
+    //         // &.last:after {
+    //         //     background: #fff;
+    //         // }
+    //         a {
+    //             padding: 16px 30px;
+    //             font-size: 11px;
+    //             line-height: 15px;
+    //             font-weight: bold;
+    //             color: #6f6470;
+    //             text-transform: uppercase;
+    //             display: block;
+    //             text-decoration: none;
+    //             border-right: none;
+    //             letter-spacing: 2px;
+    //             transition-duration: 0.2s;
+    //             &:hover {
+    //                 border-color: #cfcfcf;
+    //                 color: #000;
+    //                 transition-duration: 0.2s;
+    //             }
+    //             &.current {
+    //                 border: solid 1px #fff;
+    //                 color: #000;
+    //             }
+    //         }
+    //     }
+    // }
+
     /* WORK List menuContainer */
-    ul.menuContainer {
-        display: block;
-        padding: 0px;
-        margin-bottom: 0;
-        list-style-type: none;
-        @media screen and (max-width: 768px) {
-            width: 100%;
-        }
-        li {
-            display: block;
-            height: auto;
-            padding: 10px;
-            margin: 0px;
-            cursor: pointer;
-            border: 1px solid #fff;
-             img {
-                width: 100% !important;
-                height: auto;
-                display: block;
-            }
-        }
-        @media (min-width: 576px) {
-            .worksFrame {
-                width: 100%;
-            }
-        }        
-        @media (min-width: 768px) {
-            .worksFrame {
-                flex: 0 0 33.333333%;
-                max-width: 33.333333%;
-            }
-        }
-        @media (min-width: 992px) {
-            .worksFrame {
-                flex: 0 0 33.333333%;
-                max-width: 33.333333%;
-            }
-        }
-    }
+    // ul.menuContainer {
+    //     display: block;
+    //     padding: 0px;
+    //     margin-bottom: 0;
+    //     list-style-type: none;
+    //     @media screen and (max-width: 768px) {
+    //         width: 100%;
+    //     }
+    //     li {
+    //         display: block;
+    //         height: auto;
+    //         padding: 10px;
+    //         margin: 0px;
+    //         cursor: pointer;
+    //         border: 1px solid #fff;
+    //          img {
+    //             width: 100% !important;
+    //             height: auto;
+    //             display: block;
+    //         }
+    //     }
+    //     @media (min-width: 576px) {
+    //         .worksFrame {
+    //             width: 100%;
+    //         }
+    //     }        
+    //     @media (min-width: 768px) {
+    //         .worksFrame {
+    //             flex: 0 0 33.333333%;
+    //             max-width: 33.333333%;
+    //         }
+    //     }
+    //     @media (min-width: 992px) {
+    //         .worksFrame {
+    //             flex: 0 0 33.333333%;
+    //             max-width: 33.333333%;
+    //         }
+    //     }
+    // }
 }
 
 /* WORKリストがソートする際の動き */
@@ -302,12 +272,11 @@
         cursor: pointer;   
         overflow: hidden;
         margin: 0 1px 1px 0;
-        background: #726fb9;
         background: #000;
         text-align: center;
-
         img {
             width: 100%;
+            
         }
         &:hover {
             img {
@@ -423,18 +392,18 @@
             }  
         }
     }
-    .client_mini {
-        display: none;
-        p {
-            text-align: center;
-            font-size: 12px;
-        }
-        @media screen and (max-width: 1024px) {
-            display: block;
-            min-height: 50px;
-        }
-        @media screen and (max-width: 414px) {
-            min-height: 30px;
-        }
-    }
+    // .client_mini {
+    //     display: none;
+    //     p {
+    //         text-align: center;
+    //         font-size: 12px;
+    //     }
+    //     @media screen and (max-width: 1024px) {
+    //         display: block;
+    //         min-height: 50px;
+    //     }
+    //     @media screen and (max-width: 414px) {
+    //         min-height: 30px;
+    //     }
+    // }
 }

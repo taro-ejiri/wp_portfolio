@@ -7,7 +7,7 @@
 		<!-- test  -->
 		<div class="test">
 			<ul class="filter-button">
-				<li id="all" class="is-checked">すべて</li>
+				<li id="all" class="is-checked">ALL</li>
 				<li id="corporate">corporate</li>
 				<li id="campaign">campaign</li>
 				<li id="wordpress">wordpress</li>				
