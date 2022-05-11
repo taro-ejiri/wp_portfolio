@@ -17,6 +17,9 @@ const postcss = require("gulp-postcss");
 //メディアクエリをまとめる
 const mqpacker = require('css-mqpacker');
 
+const sortCSSmq = require("sort-css-media-queries");
+const cssdeclsort = require("css-declaration-sorter"); // プロパティ順の分類
+
 //ベンダープレフィックスを付与する条件
 const TARGET_BROWSERS = [
     'last 2 versions', // 各ブラウザの2世代前までのバージョンを担保
@@ -33,9 +36,15 @@ const compileSass = () => {
         .pipe(sass({outputStyle: "expanded"})) //Sassのコンパイルを実行 コンパイル後のCSSを展開
         // 指定できるキー expanded(css見やすく) compressed(全CSSコードが1行になる)      
         .pipe(autoprefixer(TARGET_BROWSERS)) //ベンダープレフィックス
+
+        // sassの後に指定
+        .pipe(postcss([cssdeclsort({order: "concentric-css"})])) // concentric-cssでソートする（ボックスモデルの外側からソートする）
+        .pipe(postcss([mqpacker({sort: sortCSSmq.desktopFirst})]))
+
         .pipe(postcss([mqpacker()])) //メディアクエリをまとめる
         .pipe(dest("css")); //cssフォルダー以下に保存 コンパイル先     
     }
+    
 /**
  * Sassファイルを監視し、変更があったらSassを変換しaます
  */

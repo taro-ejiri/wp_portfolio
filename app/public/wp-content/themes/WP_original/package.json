@@ -10,11 +10,13 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "css-declaration-sorter": "^6.2.2",
     "css-mqpacker": "^7.0.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-postcss": "^9.0.1",
     "gulp-sass": "^5.1.0",
-    "sass": "^1.50.1"
+    "sass": "^1.50.1",
+    "sort-css-media-queries": "^2.0.4"
   }
 }

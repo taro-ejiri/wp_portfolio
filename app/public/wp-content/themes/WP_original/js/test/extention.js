@@ -14,7 +14,7 @@ $(function(){
 		var $grid = $('.grid').masonry({
 			itemSelector: '.itembox',
 			// columnWidth: 230,
-			columnWidth: 10,
+			columnWidth: 15,
 		});
 	}
 
