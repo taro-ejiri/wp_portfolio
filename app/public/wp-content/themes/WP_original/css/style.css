@@ -1393,6 +1393,15 @@ span.wpcf7-not-valid-tip,
   padding: 0;
   margin: 20px 0;
   list-style: none;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+.work-list .test .filter-button ul {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  margin-bottom: 60px;
 }
 .work-list .test .filter-button li {
   padding: 10px 20px;
@@ -1411,8 +1420,51 @@ span.wpcf7-not-valid-tip,
   color: #fff;
   background: #333;
 }
+.work-list .test .filter-button li {
+  display: inline-block;
+  margin: 0 -2px;
+}
+.work-list .test .filter-button li:after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 10px;
+  background: #938b94;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: -5px;
+}
+.work-list .test .filter-button li.last:after {
+  background: #fff;
+}
+.work-list .test .filter-button li a {
+  padding: 16px 30px;
+  font-size: 11px;
+  line-height: 15px;
+  font-weight: bold;
+  color: #6f6470;
+  text-transform: uppercase;
+  display: block;
+  text-decoration: none;
+  border-right: none;
+  letter-spacing: 2px;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+}
+.work-list .test .filter-button li a:hover {
+  border-color: #cfcfcf;
+  color: #000;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+}
+.work-list .test .filter-button li a.current {
+  border: solid 1px #fff;
+  color: #000;
+}
 .work-list .test .contents {
   width: 900px;
+  width: 1200px;
   padding: 30px 0;
   margin: 0 auto;
 }
@@ -1420,26 +1472,9 @@ span.wpcf7-not-valid-tip,
   width: calc(100% + 20px);
 }
 .work-list .test .grid .itembox {
-  width: 210px;
-  /* 必ず横幅指定 */
   margin: 0 20px 20px 0;
   color: #fff;
   text-align: center;
-}
-.work-list .test .itembox.corporate {
-  background: rgb(224, 121, 73);
-}
-.work-list .test .itembox.campaign {
-  background: rgb(190, 99, 183);
-}
-.work-list .test .itembox.wordpress {
-  background: #238c00;
-}
-.work-list .test .itembox.game {
-  background: rgb(26, 175, 168);
-}
-.work-list .test .itembox.other {
-  background: #fc0;
 }
 .work-list .menuFrame {
   display: block;
@@ -1525,6 +1560,9 @@ span.wpcf7-not-valid-tip,
   background: #726fb9;
   background: #000;
   text-align: center;
+}
+.work-list figure img {
+  width: 100%;
 }
 .work-list figure:hover img {
   opacity: 0.4;
@@ -1785,6 +1823,9 @@ span.wpcf7-not-valid-tip,
   .container {
     max-width: 540px;
   }
+  .work-list .test .grid .itembox {
+    width: 100%;
+  }
   .work-list ul.menuContainer .worksFrame {
     width: 100%;
   }
@@ -1792,6 +1833,13 @@ span.wpcf7-not-valid-tip,
 @media (min-width: 768px) {
   .container {
     max-width: 720px;
+  }
+  .work-list .test .grid .itembox {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 33.333333%;
+        -ms-flex: 0 0 33.333333%;
+            flex: 0 0 33.333333%;
+    max-width: 33.333333%;
   }
   .work-list ul.menuContainer .worksFrame {
     -webkit-box-flex: 0;
@@ -1804,6 +1852,9 @@ span.wpcf7-not-valid-tip,
 @media (min-width: 992px) {
   .container {
     max-width: 970px;
+  }
+  .work-list .test .grid .itembox {
+    width: 30%;
   }
   .work-list ul.menuContainer .worksFrame {
     -webkit-box-flex: 0;
@@ -1939,7 +1990,6 @@ span.wpcf7-not-valid-tip,
     width: calc(100% + 10px);
   }
   .work-list .test .grid .itembox {
-    width: 110px;
     margin: 0 10px 10px 0;
   }
   .work-list ul.menuContainer {
@@ -2049,6 +2099,10 @@ span.wpcf7-not-valid-tip,
     width: 90%;
     margin: 0 auto;
     min-height: 630px;
+  }
+  .work-list .test .filter-button ul {
+    margin-bottom: 10px;
+    padding-left: 0;
   }
   .work-list .menuFrame ul {
     margin-bottom: 10px;

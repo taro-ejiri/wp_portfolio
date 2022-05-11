@@ -48,6 +48,20 @@
             padding: 0;
             margin: 20px 0;
             list-style: none;
+
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+            ul {
+                margin: 0 auto;
+                text-align: center;
+                display: block;
+                margin-bottom: 60px;
+                @media only screen and (max-width: 768px) {
+                    margin-bottom: 10px;
+                    padding-left: 0;
+                }
+            }
             li {
                 padding: 10px 20px;
                 margin: 0 10px 0 0;
@@ -65,67 +79,106 @@
                     background: #333;
                 }
             }
-        }
-        .contents {
-            width: 900px;
-            padding: 30px 0;
-            margin: 0 auto;
-        }
-        .grid {
-            width: calc(100% + 20px);
-        }
-        .grid .itembox {
-            width: 210px;/* 必ず横幅指定 */
-            margin: 0 20px 20px 0;
-            color: #fff;
-            text-align: center;
-        }
-        .itembox.corporate {
-            background: rgb(224, 121, 73);
-        }
-        .itembox.campaign {
-            background: rgb(190, 99, 183);
-        }
-        .itembox.wordpress {
-            background: #238c00;
-        }
-        .itembox.game {
-            background: rgb(26, 175, 168);
-        }
-        .itembox.other {
-            background: #fc0;
+            li {
+                display: inline-block;
+                margin: 0 -2px;
+                &:after {
+                    content: "";
+                    display: block;
+                    width: 1px;
+                    height: 10px;
+                    background: #938b94;
+                    position: absolute;
+                    right: 0;
+                    top: 50%;
+                    margin-top: -5px;
+                }
+                &.last:after {
+                    background: #fff;
+                }
+                a {
+                    padding: 16px 30px;
+                    font-size: 11px;
+                    line-height: 15px;
+                    font-weight: bold;
+                    color: #6f6470;
+                    text-transform: uppercase;
+                    display: block;
+                    text-decoration: none;
+                    border-right: none;
+                    letter-spacing: 2px;
+                    transition-duration: 0.2s;
+                    &:hover {
+                        border-color: #cfcfcf;
+                        color: #000;
+                        transition-duration: 0.2s;
+                    }
+                    &.current {
+                        border: solid 1px #fff;
+                        color: #000;
+                    }
+                }
+
+                @media screen and (max-width: 768px) {
+                    font-size: 14px;
+                }
+
+            }
+
+
+
+
+
+
         }
 
-        @media screen and (max-width: 768px) {
-            .filter-button li {
-                font-size: 14px;
-            }
-            .contents {
+
+
+
+
+
+
+
+
+
+        .contents {
+            width: 900px;
+            width: 1200px;
+            padding: 30px 0;
+            margin: 0 auto;
+            @media screen and (max-width: 768px) {
                 width: calc(100% - 20px);
                 padding: 30px 10px;
             }
-            .grid {
+        }
+        .grid {
+            width: calc(100% + 20px);
+            @media screen and (max-width: 768px) {
                 width: calc(100% + 10px);
             }
-            .grid .itembox {
-                width: 110px;
-                margin: 0 10px 10px 0;
+            .itembox {
+                // width: 210px;/* 必ず横幅指定 */
+                margin: 0 20px 20px 0;
+                color: #fff;
+                text-align: center;
+                @media (min-width: 576px) {
+                    width: 100%;
+                 }        
+                @media (min-width: 768px) {
+                    flex: 0 0 33.333333%;
+                    max-width: 33.333333%;
+                }
+                @media (min-width: 992px) {
+                    // flex: 0 0 33.333333%;
+                    // max-width: 33.333333%;
+                    width: 30%;
+                }
+                @media screen and (max-width: 768px) {
+                    margin: 0 10px 10px 0;
+                }
             }
         }
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -258,6 +311,10 @@
         background: #726fb9;
         background: #000;
         text-align: center;
+
+        img {
+            width: 100%;
+        }
         &:hover {
             img {
                 opacity: 0.4; 
