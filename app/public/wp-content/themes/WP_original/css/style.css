@@ -1515,34 +1515,6 @@ span.wpcf7-not-valid-tip,
 }
 
 /* WORKリストがソートする際の動き */
-.isotope-item {
-  z-index: 2;
-}
-
-.isotope-hidden.isotope-item {
-  pointer-events: none;
-  z-index: 1;
-}
-
-.isotope,
-.isotope .isotope-item {
-  -webkit-transition-duration: 0.8s;
-          transition-duration: 0.8s;
-}
-
-.isotope {
-  -webkit-transition-property: height, width;
-  transition-property: height, width;
-}
-
-.isotope .isotope-item {
-  padding: 0;
-  -webkit-transition-property: opacity, -webkit-transform;
-  transition-property: opacity, -webkit-transform;
-  transition-property: transform, opacity;
-  transition-property: transform, opacity, -webkit-transform;
-}
-
 /* WORK List Sections
 ------------------------------*/
 .work-list figure {

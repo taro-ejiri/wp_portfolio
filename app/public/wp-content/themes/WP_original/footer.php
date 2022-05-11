@@ -89,10 +89,10 @@
 <?php if ( is_post_type_archive('works') ) : ?>
 <!--投稿タイプが「works」のアーカイブページで行う処理を書く-->
 
-	<!-- MENU List ソートの際の動き用 js -->
-	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/works/jquery.isotope.js"></script>
-	<!-- MENU List ソート用 js -->
-	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/works/custom.js"></script>
+	<!-- MENU List ソートの際の動き用 js --><!-- MENU List ソート用 js -->
+	<!-- <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/works/jquery.isotope.js"></script>
+	
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/works/custom.js"></script> -->
 
 
 	<script src="<?php bloginfo('template_url'); ?>/js/test/jquery-2.1.4.min.js"></script>
