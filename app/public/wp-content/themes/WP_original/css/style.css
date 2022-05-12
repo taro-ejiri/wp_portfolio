@@ -1503,12 +1503,11 @@ span.wpcf7-not-valid-tip,
   transition: -webkit-transform 0.35s;
   transition: transform 0.35s;
   transition: transform 0.35s, -webkit-transform 0.35s;
-  margin-top: 20px;
-  margin-bottom: 10px;
+  margin: 20px 0 10px;
   padding: 20px;
   color: #fff;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 120%;
   text-transform: uppercase;
 }

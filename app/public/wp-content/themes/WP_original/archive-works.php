@@ -48,10 +48,9 @@
 										<img src="<?php echo $url ?>" alt="<?php echo $alt ?>">
 										<figcaption>
 											<div class="title"><?php echo get_the_title(); ?><br><span class="small"><?php the_field('client'); ?></span></div>
-											<!-- <h2><?php echo get_the_title(); ?><br><span class="small"><?php the_field('client'); ?></span></h2> -->
 											<?php 
 												$checked = get_field('newMark');
-												if($checked){ //管理画面で「NEW」のチェックボックスを入れていたら
+												if ($checked){ //管理画面で「NEW」のチェックボックスを入れていたら
 												echo '<span class="new">NEW</span>'; //アイコンを表示
 												}
 											?>
