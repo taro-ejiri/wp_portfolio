@@ -655,8 +655,7 @@ nav .size_pc li a {
   font-size: 19px;
 }
 nav .size_pc li a:hover, nav .size_pc li a.active {
-  color: #000;
-  text-decoration: none;
+  opacity: 0.6;
 }
 nav .size_sm #toggle-nav {
   display: none;
@@ -786,6 +785,7 @@ footer .f_share_btn {
   text-align: center;
 }
 footer .f_share_btn ul {
+  margin-bottom: 14px;
   padding-left: 0;
 }
 footer .f_share_btn li {
@@ -888,14 +888,10 @@ footer .cp_right {
   text-align: center;
 }
 .section-title span {
-  -webkit-font-smoothing: subpixel-antialiased;
   display: block;
-  vertical-align: top;
-  font-weight: 400 !important;
+  font-weight: 400;
   font-size: 11px;
-  letter-spacing: 0.05em;
   letter-spacing: 0.2em;
-  text-transform: uppercase;
 }
 
 /* 更に詳しくボタン */
@@ -967,6 +963,10 @@ footer .cp_right {
   font-size: 22px;
   letter-spacing: 0.4px;
   text-align: center;
+}
+.principle .items_three h3.point-title span.small {
+  color: #777;
+  font-size: 65%;
 }
 .principle .items_three .point-description {
   padding: 0 15px;
@@ -1051,23 +1051,38 @@ footer .cp_right {
   margin: 0 auto;
   width: 90%;
 }
-.About .dl-horizontal {
+.About dl {
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+          flex-wrap: wrap;
   border-bottom: 1px rgba(200, 200, 200, 0.5) dashed;
 }
-.About .dl-horizontal dt {
+.About dl dt {
   margin-right: 0px;
   border-top: 1px rgba(200, 200, 200, 0.5) dashed;
-  padding: 1.1em 1em 1em 1em;
+  padding: 1em 3em 1em 1em;
+  width: 20%;
   font-weight: 500;
   font-size: 15px;
   line-height: 1.6;
+  text-align: right;
 }
-.About .dl-horizontal dd {
-  margin-left: 110px;
+.About dl dd {
   border-top: 1px rgba(200, 200, 200, 0.5) dashed;
-  padding: 1.1em 1em 1em 10em;
+  padding: 1em 1em 1em 1em;
+  width: 80%;
   font-size: 15px;
   line-height: 1.6;
+}
+.About dl dd a {
+  color: #007bff;
+}
+.About dl dd a:hover {
+  text-decoration: underline;
 }
 
 /* 3.7.2 CODING POLICY / SMART PHONE
@@ -1980,22 +1995,23 @@ span.wpcf7-not-valid-tip,
   .About .about_frame {
     width: 100%;
   }
-  .About .dl-horizontal {
-    border-bottom: 0px rgba(200, 200, 200, 0.5) dashed;
+  .About dl {
+    display: block;
+    border-bottom: initial;
   }
-  .About .dl-horizontal dt {
-    margin-left: 0px;
-    border-top: 0;
-    border-top: 0px rgba(200, 200, 200, 0.5) dashed;
+  .About dl dt {
+    border-top: initial;
     border-bottom: 1px #ddd solid;
     padding: 1.5em 0 0.3em;
+    width: 100%;
+    text-align: left;
   }
-  .About .dl-horizontal dd {
-    margin-left: 0px;
-    border-top: 0px rgba(200, 200, 200, 0.5) dashed;
+  .About dl dd {
+    border-top: initial;
     padding: 0.3em 0em 0em 0em;
+    width: 100%;
   }
-  .About .dl-horizontal ul {
+  .About dl ul {
     padding-left: 10px;
   }
   .Policy .dl-horizontal dt {

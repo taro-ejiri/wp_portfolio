@@ -38,41 +38,52 @@
             width: 100%;
         }
     }
-    .dl-horizontal {
+    dl {
+        display: flex;
+        flex-wrap: wrap;
         border-bottom: 1px rgba(200, 200, 200, 0.5) dashed;
         @media only screen and (max-width: 480px) {
-            border-bottom: 0px rgba(200, 200, 200, 0.5) dashed;
+            display: block;
+            border-bottom: initial;
         }
         dt {
-            padding: 1.1em 1em 1em 1em;
+            width: 20%;
+            text-align: right;
+            padding: 1em 3em 1em 1em;
             line-height: 1.6;
             font-size: 15px;
             font-weight: 500;
             margin-right: 0px;
             border-top: 1px rgba(200, 200, 200, 0.5) dashed;
             @media only screen and (max-width: 480px) {
+                width: 100%;
+                text-align: left;
                 padding: 1.5em 0 0.3em;
-                border-top: 0;
                 border-bottom: 1px #ddd solid;
-                border-top: 0px rgba(200, 200, 200, 0.5) dashed;
-                margin-left: 0px;
+                border-top: initial;
             }
         }
         dd {
-            padding: 1.1em 1em 1em 10em;
+            width: 80%;
+            padding: 1em 1em 1em 1em;
             font-size: 15px;
             line-height: 1.6;
             border-top: 1px rgba(200, 200, 200, 0.5) dashed;
-            margin-left: 110px;
+            a {
+                color: #007bff;
+                &:hover {
+                    text-decoration:underline;
+                }
+            }
             @media only screen and (max-width: 480px) {
+                width: 100%;
                 padding: 0.3em 0em 0em 0em;
-                border-top: 0px rgba(200, 200, 200, 0.5) dashed;
-                margin-left: 0px;
+                border-top: initial;
             }
         }
     }
     @media only screen and (max-width: 480px) {
-        .dl-horizontal {
+        dl {
             ul {
                 padding-left: 10px;
             }
@@ -98,6 +109,16 @@
     color: #6c7279;
     margin: 0 0 10px;
 }
+
+.Policy {
+
+}
+
+
+
+
+
+
 .aboutUs {
     h3 {
         position: relative;
