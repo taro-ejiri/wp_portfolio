@@ -19,6 +19,9 @@ WordPress
 - jQuery
 - Vue.js(現状は CDN)
 
+### 【 フォント 】
+Google Fonts（BIZ UDPGothic）
+
 ### 【 ビルドツール 】
 
 - gulp（コンパイルは VSCode で行う様変更したのでスプライト画像作成や画像圧縮の際に使用）
