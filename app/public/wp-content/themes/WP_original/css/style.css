@@ -526,11 +526,11 @@ template {
 2.0 base
 ----------------------------------------------------------------*/
 @font-face {
-  src: url("../font/BIZUDPGothic-Regular.ttf");
-  font-family: "UDGothic";
+  src: url("../font/SawarabiGothic-Regular.ttf");
+  font-family: "Sawarabi";
 }
 body {
-  font-family: "UDGothic", sans-serif;
+  font-family: "Sawarabi", sans-serif;
 }
 body::after {
   -webkit-transition: opacity 0.8s ease;

@@ -4,12 +4,13 @@
 2.0 base
 ----------------------------------------------------------------*/
 @font-face {
-    // BIZ UDゴシック
-	font-family: "UDGothic";
-	src: url("../font/BIZUDPGothic-Regular.ttf") ;
+    // さわらびゴシック
+    font-family: "Sawarabi";
+	src: url("../font/SawarabiGothic-Regular.ttf") ;
 }
 body {
-	font-family: "UDGothic", sans-serif;
+	// font-family: "UDGothic", sans-serif;
+    font-family: "Sawarabi", sans-serif;
     &::after {
         content: '';
         position: fixed;
