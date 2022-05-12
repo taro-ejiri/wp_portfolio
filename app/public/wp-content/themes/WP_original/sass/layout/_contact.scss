@@ -78,6 +78,10 @@
     border-radius: 4px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1) inset;
 }
+.wpcf7 select {
+    appearance: auto;
+    // cursor: pointer;
+}
 
 /* 「送信」ボタン */
 .wpcf7 input[type="submit"] {
@@ -101,26 +105,23 @@
 }
 
 /* エラーメッセージ */
-
 #wpcf7-f121-p9-o1-ve-your-name,
 #wpcf7-f121-p9-o1-ve-your-email,
 #wpcf7-f121-p9-o1-ve-your-tel {
     display: none;
 }
-
 span.wpcf7-not-valid-tip,
 .wpcf7-response-output.wpcf7-validation-errors {
     display: block;
     color: red;
     font-weight: 600;
 }
-
 .wpcf7-response-output {
     text-align: center;
     margin-top: 20px;
 }
 
-/* 入力内容に問題があります。確認して再度お試しください。 */
+/* 入力内容に問題があります。確認して再度お試しください。*/
 .wpcf7-response-output.wpcf7-validation-errors {
     width: 80%;
     margin: 0 auto;
