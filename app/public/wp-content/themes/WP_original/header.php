@@ -43,7 +43,6 @@ if(is_front_page()): ?>
 <!-- <link href="<?php bloginfo('template_url'); ?>/css/style.min.css" rel="stylesheet" type="text/css"> -->
 
 
-
 <!-- test start -->
 
 <!-- slick -->
@@ -62,8 +61,13 @@ if(is_front_page()): ?>
 <!-- もう不要<link href="<?php bloginfo('template_url'); ?>/css/flexslider.css" rel="stylesheet"> -->
 <?php endif; ?>
 
+
+
 <!-- Bootstrap CSS -->
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+
+
 
 <!--[if lt IE 9]>
 <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/html5shiv.min.js"></script>
