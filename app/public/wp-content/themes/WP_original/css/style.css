@@ -525,6 +525,13 @@ template {
 /*--------------------------------------------------------------
 2.0 base
 ----------------------------------------------------------------*/
+@font-face {
+  src: url("../font/BIZUDPGothic-Regular.ttf");
+  font-family: "UDGothic";
+}
+body {
+  font-family: "UDGothic", sans-serif;
+}
 body::after {
   -webkit-transition: opacity 0.8s ease;
   position: fixed;

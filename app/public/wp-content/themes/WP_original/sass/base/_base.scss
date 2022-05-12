@@ -3,7 +3,13 @@
 /*--------------------------------------------------------------
 2.0 base
 ----------------------------------------------------------------*/
+@font-face {
+    // BIZ UDゴシック
+	font-family: "UDGothic";
+	src: url("../font/BIZUDPGothic-Regular.ttf") ;
+}
 body {
+	font-family: "UDGothic", sans-serif;
     &::after {
         content: '';
         position: fixed;
