@@ -1349,10 +1349,6 @@ span.wpcf7-not-valid-tip,
 ------------------------------*/
 /* section ID WORK List
 ------------------------------*/
-.work-list {
-  /* WORK List menuFrame */
-  /* WORK List menuContainer */
-}
 .work-list h2 {
   display: block;
   margin-bottom: 30px;
@@ -1381,7 +1377,7 @@ span.wpcf7-not-valid-tip,
   font-family: "Open Sans", sans-serif;
   letter-spacing: 0.2px;
 }
-.work-list .test .filter-button {
+.work-list .filter-button {
   -webkit-box-pack: center;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
@@ -1397,13 +1393,13 @@ span.wpcf7-not-valid-tip,
   list-style: none;
   text-align: center;
 }
-.work-list .test .filter-button ul {
+.work-list .filter-button ul {
   display: block;
   margin: 0 auto;
   margin-bottom: 60px;
   text-align: center;
 }
-.work-list .test .filter-button li {
+.work-list .filter-button li {
   -webkit-transition-duration: 0.2s;
   display: inline-block;
           transition-duration: 0.2s;
@@ -1419,32 +1415,31 @@ span.wpcf7-not-valid-tip,
   text-decoration: none;
   text-transform: uppercase;
 }
-.work-list .test .filter-button li:hover, .work-list .test .filter-button li.is-checked {
+.work-list .filter-button li:hover, .work-list .filter-button li.is-checked {
   -webkit-transition-duration: 0.2s;
           transition-duration: 0.2s;
   color: #000;
 }
-.work-list .test .contents {
+.work-list .contents {
   margin: 0 auto;
   padding: 30px 0;
   width: 1200px;
 }
-.work-list .test .grid {
+.work-list .grid {
   left: calc(18% - 100px);
   width: calc(100% + 20px);
 }
-.work-list .test .grid .itembox {
+.work-list .grid .itembox {
   padding: 10px;
   width: 330px;
 }
-.work-list .test .client {
+.work-list .client {
   display: none;
   color: #000;
   font-size: 12px;
   text-align: center;
 }
 
-/* WORKリストがソートする際の動き */
 /* WORK List Sections
 ------------------------------*/
 .work-list figure {
@@ -1534,6 +1529,8 @@ span.wpcf7-not-valid-tip,
   top: 30px;
   left: 30px;
   background: url(../img/works/icon_new.png);
+  background-size: contain;
+  background-repeat: no-repeat;
   width: 46px;
   height: 46px;
   text-indent: -9999px;
@@ -1734,17 +1731,18 @@ span.wpcf7-not-valid-tip,
   nav .size_sm .hamburger {
     display: block;
   }
-  .work-list .test .grid .itembox {
+  .work-list .grid .itembox {
     padding: 10px;
     width: 300px;
   }
   .work-list figure .title {
-    padding-top: 23%;
-    font-size: 25px;
+    font-size: 18px;
   }
   .work-list figure span.new {
-    top: 15px;
-    left: 15px;
+    top: 25px;
+    left: 25px;
+    width: 36px;
+    height: 36px;
   }
 }
 @media only screen and (max-width: 1024px) {
@@ -1761,10 +1759,10 @@ span.wpcf7-not-valid-tip,
   }
 }
 @media (max-width: 1024px) {
-  .work-list .test .contents {
+  .work-list .contents {
     width: 100%;
   }
-  .work-list .test .grid {
+  .work-list .grid {
     left: calc(6% + 0px);
     width: 90%;
   }
@@ -1783,13 +1781,25 @@ span.wpcf7-not-valid-tip,
   }
 }
 @media screen and (max-width: 912px) {
-  .work-list .test .grid .itembox {
+  .work-list .grid .itembox {
     width: 270px;
+  }
+  .work-list figure .title {
+    padding-top: 0;
+  }
+  .work-list figure span.new {
+    top: 20px;
+    left: 20px;
+    width: 30px;
+    height: 30px;
   }
 }
 @media screen and (max-width: 820px) {
-  .work-list .test .grid .itembox {
+  .work-list .grid .itembox {
     width: 230px;
+  }
+  .work-list figure .title {
+    font-size: 14px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -1806,12 +1816,8 @@ span.wpcf7-not-valid-tip,
     padding: 15px;
     font-size: 20px;
   }
-  .work-list .test .filter-button li {
+  .work-list .filter-button li {
     font-size: 14px;
-  }
-  .work-list figure .title {
-    padding-top: 20%;
-    font-size: 18px;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -1880,13 +1886,13 @@ span.wpcf7-not-valid-tip,
     width: 90%;
     min-height: 630px;
   }
-  .work-list .test .filter-button ul {
+  .work-list .filter-button ul {
     margin-bottom: 10px;
     padding-left: 0;
   }
 }
 @media (max-width: 768px) {
-  .work-list .test .grid {
+  .work-list .grid {
     left: calc(20% + 0px);
     width: 75%;
   }
@@ -1942,7 +1948,7 @@ span.wpcf7-not-valid-tip,
   }
 }
 @media (max-width: 540px) {
-  .work-list .test .grid {
+  .work-list .grid {
     left: calc(6% + 0px);
     width: 90%;
   }
@@ -1961,12 +1967,14 @@ span.wpcf7-not-valid-tip,
     display: block;
   }
   .work-list figure .title {
-    padding-top: 25%;
+    padding-top: 8%;
     font-size: 18px;
   }
   .work-list figure span.new {
     top: 20px;
     left: 20px;
+    width: 50px;
+    height: 50px;
   }
   .Works-content .works-slider li .size {
     font-size: 18px;
@@ -2038,10 +2046,10 @@ span.wpcf7-not-valid-tip,
   .area404 p {
     font-size: 16px;
   }
-  .work-list .test .grid .itembox {
+  .work-list .grid .itembox {
     width: 100%;
   }
-  .work-list .test .client {
+  .work-list .client {
     display: block;
     min-height: 30px;
   }
@@ -2089,7 +2097,7 @@ span.wpcf7-not-valid-tip,
   }
 }
 @media (max-width: 414px) {
-  .work-list .test .grid {
+  .work-list .grid {
     left: 0;
     width: 100%;
   }
@@ -2114,9 +2122,6 @@ span.wpcf7-not-valid-tip,
   }
   .area404 p {
     margin-bottom: 0;
-  }
-  .work-list figure .title {
-    font-size: 16px;
   }
 }
 @media (min-width: 576px) {
