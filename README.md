@@ -20,7 +20,7 @@ WordPress
 - Vue.js(現状は CDN)
 
 ### 【 フォント 】
-Google Fonts（Noto Sans JP）
+Google Fonts（BIZ UDPGothic）
 
 ### 【 ビルドツール 】
 
