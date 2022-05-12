@@ -7,11 +7,7 @@
 .About {
     h2 {
         &.top {
-            color: #000;
-            display: block;
             font-size: 45px;
-            font-style: normal;
-            letter-spacing: -3px;
             font-weight: 700;
             margin-bottom: 30px;
             text-align: center;
@@ -27,7 +23,6 @@
         margin-bottom: 15px;
         @media only screen and (max-width: 699px) {
             font-size: 24px;
-            letter-spacing: -1px;
         }
     }
     p {

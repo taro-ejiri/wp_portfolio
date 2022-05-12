@@ -653,7 +653,6 @@ nav .size_pc li a {
   color: rgb(0, 0, 0);
   font-weight: 700;
   font-size: 19px;
-  letter-spacing: -1px;
 }
 nav .size_pc li a:hover, nav .size_pc li a.active {
   color: #000;
@@ -875,7 +874,6 @@ footer .cp_right {
   color: #b3b3bb;
   font-weight: 900;
   font-size: 50px;
-  letter-spacing: -0.6px;
   text-align: center;
 }
 .section-title h2:after {
@@ -1031,13 +1029,9 @@ footer .cp_right {
 /* 3.7.1 略歴
 ------------------------------*/
 .About h2.top {
-  display: block;
   margin-bottom: 30px;
-  color: #000;
-  font-style: normal;
   font-weight: 700;
   font-size: 45px;
-  letter-spacing: -3px;
   text-align: center;
 }
 .About h3 {
@@ -1180,13 +1174,9 @@ footer .cp_right {
 3.8 contact
 ------------------------------*/
 .contact h2.top {
-  display: block;
   margin-bottom: 30px;
-  color: #000;
-  font-style: normal;
   font-weight: 700;
   font-size: 45px;
-  letter-spacing: -3px;
   text-align: center;
 }
 .contact .frame {
@@ -1357,13 +1347,9 @@ span.wpcf7-not-valid-tip,
 /* section ID WORK List
 ------------------------------*/
 .work-list h2 {
-  display: block;
   margin-bottom: 30px;
-  color: #000;
-  font-style: normal;
   font-weight: 700;
   font-size: 45px;
-  letter-spacing: -3px;
   text-align: center;
 }
 .work-list h3 {
@@ -1927,7 +1913,6 @@ span.wpcf7-not-valid-tip,
 @media only screen and (max-width: 699px) {
   .About h3 {
     font-size: 24px;
-    letter-spacing: -1px;
   }
   .Policy .section-title,
 .smartphone .section-title {
