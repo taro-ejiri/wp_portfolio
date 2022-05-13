@@ -62,13 +62,11 @@
 		$('img').easyRollover();
 	});
 </script>
-<!-- <script type="text/javascript">
-	// ページ移動の際の表示設定
-	/*設定１*/
+<!-- ページ移動の際の表示設定 -->
+<script type="text/javascript">
 	$(window).on('load', function () {
 		$('body').removeClass('fadeout');
 	});
-	/*設定２*/
 	$(function () {
 		// ハッシュリンク(#)と別ウィンドウでページを開く場合はスルー
 		$('a:not([href^="#"]):not([target])').on('click', function (e) {
@@ -83,7 +81,7 @@
 			return false;
 		});
 	});
-</script> -->
+</script>
 <?php wp_footer(); ?>
 </body>
 </html>
