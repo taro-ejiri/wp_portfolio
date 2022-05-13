@@ -22,130 +22,46 @@
 	<div class="cp_right">©2017-2022 ET WEB DESIGN</div>
 </footer>
 
-
-
-<!-- test start -->
-
-	<!-- slick -->
-	<script src="<?php bloginfo('template_url'); ?>/js/slick/jquery-2.2.0.min.js" type="text/javascript" charset="utf-8"></script>
-	<script src="<?php bloginfo('template_url'); ?>/js/slick/slick.min.js" type="text/javascript" charset="utf-8"></script>
-	<script type="text/javascript">
-		// text-slider
-		$('.text-slides').slick({
-			arrows: false,
-			autoplay: true,
-			autoplaySpeed:4500,
-			fade: true,
-		});
-		// front-slider
-		$('.front-slick').slick({
-			arrows: true,
-			autoplay:true,
-			autoplaySpeed:3000,
-			dots:true
-		});
-		// works-slider
-		$('.works-slider').slick({
-			arrows: false,
-			dots:true
-		});
-
-	</script>
-	<!-- slick -->
-	
-<!-- front-page jumbotron 内の文言を自動送り もう不要-->
-<!-- <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/front/jquery.fancybox.pack.js"></script>
-<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/front/jquery.flexslider-min.js"></script> -->
-
-
-
-<!-- test end -->
-
 <!-- jquery -->
-<!-- <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.min.js"></script>
-<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/content/jquery.waypoints.min.js"></script> -->
-
-<!-- vue.js -->
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.16/vue.js"></script> -->
-<!-- vue back-top -->
-<!-- <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/vue-scripts.js"></script> -->
-
-<!-- JS FILES -->
-<!-- <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/content/main.js"></script> -->
-
-
-
-
-
-
-
-
-
-
-
-
-<!--特定のカスタム投稿タイプのアーカイブページ-->
+<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.min.js"></script>
+<!-- slick -->
+<!-- <script src="<?php bloginfo('template_url'); ?>/js/slick/jquery-2.2.0.min.js" type="text/javascript" charset="utf-8"></script> -->
+<script src="<?php bloginfo('template_url'); ?>/js/slick/slick.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	// text-slider
+	$('.text-slides').slick({
+		arrows: false,
+		autoplay: true,
+		autoplaySpeed:4500,
+		fade: true,
+	});
+	// front-slider
+	$('.front-slick').slick({
+		arrows: true,
+		autoplay:true,
+		autoplaySpeed:3000,
+		dots:true
+	});
+	// works-slider
+	$('.works-slider').slick({
+		arrows: false,
+		dots:true
+	});
+</script>
+<!-- works並び替え --><!-- 投稿タイプが「works」のアーカイブページで行う処理を書く-->
 <?php if ( is_post_type_archive('works') ) : ?>
-<!--投稿タイプが「works」のアーカイブページで行う処理を書く-->
-
-	<!-- MENU List ソートの際の動き用 js --><!-- MENU List ソート用 js -->
-	<!-- <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/works/jquery.isotope.js"></script>
-	
-	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/works/custom.js"></script> -->
-
-
-	<script src="<?php bloginfo('template_url'); ?>/js/test/jquery-2.1.4.min.js"></script>
-	<script src="<?php bloginfo('template_url'); ?>/js/test/masonry.pkgd.min.js"></script>
-	<script src="<?php bloginfo('template_url'); ?>/js/test/extention.js"></script>
+	<!-- <script src="<?php bloginfo('template_url'); ?>/js/works/jquery-2.1.4.min.js"></script> -->
+	<script src="<?php bloginfo('template_url'); ?>/js/works/masonry.pkgd.min.js"></script>
+	<script src="<?php bloginfo('template_url'); ?>/js/works/extention.js"></script>
 <?php endif; ?>
-
-
-<!-- <script type="text/javascript"	src="https://cdnjs.cloudflare.com/ajax/libs/protonet-jquery.inview/1.1.2/jquery.inview.js"></script> -->
-
-<!-- front-page 中央寄せ両サイド表示（レスポンシブ）js -->
-<!-- <script type="text/javascript">
-	$(function () {
-		$('.center-item').slick({
-			infinite: true,
-			dots: true,
-			slidesToShow: 1,
-			centerMode: true, //要素を中央寄せ
-			centerPadding: '100px', //両サイドの見えている部分のサイズ
-			autoplay: true, //自動再生
-			responsive: [{
-				breakpoint: 480,
-				settings: {
-					centerMode: false,
-				}
-			}]
-		});
-	});
-</script> -->
-
-<!-- 要素をフェードイン + 上移動 js -->
-<!-- <script type="text/javascript">
-	$(function () {
-		$('.fadein-mv09').on('inview', function (event, isInView, visiblePartX, visiblePartY) {
-			console.log(isInView);
-			if (isInView) {
-				$(this).stop().addClass('mv09');
-			} else {
-				$(this).stop().removeClass('mv09');
-			}
-		});
-	});
-</script> -->
-
 <!-- シェアボタン js -->
-<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/content/jquery.easy-rollover.min.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.easy-rollover.min.js"></script>
 <script type="text/javascript">
 	$(function () {
 		//シェアボタン　マウスオーバー挙動
 		$('img').easyRollover();
 	});
 </script>
-
 <!-- <script type="text/javascript">
 	// ページ移動の際の表示設定
 	/*設定１*/
@@ -168,7 +84,6 @@
 		});
 	});
 </script> -->
-
 <?php wp_footer(); ?>
 </body>
 </html>

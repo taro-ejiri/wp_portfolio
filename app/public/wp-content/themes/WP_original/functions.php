@@ -208,13 +208,6 @@ function add_page_column_row($column_name, $post_id) {
 add_filter( 'manage_pages_columns', 'add_page_columns');
 add_action( 'manage_pages_custom_column', 'add_page_column_row', 10, 2);
 
-/* Bootstrapの style と script を読み込み */
-//function my_bootstrap_scripts() {
-//wp_enqueue_style( 'bootstrap-css', get_template_directory_uri() . '/lib/css/bootstrap.min.css');
-//wp_enqueue_script( 'bootstrap-script', get_template_directory_uri() . '/lib/js/bootstrap.min.js', array(), '1.0.0', true );
-//}
-//add_action( 'wp_enqueue_scripts', 'my_bootstrap_scripts' );
-
 // Contact Form 7 の CSS と JavaScript の読み込み制御
 function my_contact_enqueue_scripts(){
 wp_deregister_script('contact-form-7');
