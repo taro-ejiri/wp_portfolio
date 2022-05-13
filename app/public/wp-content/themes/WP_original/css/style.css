@@ -874,6 +874,7 @@ footer .cp_right {
   color: #b3b3bb;
   font-weight: 900;
   font-size: 50px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center;
 }
 .section-title h2:after {
@@ -1026,32 +1027,42 @@ footer .cp_right {
 /*------------------------------
 3.7 About
 ------------------------------*/
+.about a {
+  color: #007bff;
+}
+.about a:hover {
+  text-decoration: underline;
+}
+
 /* 3.7.1 略歴
 ------------------------------*/
-.About h2.top {
+.bio {
+  padding: 0 0 70px;
+}
+.bio h2.top {
   margin-bottom: 30px;
   font-weight: 700;
   font-size: 45px;
   text-align: center;
 }
-.About h3 {
+.bio h3 {
   margin-bottom: 15px;
   font-weight: 300;
   font-size: 30px;
   line-height: 1.2;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, "Arial", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
 }
-.About p {
+.bio p {
   margin-bottom: 15px;
   color: #6c7279;
   font-size: 14px;
   line-height: 22.4px;
 }
-.About .about_frame {
+.bio .about_frame {
   margin: 0 auto;
   width: 90%;
 }
-.About dl {
+.bio dl {
   -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
   display: -webkit-box;
@@ -1061,34 +1072,28 @@ footer .cp_right {
           flex-wrap: wrap;
   border-bottom: 1px rgba(200, 200, 200, 0.5) dashed;
 }
-.About dl dt {
+.bio dl dt {
   margin-right: 0px;
   border-top: 1px rgba(200, 200, 200, 0.5) dashed;
   padding: 1em 3em 1em 1em;
-  width: 20%;
+  width: 30%;
   font-weight: 500;
   font-size: 15px;
   line-height: 1.6;
   text-align: right;
 }
-.About dl dd {
+.bio dl dd {
   border-top: 1px rgba(200, 200, 200, 0.5) dashed;
   padding: 1em 1em 1em 1em;
-  width: 80%;
+  width: 70%;
   font-size: 15px;
   line-height: 1.6;
-}
-.About dl dd a {
-  color: #007bff;
-}
-.About dl dd a:hover {
-  text-decoration: underline;
 }
 
 /* 3.7.2 CODING POLICY / SMART PHONE
 ------------------------------*/
 .Policy, .smartphone {
-  padding: 70px 0;
+  padding: 0 0 70px;
 }
 
 .Policy .frame,
@@ -1099,21 +1104,22 @@ footer .cp_right {
 
 .Policy p,
 .smartphone p {
-  margin: 0 0 10px;
+  margin: 0 0 15px;
   color: #6c7279;
   font-size: 14px;
   line-height: 22.4px;
 }
 
+.smartphone ul {
+  margin: 10px 0 0 40px;
+}
+.smartphone li {
+  list-style: disc;
+}
+
 .aboutUs h3 {
-  display: block;
-  position: relative;
   margin: 50px 0 30px;
-  padding-top: 10px;
-  pointer-events: none;
-  font-weight: 200;
   font-size: 24px;
-  line-height: 1.6;
   letter-spacing: 0.12em;
   text-align: center;
 }
@@ -1122,41 +1128,40 @@ footer .cp_right {
   line-height: 150%;
 }
 .aboutUs li {
-  position: relative;
-  margin: 0 0 0.8em;
   margin-bottom: 10px;
-  background: none;
-  padding-left: 1.8em;
-  padding-left: 2em;
-  font-weight: 300;
-  font-size: 14px;
+  padding-left: 1em;
   font-size: 15px;
-  line-height: 1.7;
-  line-height: 2;
   line-height: 1.75;
 }
 
+.Policy .dl-horizontal {
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+          flex-wrap: wrap;
+}
 .Policy .dl-horizontal dt {
   margin-right: 0px;
   border-top: 1px rgba(200, 200, 200, 0.5) solid;
-  padding: 2em 1em 1em 1em;
+  padding: 2em 2em 1em 2em;
+  width: 30%;
   font-weight: 500;
   font-size: 15px;
   line-height: 1.6;
+  text-align: center;
 }
 .Policy .dl-horizontal dd {
-  margin-left: 40px;
   border-top: 1px rgba(200, 200, 200, 0.5) solid;
-  padding: 1em 1em 1em 10em;
+  padding: 1em 1em 1em 1em;
+  width: 70%;
   font-size: 15px;
   line-height: 1.6;
 }
 .Policy li {
-  color: #000;
   list-style: disc;
-}
-.Policy dl {
-  color: #000;
 }
 .Policy ul.environment li {
   list-style: none;
@@ -1883,6 +1888,12 @@ span.wpcf7-not-valid-tip,
   .front-works .slider .slick-dots {
     bottom: -45px;
   }
+  .bio {
+    padding: 0 0 35px;
+  }
+  .Policy, .smartphone {
+    padding: 0 0 35px;
+  }
   .contact .frame {
     width: 90%;
   }
@@ -1932,7 +1943,7 @@ span.wpcf7-not-valid-tip,
   }
 }
 @media only screen and (max-width: 699px) {
-  .About h3 {
+  .bio h3 {
     font-size: 24px;
   }
   .Policy .section-title,
@@ -1952,9 +1963,6 @@ span.wpcf7-not-valid-tip,
     margin: 0 0 10px;
     padding: 25px 0 0;
     font-size: 20px;
-  }
-  .aboutUs h4 {
-    font-size: 18px;
   }
   .aboutUs li {
     padding: 0;
@@ -1998,27 +2006,47 @@ span.wpcf7-not-valid-tip,
   }
 }
 @media only screen and (max-width: 480px) {
-  .About .about_frame {
+  .bio .about_frame {
     width: 100%;
   }
-  .About dl {
+  .bio dl {
     display: block;
     border-bottom: initial;
   }
-  .About dl dt {
+  .bio dl dt {
     border-top: initial;
     border-bottom: 1px #ddd solid;
     padding: 1.5em 0 0.3em;
     width: 100%;
     text-align: left;
   }
-  .About dl dd {
+  .bio dl dd {
     border-top: initial;
     padding: 0.3em 0em 0em 0em;
     width: 100%;
   }
-  .About dl ul {
+  .bio dl ul {
     padding-left: 10px;
+  }
+  .Policy, .smartphone {
+    padding: 10px 0;
+  }
+  .Policy .frame,
+.smartphone .frame {
+    width: 100%;
+  }
+  .smartphone ul {
+    margin: 10px 0 0 25px;
+  }
+  .Policy .dl-horizontal {
+    display: block;
+  }
+  .Policy .dl-horizontal dt {
+    width: 100%;
+    text-align: left;
+  }
+  .Policy .dl-horizontal dd {
+    width: 100%;
   }
   .Policy .dl-horizontal dt {
     margin-left: 0px;
@@ -2038,6 +2066,9 @@ span.wpcf7-not-valid-tip,
   .Policy ul.environment li {
     padding-right: 0;
     padding-left: 0;
+  }
+  .Policy .browser ul {
+    margin-left: 15px;
   }
 
   .Policy ul.environment li dt {
@@ -2094,15 +2125,6 @@ span.wpcf7-not-valid-tip,
   }
   .front-works .slider .slick-next {
     right: -15px;
-  }
-  .Policy,
-.smartphone {
-    padding: 10px 0;
-  }
-
-  .Policy .frame,
-.smartphone .frame {
-    width: 100%;
   }
   .thanks {
     margin: 0 auto;
