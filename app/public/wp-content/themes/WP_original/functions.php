@@ -281,6 +281,14 @@ function remove_migrate($scripts){
 }
 add_filter('wp_default_scripts','remove_migrate');
 
+/**
+ * 余分なものを読み込まないようにするCSSを設定する
+ */
+function custom_wp_dequeue_css() {
+    // global-styles-inline-css を読み込まないようにする（※ v5.9 から追加される）
+    wp_dequeue_style('global-styles');
+}
+add_action( 'wp_enqueue_scripts', 'custom_wp_dequeue_css', 100);
 
 //ここまで
 ;?>
