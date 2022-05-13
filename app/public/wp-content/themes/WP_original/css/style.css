@@ -1426,7 +1426,7 @@ span.wpcf7-not-valid-tip,
   margin: 0 -2px;
   border-right: none;
   padding: 16px 30px;
-  color: #6f6470;
+  color: #b3b3bb;
   font-weight: bold;
   font-size: 11px;
   line-height: 15px;
@@ -1989,6 +1989,9 @@ span.wpcf7-not-valid-tip,
   }
   nav .size_sm .hamburger {
     right: 32px;
+  }
+  .work-list .filter-button li {
+    font-size: 11px;
   }
   .work-list figure .title {
     padding-top: 8%;
