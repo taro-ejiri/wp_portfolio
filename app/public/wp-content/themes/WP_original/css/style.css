@@ -1096,18 +1096,31 @@ footer .cp_right {
   padding: 0 0 70px;
 }
 
-.Policy .frame,
-.smartphone .frame {
+.frame {
   margin: 0 auto;
   width: 90%;
 }
-
-.Policy p,
-.smartphone p {
+.frame p {
   margin: 0 0 15px;
   color: #6c7279;
   font-size: 14px;
   line-height: 22.4px;
+}
+.frame .aboutUs h3 {
+  margin: 50px 0 30px;
+  font-size: 24px;
+  letter-spacing: 0.12em;
+  text-align: center;
+}
+.frame .aboutUs h4 {
+  font-size: 16px;
+  line-height: 150%;
+}
+.frame .aboutUs li {
+  margin-bottom: 10px;
+  padding-left: 1em;
+  font-size: 15px;
+  line-height: 1.75;
 }
 
 .smartphone ul {
@@ -1115,23 +1128,6 @@ footer .cp_right {
 }
 .smartphone li {
   list-style: disc;
-}
-
-.aboutUs h3 {
-  margin: 50px 0 30px;
-  font-size: 24px;
-  letter-spacing: 0.12em;
-  text-align: center;
-}
-.aboutUs h4 {
-  font-size: 16px;
-  line-height: 150%;
-}
-.aboutUs li {
-  margin-bottom: 10px;
-  padding-left: 1em;
-  font-size: 15px;
-  line-height: 1.75;
 }
 
 .Policy .dl-horizontal {
@@ -1190,6 +1186,7 @@ footer .cp_right {
 .Policy ul.environment li dd:last-child:after {
   content: none;
 }
+
 /*------------------------------
 3.8 contact
 ------------------------------*/
@@ -1946,25 +1943,20 @@ span.wpcf7-not-valid-tip,
   .bio h3 {
     font-size: 24px;
   }
-  .Policy .section-title,
-.smartphone .section-title {
-    margin-top: 50px;
+  .frame .section-title {
+    margin-top: 20px;
   }
-
-  .Policy .section-title h2,
-.Policy .section-title,
-.smartphone .section-title h2 {
+  .frame .section-title h2 {
     margin-bottom: 0;
     padding-bottom: 0;
     font-size: 35px;
   }
-
-  .aboutUs h3 {
+  .frame .aboutUs h3 {
     margin: 0 0 10px;
     padding: 25px 0 0;
     font-size: 20px;
   }
-  .aboutUs li {
+  .frame .aboutUs li {
     padding: 0;
   }
 }
@@ -2031,8 +2023,7 @@ span.wpcf7-not-valid-tip,
   .Policy, .smartphone {
     padding: 10px 0;
   }
-  .Policy .frame,
-.smartphone .frame {
+  .frame {
     width: 100%;
   }
   .smartphone ul {
@@ -2042,38 +2033,26 @@ span.wpcf7-not-valid-tip,
     display: block;
   }
   .Policy .dl-horizontal dt {
+    margin-left: 0px;
+    border-top: 0;
+    padding: 1.5em 0 0.3em;
     width: 100%;
     text-align: left;
   }
   .Policy .dl-horizontal dd {
-    width: 100%;
-  }
-  .Policy .dl-horizontal dt {
-    margin-left: 0px;
-    border-top: 0;
-    padding: 1.5em 0 0.3em;
-  }
-  .Policy .dl-horizontal dd {
     margin-left: 0px;
     padding: 0.3em 0em 0em 1.5em;
-  }
-  .Policy ul {
-    padding-left: 10px;
+    width: 100%;
   }
   .Policy ul.environment {
     padding-left: 0;
   }
-  .Policy ul.environment li {
-    padding-right: 0;
-    padding-left: 0;
-  }
-  .Policy .browser ul {
-    margin-left: 15px;
-  }
-
   .Policy ul.environment li dt {
     padding-bottom: 10px;
     width: 100%;
+  }
+  .Policy .browser ul {
+    margin-left: 15px;
   }
   .contact .frame {
     width: 100%;
