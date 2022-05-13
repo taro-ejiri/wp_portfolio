@@ -777,6 +777,38 @@ nav .size_sm .menu ul li ul.h_share_btn li:hover, nav .size_sm .menu ul li ul.h_
 /*------------------------------
 3.3 footer
 ------------------------------*/
+.pageTop {
+  display: none;
+  position: fixed;
+  right: 1em;
+  bottom: 1em;
+  z-index: 1;
+}
+.pageTop a {
+  -webkit-transition: all 0.5s ease;
+  display: block;
+  transition: all 0.5s ease;
+  margin: 0;
+  background: #A9A9B1;
+  width: 60px;
+  height: 60px;
+  line-height: 8em;
+  text-decoration: none;
+}
+.pageTop a::before {
+  -webkit-transform: translate(-50%, -50%);
+  position: absolute;
+  top: 38%;
+  left: 50%;
+          transform: translate(-50%, -50%);
+  border: 12px solid transparent;
+  border-bottom: 20px solid #fff;
+  content: "";
+}
+.pageTop a:hover {
+  opacity: 0.6;
+}
+
 footer {
   margin-top: auto;
 }
@@ -799,8 +831,6 @@ footer .cp_right {
   text-align: center;
   text-transform: uppercase;
 }
-
-/* iPhone5/SE */
 /*------------------------------
 3.4 Contents / page.php
 ------------------------------*/

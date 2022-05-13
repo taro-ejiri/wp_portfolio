@@ -1,6 +1,36 @@
 /*------------------------------
 3.3 footer
 ------------------------------*/
+.pageTop {
+    display: none;
+	position: fixed;
+	right: 1em;
+	bottom: 1em;
+	z-index: 1;
+    a {
+        text-decoration: none;
+        line-height: 8em;
+        margin: 0;
+        display: block;
+        transition: all .5s ease;
+        width: 60px;
+        height: 60px;
+        background: #A9A9B1;
+        &::before{
+            content: "";
+            position: absolute;
+            top: 38%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border: 12px solid transparent;
+            border-bottom: 20px solid #fff;
+        }
+        &:hover {
+            opacity: .6;
+        }
+    }
+}
+
 footer {
     margin-top: auto;
     .f_share_btn {
@@ -23,7 +53,6 @@ footer {
         text-transform: uppercase;
     }
 }
-/* iPhone5/SE */
 @media screen and (max-width: 320px) {
     footer {
         .f_share_btn li {
