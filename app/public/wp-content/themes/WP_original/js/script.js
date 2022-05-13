@@ -1,4 +1,3 @@
-
 // page fadeout
 $(window).on('load', function () {
     $('body').removeClass('fadeout');
@@ -58,4 +57,3 @@ $(function() {
     // ブラウザリロード時にスクロールをページトップ
     $('html,body').animate({ scrollTop: 0 }, '1');
 });
-
