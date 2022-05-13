@@ -664,7 +664,7 @@ nav .size_sm #toggle-nav:checked ~ .hamburger {
   height: 28px;
 }
 nav .size_sm #toggle-nav:checked ~ .hamburger div {
-  background-color: #fff;
+  background-color: #000;
 }
 nav .size_sm #toggle-nav:checked ~ .hamburger div:nth-of-type(1) {
   -webkit-transform: rotate(135deg);
@@ -682,12 +682,13 @@ nav .size_sm #toggle-nav:checked ~ .hamburger div:nth-of-type(3) {
 nav .size_sm #toggle-nav:checked ~ .menu {
   visibility: visible;
   opacity: 1;
+  opacity: 0.9;
 }
 nav .size_sm .hamburger {
   display: none;
   position: fixed;
-  top: 32px;
-  right: 32px;
+  top: 42px;
+  right: 42px;
   z-index: 1020;
   cursor: pointer;
   margin: 0;
@@ -736,7 +737,7 @@ nav .size_sm .menu {
   transition: all 0.5s ease-out;
   will-change: opacity, visibility;
   margin: 0;
-  background-color: #b3b3bb;
+  background-color: #FFF;
   padding: 0;
   width: 100vw;
   height: 100vh;
@@ -748,13 +749,15 @@ nav .size_sm .menu ul {
   list-style-type: none;
 }
 nav .size_sm .menu ul li {
-  margin-bottom: 4px;
-  font-size: 32px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 35px;
+  letter-spacing: 1px;
 }
 nav .size_sm .menu ul li a {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  color: #fff;
+  color: #000;
   text-decoration: none;
 }
 nav .size_sm .menu ul li:hover, nav .size_sm .menu ul li.active {
@@ -1735,7 +1738,7 @@ span.wpcf7-not-valid-tip,
 }
 @media screen and (max-width: 1024px) {
   header .header-content {
-    padding: 10px 0;
+    padding: 25px 0;
     width: 90%;
   }
   header.fixed .header-content {
@@ -1919,6 +1922,11 @@ span.wpcf7-not-valid-tip,
     width: 75%;
   }
 }
+@media screen and (max-width: 767px) {
+  .jumbotron .text-slides blockquote h2 {
+    font-size: 25px;
+  }
+}
 @media only screen and (max-width: 767px) {
   .jumbotron {
     margin: 100px 0 10px;
@@ -1978,6 +1986,9 @@ span.wpcf7-not-valid-tip,
   }
   header .logo_sm {
     display: block;
+  }
+  nav .size_sm .hamburger {
+    right: 32px;
   }
   .work-list figure .title {
     padding-top: 8%;

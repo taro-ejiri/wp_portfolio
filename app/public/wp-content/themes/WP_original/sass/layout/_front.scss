@@ -22,6 +22,9 @@
                 line-height: 200%;
                 text-align: center;
                 color: #fff;
+                @media screen and (max-width: 767px) {
+                    font-size: 25px;
+                }
             }
             p {
                 line-height: 200%;
