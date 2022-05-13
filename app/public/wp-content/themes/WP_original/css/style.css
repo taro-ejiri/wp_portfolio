@@ -818,6 +818,13 @@ footer .cp_right {
   min-height: 750px;
   text-align: center;
 }
+.area404 a {
+  color: #007bff;
+  text-decoration: none;
+}
+.area404 a:hover {
+  text-decoration: underline;
+}
 .area404 h2 {
   margin-bottom: 30px;
   font-size: 30px;
