@@ -39,20 +39,13 @@ if(is_front_page()): ?>
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/js/slick/slick.css" >
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/js/slick/slick-theme.css">
 <?php endif; ?>
-<!-- slick -->
-
-
-<?php if(is_front_page()): ?>
-
-<?php endif; ?>
-
+<?php if(is_front_page()): ?><?php endif; ?>
 <!--[if lt IE 9]>
 <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/html5shiv.min.js"></script>
 <![endif]-->
 <!--[if lt IE 9]>
 <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/html5shiv-printshiv.min.js"></script>
 <![endif]-->
-
 <!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-96611275-1"></script>
 <script>
@@ -61,7 +54,6 @@ if(is_front_page()): ?>
 	gtag('js', new Date());
 	gtag('config', 'UA-96611275-1');
 </script>
-
 <!-- JSON-LD -->
 <script type="application/ld+json">
   {
@@ -74,7 +66,6 @@ if(is_front_page()): ?>
 </script>
 <?php wp_head(); ?><!--システム・プラグイン用-->
 </head>
-
 <body <?php body_class(); ?> class="fadeout">
 	<header id="header">
 		<div class="header-content">
@@ -123,5 +114,4 @@ if(is_front_page()): ?>
 			</nav>			
 		</div>
 	</header>
-
 	<div class="wrapper">
