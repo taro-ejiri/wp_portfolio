@@ -2,14 +2,30 @@
 # This file is distributed under the same license as the Plugins - Autoptimize - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-17 15:38:04+0000\n"
+"PO-Revision-Date: 2022-05-07 04:18:11+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: GlotPress/3.0.0\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
 "Language: ja_JP\n"
 "Project-Id-Version: Plugins - Autoptimize - Stable (latest release)\n"
+
+#: classes/autoptimizeExitSurvey.php:79
+msgid "I would like be contacted about my experience with Autoptimize."
+msgstr "Autoptimize の使用感について連絡を希望する。"
+
+#: classes/autoptimizeExitSurvey.php:59
+msgid "Ouch, sorry about that! But almost all problems can be fixed with the right configuration, have a look at <a href=\"https://blog.futtta.be/2022/05/05/what-to-do-when-autoptimize-breaks-your-site/\" target=\"_blank\">this short troubleshooting howto</a> or create a topic on <a href=\"https://wordpress.org/support/plugin/autoptimize/#new-topic-0\" target=\"_blank\">the support forum here</a>!"
+msgstr "申し訳ありません ! しかし、たいていの問題は正しい設定で修正できますので、<a href=\"https://blog.futtta.be/2022/05/05/what-to-do-when-autoptimize-breaks-your-site/\" target=\"_blank\">簡単にまとめた問題解決の手順</a>をご覧ください。あるいは、<a href=\"https://wordpress.org/support/plugin/autoptimize/#new-topic-0\" target=\"_blank\">こちらのサポート掲示板に</a>話題を投稿してください !"
+
+#: classes/autoptimizeExitSurvey.php:45
+msgid "We would appreciate if you let us know why you're deactivating Autoptimize!"
+msgstr "よろしければ Autoptimize を無効化している理由を教えてください !"
+
+#: classes/autoptimizeExitSurvey.php:42
+msgid "Sorry to see you go!"
+msgstr "すみません。不都合があったかと存じます。"
 
 #: classes/autoptimizeMetabox.php:118
 msgid "LCP Image to preload"
@@ -36,27 +52,27 @@ msgstr "毎"
 msgid "You can manually create rules for different types of pages or have this done fully automated on the %s tab."
 msgstr "異なるページの種別に手動でルールを作成することも、%sタブから完全に自動化することもできます。"
 
-#: classes/autoptimizeExitSurvey.php:92
+#: classes/autoptimizeExitSurvey.php:94
 msgid "Selected reason from the above survey"
 msgstr "上記の調査で選択された理由"
 
-#: classes/autoptimizeExitSurvey.php:92
+#: classes/autoptimizeExitSurvey.php:94
 msgid "Uninstall reason"
 msgstr "アンインストールの理由"
 
-#: classes/autoptimizeExitSurvey.php:91
+#: classes/autoptimizeExitSurvey.php:93
 msgid "Current website:"
 msgstr "現在のウェブサイト:"
 
-#: classes/autoptimizeExitSurvey.php:90
+#: classes/autoptimizeExitSurvey.php:92
 msgid "WordPress version"
 msgstr "WordPress バージョン"
 
-#: classes/autoptimizeExitSurvey.php:89
+#: classes/autoptimizeExitSurvey.php:91
 msgid "Plugin version"
 msgstr "プラグインのバージョン"
 
-#: classes/autoptimizeExitSurvey.php:86
+#: classes/autoptimizeExitSurvey.php:88
 msgid ""
 "Below is a detailed view of all data that Optimizing Matters will receive if\n"
 "                            you fill in this survey. Your email address is only shared if you explicitly fill it in, your IP addres is never sent."
@@ -64,45 +80,33 @@ msgstr ""
 "この調査に記入すると、以下に問題についてのすべてのデータが表示されます。\n"
 "                            あなたのメールアドレスは記入された場合にのみ共有され、またIP アドレスを収集することはありません。"
 
-#: classes/autoptimizeExitSurvey.php:85
+#: classes/autoptimizeExitSurvey.php:87
 msgid "What info do we collect?"
 msgstr "どんな情報を収集していますか ?"
 
-#: classes/autoptimizeExitSurvey.php:77
-msgid "If you want to be contacted about or get help with Autoptimize, leave your email here (we never spam)."
-msgstr "Autoptimize に関する連絡やヘルプを希望であれば、ここにメールを残してください (スパムメールは送りません)。"
-
-#: classes/autoptimizeExitSurvey.php:72
+#: classes/autoptimizeExitSurvey.php:73
 msgid "Other (please specify below)"
 msgstr "ほか (以下で説明ください)"
 
-#: classes/autoptimizeExitSurvey.php:67
+#: classes/autoptimizeExitSurvey.php:68
 msgid "I'm just disabling temporarily."
 msgstr "一時的に無効化しているだけです。"
 
-#: classes/autoptimizeExitSurvey.php:62
+#: classes/autoptimizeExitSurvey.php:63
 msgid "I found a better solution."
 msgstr "ほかにいい方法があった。"
 
-#: classes/autoptimizeExitSurvey.php:58
-msgid "Almost all problems can be fixed with the right configuration, have a look at <a href=\"https://wordpress.org/plugins/autoptimize/#faq\" target=\"_blank\">the FAQ</a> or create a topic on <a href=\"https://wordpress.org/support/plugin/autoptimize/#new-topic-0\" target=\"_blank\">the support forum here</a>!"
-msgstr "たいていの問題は正しく設定することで解決できます。<a href=\"https://ja.wordpress.org/plugins/autoptimize/#faq\" target=\"_blank\">FAQ</a>をご覧になるか<a href=\"https://wordpress.org/support/plugin/autoptimize/#new-topic-0\" target=\"_blank\">こちらのサポート掲示板に</a>自由に話題を投稿してください。"
-
-#: classes/autoptimizeExitSurvey.php:56
+#: classes/autoptimizeExitSurvey.php:57
 msgid "It broke my site."
 msgstr "サイトが壊れた。"
 
-#: classes/autoptimizeExitSurvey.php:51
+#: classes/autoptimizeExitSurvey.php:52
 msgid "As Autoptimize does not do page caching, you might have to install e.g. KeyCDN Cache Enabler or WP Super Cache as well. Feel free to create a topic on <a href=\"https://wordpress.org/support/plugin/autoptimize/#new-topic-0\" target=\"_blank\">the support forum here</a> to get pointers on how get the most out of Autoptimize!"
 msgstr "Autoptimize はページキャッシュを行わないため、KeyCDN の Cache Enabler や WP Super Cache などのインストールが必要な場合があります。Autoptimize を活用するアドバイスを得るには、<a href=\"https://wordpress.org/support/plugin/autoptimize/#new-topic-0\" target=\"_blank\">こちらのサポート掲示板で</a>自由に話題を投稿してください。"
 
-#: classes/autoptimizeExitSurvey.php:49
+#: classes/autoptimizeExitSurvey.php:50
 msgid "I don't see a performance improvement."
 msgstr "パフォーマンスが向上していない。"
-
-#: classes/autoptimizeExitSurvey.php:42
-msgid "Sorry to see you go, we would appreciate if you let us know why you're deactivating Autoptimize!"
-msgstr "すみません。よろしければ Autoptimize を無効化しているを教えてください。"
 
 #: classes/critcss-inc/admin_settings_key.php:22
 msgid "API Key provided by a filter, no need to enter anything here."
@@ -142,7 +146,7 @@ msgstr "画像最適化 CDN を利用するように自動で設定されてい�
 
 #: classes/autoptimizeConfig.php:198
 #: classes/autoptimizeCriticalCSSSettings.php:122
-#: classes/autoptimizeExtra.php:527 classes/autoptimizeImages.php:1175
+#: classes/autoptimizeExtra.php:527 classes/autoptimizeImages.php:1178
 #: classes/autoptimizePartners.php:141
 msgid "Autoptimize Pro Settings"
 msgstr "Autoptimize Pro 設定"
@@ -165,19 +169,19 @@ msgstr "個の上記ルールが criticalcss.com によって要点検だと分�
 msgid "How To Use Autoptimize CriticalCSS Queue"
 msgstr " Autoptimize クリティカル CSS の処理待ちキューの使い方"
 
-#: classes/autoptimizeMetabox.php:190
+#: classes/autoptimizeMetabox.php:197
 msgid "Sorry, something went wrong."
 msgstr "何かがうまくいかなかったようです。"
 
-#: classes/autoptimizeMetabox.php:187
+#: classes/autoptimizeMetabox.php:194
 msgid "Could not add to CCSS job queue."
 msgstr "CCSS ジョブを処理待ちに追加できませんでした。"
 
-#: classes/autoptimizeMetabox.php:185
+#: classes/autoptimizeMetabox.php:192
 msgid "Added to CCSS job queue."
 msgstr "CCSS ジョブを処理待ちに追加しました。"
 
-#: classes/autoptimizeMetabox.php:146
+#: classes/autoptimizeMetabox.php:153
 msgid "Generate Critical CSS"
 msgstr "クリティカル CSS 生成"
 
@@ -243,7 +247,7 @@ msgstr "このページを最適化 ?"
 msgid "Autoptimize this page"
 msgstr "このページの自動最適化"
 
-#: classes/autoptimizeImages.php:1286
+#: classes/autoptimizeImages.php:1289
 msgid "Automatically serve AVIF image format to any browser that supports it."
 msgstr "AVIF 画像形式に対応したブラウザにはこれを自動で提供します。"
 
@@ -317,33 +321,33 @@ msgstr "レンダリングブロックなしで読み込むために、リンク
 
 #. translators: "here to refresh" links to the Autoptimize Extra page and
 #. forces a refresh of the img opt stats.
-#: classes/autoptimizeImages.php:1378
+#: classes/autoptimizeImages.php:1381
 msgid "you can click %1$shere to refresh your quota status%2$s"
 msgstr "クリックで%1$sクォータの状態を更新%2$s"
 
 #. translators: link points to shortpixel.
-#: classes/autoptimizeImages.php:1236
+#: classes/autoptimizeImages.php:1239
 msgid "%1$sSign-up now%2$s to receive x2 more CDN traffic or image optimization credits for free! This offer also applies to any future plan that you'll choose to purchase."
 msgstr "%1$s登録する%2$sことで、2倍の CDN トラフィックまたは画像最適化クレジットが無料で受け取れます。この特典は、今後購入されるプランにも適用されます。"
 
 #. translators: link points to shortpixel.
-#: classes/autoptimizeImages.php:1231
+#: classes/autoptimizeImages.php:1234
 msgid "Get more Google love by speeding up your website. Start serving on-the-fly optimized images (also in the \"next-gen\" <strong>WebP</strong> and <strong>AVIF</strong> image formats) by %1$sShortPixel%2$s. No additional image optimization plugins are needed: your images are optimized, cached and served from %3$sShortPixel's global CDN%2$s."
 msgstr "このサイトを高速化することで、さらに Google から好まれることでしょう。オンザフライでの最適化された画像（次世代の <strong>WebP</strong> や <strong>AVIF</strong> 画像形式にも対応）の提供を %1$sShortPixel%2$s ではじめましょう。画像最適化用プラグインを追加する必要はありません。この最適化された画像は、キャッシュされ %3$sShortPixel のグローバルCDN%2$s から提供されます。"
 
-#: classes/autoptimizeImages.php:1304
+#: classes/autoptimizeImages.php:1307
 msgid "Don't lazyload the first X images, '1' lazyloads all."
 msgstr "最初の画像 X 枚を遅延読み込みしない。1 ですべて遅延読み込みします。"
 
-#: classes/autoptimizeImages.php:1302
+#: classes/autoptimizeImages.php:1305
 msgid "Lazy-load from nth image"
 msgstr "指定枚数目から遅延読み込み"
 
-#: classes/autoptimizeImages.php:1252
+#: classes/autoptimizeImages.php:1255
 msgid "Comma-separated list of image classes or filenames that should not be optimized."
 msgstr "最適化すべきではない画像のクラスやファイル名をコンマ区切りで一覧にします。"
 
-#: classes/autoptimizeImages.php:1250
+#: classes/autoptimizeImages.php:1253
 msgid "Optimization exclusions"
 msgstr "最適化の除外"
 
@@ -372,7 +376,7 @@ msgid "Queue processing time limit"
 msgstr "キューの処理時間制限"
 
 #. translators: "associate your domain" will appear in a "a href".
-#: classes/autoptimizeImages.php:1355
+#: classes/autoptimizeImages.php:1358
 msgid "If you have enough CDN quota remaining, then you may need to %1$sassociate your domain%2$s to your Shortpixel account."
 msgstr "CDN クォータを十分にお持ちであれば、Shortpixel のアカウントを%1$sお使いのドメインに関連付ける%2$s必要がある可能性があります。"
 
@@ -1063,12 +1067,12 @@ msgid "Autoptimize is enabled and configured on a WordPress network level. Pleas
 msgstr "Autoptimize は、WordPress のネットワーク単位で有効化され設定されています。Autoptimize の設定を変更する必要があれば、ネットワーク管理者に連絡してください。"
 
 #. translators: "check the documentation here" will appear in a "a href".
-#: classes/autoptimizeImages.php:1358
+#: classes/autoptimizeImages.php:1361
 msgid "It seems ShortPixel image optimization is not able to fetch images from your site, %1$scheck the documentation here%2$s for more information"
 msgstr "あなたのサイトから、ShortPixel 画像最適化サービスが画像を取得できないようです。詳細は%1$sこちらの説明文書をご確認ください%2$s"
 
 #. translators: link points to shortpixel FAQ.
-#: classes/autoptimizeImages.php:1242
+#: classes/autoptimizeImages.php:1245
 msgid "Only works for websites and images that are publicly available."
 msgstr "公開されたサイト/画像でのみ機能します。"
 
@@ -1084,45 +1088,45 @@ msgstr "JS や CSS の連結時に、最小化されていない除外対象の�
 msgid "Minify excluded CSS and JS files?"
 msgstr "除外された CSS ファイルと JS ファイルを最小化"
 
-#: classes/autoptimizeImages.php:1298
+#: classes/autoptimizeImages.php:1301
 msgid "Comma-separated list of to be excluded image classes or filenames."
 msgstr "除外するクラスやファイル名をコンマ区切りで一覧にします。"
 
-#: classes/autoptimizeImages.php:1296
+#: classes/autoptimizeImages.php:1299
 msgid "Lazy-load exclusions"
 msgstr "遅延読み込みの除外"
 
-#: classes/autoptimizeImages.php:1292
+#: classes/autoptimizeImages.php:1295
 msgid "Image lazy-loading will delay the loading of non-visible images to allow the browser to optimally load all resources for the \"above the fold\"-page first."
 msgstr "画像の遅延読み込みは、ファーストビュー (Above the fold) 用のすべてのリソースを最適化して読み込ませることで、見えていない部分の画像の読み込みをブラウザに対し遅延させます。"
 
-#: classes/autoptimizeImages.php:1290
+#: classes/autoptimizeImages.php:1293
 msgid "Lazy-load images?"
 msgstr "画像の遅延読み込み (Lazy-load) を利用"
 
-#: classes/autoptimizeImages.php:1284
+#: classes/autoptimizeImages.php:1287
 msgid "Load AVIF in supported browsers?"
 msgstr "対応ブラウザでは AVIF を読み込む"
 
-#: classes/autoptimizeImages.php:1208
+#: classes/autoptimizeImages.php:1211
 msgid "Optimize images on the fly and serve them from Shortpixel's global CDN."
 msgstr "オンザフライで画像を最適化し、Shortpixel のグローバル CDN からそれを提供する。"
 
-#: classes/autoptimizeImages.php:1203
+#: classes/autoptimizeImages.php:1206
 msgid "Make your site significantly faster by just ticking a couple of checkboxes to optimize and lazy load your images, WebP and AVIF support included!"
 msgstr "最適化と遅延読み込みのチェックボックスをオンにするだけで、WebP や AVIF 対応を含む最適化と遅延読み込みにより、そのサイトの画像を大幅に高速化します。 "
 
-#: classes/autoptimizeImages.php:1202
+#: classes/autoptimizeImages.php:1205
 msgid "Image optimization"
 msgstr "画像最適化"
 
 #. translators: "disable  Jetpack's site accelerator for images" will appear in
 #. a "a href" linking to the jetpack settings page.
-#: classes/autoptimizeImages.php:1196
+#: classes/autoptimizeImages.php:1199
 msgid "Please %1$sdisable Jetpack's site accelerator for images%2$s to be able to use Autoptomize's advanced image optimization features below."
 msgstr "以下の Autoptomize の高機能な画像最適化機能を使用可能にするには、%1$s画像用の Jetpack サイトアクセラレーターを無効化%2$sしてください。"
 
-#: classes/autoptimizeImages.php:1152 classes/autoptimizeImages.php:1173
+#: classes/autoptimizeImages.php:1155 classes/autoptimizeImages.php:1176
 msgid "Images"
 msgstr "画像"
 
@@ -1130,11 +1134,11 @@ msgstr "画像"
 msgid "Makes your site faster by optimizing CSS, JS, Images, Google fonts and more."
 msgstr "CSS、JS、画像、Google フォントなどを最適化することでサイトの応答を高速化します。"
 
-#: classes/autoptimizeImages.php:1374
+#: classes/autoptimizeImages.php:1377
 msgid "based on previously fetched data"
 msgstr "以前に取得したデータに基づく"
 
-#: classes/autoptimizeImages.php:1372
+#: classes/autoptimizeImages.php:1375
 msgid "based on status at "
 msgstr "以下時点の状態に基づく"
 
@@ -1149,33 +1153,33 @@ msgid "You have \"Async JavaScript\" installed, %1$sconfiguration of async javas
 msgstr "Async JavaScript はインストール済みです。%1$sasync javascript の設定はそちらから行うのが最良です%2$s。"
 
 #. translators: link points to shortpixel image test page.
-#: classes/autoptimizeImages.php:1278
+#: classes/autoptimizeImages.php:1281
 msgid "You can %1$stest compression levels here%2$s."
 msgstr "%1$sここで圧縮レベルのテスト%2$sが行えます。"
 
 #. translators: links points to shortpixel TOS & Privacy Policy.
-#: classes/autoptimizeImages.php:1244
+#: classes/autoptimizeImages.php:1247
 msgid "Usage of this feature is subject to Shortpixel's %1$sTerms of Use%2$s and %3$sPrivacy policy%4$s."
 msgstr "この機能の利用は、Shortpixel の%1$s利用規約%2$sと%3$sプライバシーポリシー%4$sに従うことになります。"
 
 #. translators: link points to shortpixel FAQ.
-#: classes/autoptimizeImages.php:1241
+#: classes/autoptimizeImages.php:1244
 msgid "<strong>Questions</strong>? Have a look at the %1$sAutoptimize + ShortPixel FAQ%2$s!"
 msgstr "<strong>質問</strong>があれば、%1$sAutoptimize + ShortPixel FAQ%2$s をご覧ください !"
 
-#: classes/autoptimizeImages.php:1256
+#: classes/autoptimizeImages.php:1259
 msgid "Image Optimization quality"
 msgstr "画像最適化の品質"
 
-#: classes/autoptimizeImages.php:1233
+#: classes/autoptimizeImages.php:1236
 msgid "For a limited time only, this service is offered free for all Autoptimize users, <b>don't miss the chance to test it</b> and see how much it could improve your site's speed."
 msgstr "期間限定で、このサービスはすべての Autoptimize の利用者に無料で提供されています。サイトの反応速度をどれくらい向上させることができるか、<b>テストする機会をお見逃しなく</b>。"
 
-#: classes/autoptimizeImages.php:1228
+#: classes/autoptimizeImages.php:1231
 msgid "Shortpixel status: "
 msgstr "Shortpixel の状態:"
 
-#: classes/autoptimizeImages.php:1206
+#: classes/autoptimizeImages.php:1209
 msgid "Optimize Images"
 msgstr "画像を最適化"
 
@@ -1191,12 +1195,12 @@ msgstr "結合とヘッダーで遅延リンク (フォント読み込みは遅�
 msgid "Combine and link in head (fonts load fast but are render-blocking)"
 msgstr "結合とヘッダーでのリンク (フォント読み込みは速いがレンダリングブロックが発生)"
 
-#: classes/autoptimizeImages.php:1188
+#: classes/autoptimizeImages.php:1191
 msgid "The image optimization service is launching, but not yet available for this domain, it should become available in the next couple of days."
 msgstr "画像最適化サービスは開始されていますが、まだこのドメインでは利用できません。2 - 3 日で利用できるようになります。"
 
 #. translators: "Autoptimize support forum" will appear in a "a href".
-#: classes/autoptimizeImages.php:1181
+#: classes/autoptimizeImages.php:1184
 msgid "The image optimization service is currently down, image optimization will be skipped until further notice. Check the %1$sAutoptimize support forum%2$s for more info."
 msgstr "画像最適化サービスは現在停止しており、さらなる告知があるまで画像最適化処理は省略されます。詳細は %1$sAutoptimize のサポート用掲示板%2$s をご覧ください。"
 
@@ -1205,17 +1209,17 @@ msgid "Most of below Extra optimizations require at least one of HTML, JS, CSS o
 msgstr "以下の追加の最適化は、HTML、JS、CSS、画像の自動最適化の少なくとも1つが有効化されている必要があります。"
 
 #. translators: "log in to check your account" will appear in a "a href".
-#: classes/autoptimizeImages.php:1362
+#: classes/autoptimizeImages.php:1365
 msgid "Your ShortPixel image optimization and CDN quota are in good shape, %1$slog in to check your account%2$s."
 msgstr "お使いの ShortPixel 画像最適化と CDN のクォータの状態は良好です。%1$sログイン%2$sでアカウントを確認できます。"
 
 #. translators: "add more credits" will appear in a "a href".
-#: classes/autoptimizeImages.php:1353
+#: classes/autoptimizeImages.php:1356
 msgid "Your ShortPixel image optimization and CDN quota was used, %1$sadd more credits%2$s to keep fast serving optimized images on your site"
 msgstr "お使いの ShortPixel 画像最適化と CDN のクォータはいくらか使用されています。サイトに最適化された画像を高速で供給し続けるには、%1$sクレジットの追加%2$sを行います"
 
 #. translators: "add more credits" will appear in a "a href".
-#: classes/autoptimizeImages.php:1350
+#: classes/autoptimizeImages.php:1353
 msgid "Your ShortPixel image optimization and CDN quota is almost used, make sure you %1$sadd more credits%2$s to avoid slowing down your website."
 msgstr "お使いの ShortPixel 画像最適化と CDN のクォータはほとんど使用済みです。サイトの反応速度の低下をおこさないよう%1$sクレジットの追加%2$s をご確認ください。"
 
@@ -1473,7 +1477,7 @@ msgstr "変更の保存とキャッシュの削除"
 
 #: classes/autoptimizeConfig.php:487
 #: classes/autoptimizeCriticalCSSSettings.php:346
-#: classes/autoptimizeExtra.php:621 classes/autoptimizeImages.php:1308
+#: classes/autoptimizeExtra.php:621 classes/autoptimizeImages.php:1311
 msgid "Save Changes"
 msgstr "変更を保存"
 
@@ -1599,7 +1603,7 @@ msgstr "HTML オプション"
 
 #: classes/autoptimizeConfig.php:94 classes/autoptimizeConfig.php:198
 #: classes/autoptimizeCriticalCSSSettings.php:122
-#: classes/autoptimizeExtra.php:527 classes/autoptimizeImages.php:1175
+#: classes/autoptimizeExtra.php:527 classes/autoptimizeImages.php:1178
 #: classes/autoptimizePartners.php:141
 msgid "Autoptimize Settings"
 msgstr "Autoptimize 設定"
