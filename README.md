@@ -15,9 +15,8 @@ WordPress
 ### 【 言語、フレームワーク等 】
 
 - SASS(SCSS)
-  ※VSCode でコンパイル
+  ※Gulp でコンパイル
 - jQuery
-- Vue.js(現状は CDN)
 
 ### 【 フォント 】
 Google Fonts（Sawarabi Gothic）
