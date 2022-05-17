@@ -10,6 +10,7 @@
 			<li id="campaign">campaign</li>
 			<li id="wordpress">wordpress</li>				
 			<li id="landing">Landing Page</li>
+			<li id="game">Game content</li>
 			<li id="other">OTHER</li>
 			<li id="responsive">RESPONSIVE</li>
 		</ul>
