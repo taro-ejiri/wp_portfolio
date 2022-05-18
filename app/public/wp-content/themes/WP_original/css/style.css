@@ -1637,6 +1637,33 @@ span.wpcf7-not-valid-tip,
 ------------------------------*/
 .Works-content {
   margin: 10px 0;
+  /* イントラサイトの場合 */
+}
+.Works-content .carousel {
+  position: relative;
+  margin: auto;
+  width: 100%;
+  overflow: hidden;
+}
+.Works-content .carousel img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.Works-content .intra img {
+  opacity: 0.2;
+}
+.Works-content .intra .text {
+  -webkit-transform: translate(-50%, -50%);
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+          transform: translate(-50%, -50%);
+  z-index: 10;
+  width: 100%;
+  color: #6c7279;
+  font-size: 25px;
+  text-align: center;
 }
 .Works-content .works-slider li {
   position: relative;
@@ -1664,14 +1691,6 @@ span.wpcf7-not-valid-tip,
 .Works-content .works-slider .slick-dots li button:before {
   font-size: 32px;
   line-height: 48px;
-}
-
-/* イントラサイトの場合 */
-.intra {
-  margin-bottom: 40px;
-}
-.intra img {
-  opacity: 0.2;
 }
 
 /* Works-comment
@@ -2032,12 +2051,15 @@ span.wpcf7-not-valid-tip,
     width: 50px;
     height: 50px;
   }
-  .Works-content .works-slider li .size {
-    font-size: 18px;
-  }
   .Works-content .carousel img {
     margin: 0 auto;
     width: 90%;
+  }
+  .Works-content .intra .text {
+    font-size: 18px;
+  }
+  .Works-content .works-slider li .size {
+    font-size: 18px;
   }
 }
 @media only screen and (max-width: 480px) {

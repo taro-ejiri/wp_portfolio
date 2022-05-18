@@ -32,7 +32,7 @@
 				if(empty($cci)):?>
 					<div class="intra">
 						<img src="<?php echo $url ?>" alt="<?php echo $alt ?>" class="img-responsive"/>
-						<div class="carousel-caption">イントラサイトの為<br>閲覧不可</div>
+						<div class="text">イントラサイトの為、閲覧不可</div>
 					</div>
 				<?php else: ?>
 					<img src="<?php echo $url ?>" alt="<?php echo $alt ?>" class="img-responsive"/>
