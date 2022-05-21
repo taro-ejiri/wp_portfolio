@@ -755,7 +755,7 @@ nav .size_sm .menu ul li a {
   text-decoration: none;
 }
 nav .size_sm .menu ul li:hover, nav .size_sm .menu ul li.active {
-  opacity: 0.8;
+  opacity: 0.4;
 }
 nav .size_sm .menu ul li ul.h_share_btn {
   display: block;
