@@ -581,9 +581,6 @@ a {
   display: none;
 }
 
-/*------------------------------
-8.2 要素をフェードイン + 上移動
-------------------------------*/
 /*--------------------------------------------------------------
 6.0 mixin
 ----------------------------------------------------------------*/
@@ -778,35 +775,39 @@ nav .size_sm .menu ul li ul.h_share_btn li:hover, nav .size_sm .menu ul li ul.h_
 3.3 footer
 ------------------------------*/
 .pageTop {
-  display: none;
   position: fixed;
-  right: 1em;
-  bottom: 1em;
-  z-index: 1;
+  right: 20px;
+  bottom: 20px;
+  z-index: 10;
+  width: 55px;
+  height: auto;
 }
 .pageTop a {
-  -webkit-transition: all 0.5s ease;
+  -webkit-transition: all 0.3s ease-in-out;
   display: block;
-  transition: all 0.5s ease;
-  margin: 0;
+  opacity: 0.9;
+  transition: all 0.3s ease-in-out;
   background: #A9A9B1;
-  width: 60px;
-  height: 60px;
-  line-height: 8em;
-  text-decoration: none;
-}
-.pageTop a::before {
-  -webkit-transform: translate(-50%, -50%);
-  position: absolute;
-  top: 38%;
-  left: 50%;
-          transform: translate(-50%, -50%);
-  border: 12px solid transparent;
-  border-bottom: 20px solid #fff;
-  content: "";
+  padding: 25px 0 10px;
+  color: #fff;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  text-align: center;
 }
 .pageTop a:hover {
   opacity: 0.6;
+}
+.pageTop span {
+  -webkit-transform: rotate(-45deg) translateX(-50%);
+  display: block;
+  position: absolute;
+  top: 8px;
+  left: calc(50% - 4px);
+          transform: rotate(-45deg) translateX(-50%);
+  border-top: solid 2px #ffffff;
+  border-right: solid 2px #ffffff;
+  width: 13px;
+  height: 13px;
 }
 
 footer {

@@ -2,32 +2,36 @@
 3.3 footer
 ------------------------------*/
 .pageTop {
-    display: none;
-	position: fixed;
-	right: 1em;
-	bottom: 1em;
-	z-index: 1;
+    position: fixed;
+    z-index: 10;
+    right: 20px;
+    bottom: 20px;
+    width: 55px;
+    height: auto;
     a {
-        text-decoration: none;
-        line-height: 8em;
-        margin: 0;
         display: block;
-        transition: all .5s ease;
-        width: 60px;
-        height: 60px;
+        opacity: .9;
         background: #A9A9B1;
-        &::before{
-            content: "";
-            position: absolute;
-            top: 38%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            border: 12px solid transparent;
-            border-bottom: 20px solid #fff;
-        }
+        text-align: center;
+        font-size: 10px;
+        letter-spacing: .1em;
+        color: #fff;
+        padding: 25px 0 10px;
+        transition: all 0.3s ease-in-out;
         &:hover {
             opacity: .6;
         }
+    }
+    span {
+        display: block;
+        border-right: solid 2px #ffffff;
+        border-top: solid 2px #ffffff;      
+        left: calc(50% - 4px);
+        position: absolute;
+        top: 8px;
+        transform: rotate(-45deg) translateX(-50%);
+        width: 13px;
+        height: 13px;
     }
 }
 

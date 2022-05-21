@@ -1,6 +1,11 @@
 </div><!-- /.wrapper -->
 <!-- Back to topButton -->
-<p class="pageTop"><a href="#header"></a></p>
+<p class="pageTop">
+	<a href="#header">
+		PAGE<br>TOP
+		<span class="arrow-top"></span>
+	</a>
+</p>
 <footer>
 	<div class="f_share_btn">
 		<ul>
