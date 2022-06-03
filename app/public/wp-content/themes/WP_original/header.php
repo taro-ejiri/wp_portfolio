@@ -83,7 +83,7 @@ if(is_front_page()): ?>
 						<li><a href="/about/">About</a></li>
 						<li><a href="/works/">Works</a></li>
 						<li><a href="/contact/">Contact</a></li>
-						<li><a href="#">blog</a></li>
+						<!-- <li><a href="#">blog</a></li> -->
 					</ul>
 				</div>
 				<div class="size_sm">				
@@ -98,7 +98,7 @@ if(is_front_page()): ?>
 							<li><a href="/about/">About</a></li>
 							<li><a href="/works/">Works</a></li>
 							<li><a href="/contact/">Contact</a></li>
-							<li><a href="#">blog</a></li>
+							<!-- <li><a href="#">blog</a></li> -->
 							<li>
 								<ul class="h_share_btn">
 									<li><a href="https://twitter.com/sept11_1976"><img src="<?php bloginfo('template_url'); ?>/img/sns/twitter_out.png" alt="twitter" width="50"></a></li>
