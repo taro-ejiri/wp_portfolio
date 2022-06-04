@@ -1697,7 +1697,8 @@ span.wpcf7-not-valid-tip,
 /* Works-comment
 ------------------------------*/
 .Works-comment {
-  max-width: 100%;
+  margin: 0 auto;
+  max-width: 90%;
 }
 .Works-comment p {
   color: #6c7279;
@@ -1713,7 +1714,6 @@ span.wpcf7-not-valid-tip,
 }
 .Works-comment .comment {
   margin-bottom: 20px;
-  padding: 0 15px;
 }
 .Works-comment .dl-center {
   border: 0;
@@ -2224,10 +2224,11 @@ span.wpcf7-not-valid-tip,
   }
   .Works-comment {
     margin: 20px auto 0;
-    max-width: 580px;
+    max-width: 700px;
   }
   .Works-comment .comment {
     margin-bottom: 40px;
+    padding: 0 15px;
   }
 }
 @media (min-width: 768px) {

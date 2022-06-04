@@ -133,9 +133,11 @@
 /* Works-comment
 ------------------------------*/
 .Works-comment {
-    max-width: 100%;
+    // max-width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
     @media only screen and (min-width: 699px) {
-        max-width: 580px;
+        max-width: 700px;
         margin: 20px auto 0;
     }
     p {
@@ -152,9 +154,10 @@
     }
     .comment {
         margin-bottom: 20px;
-        padding: 0 15px;
+        // padding: 0 15px;
         @media only screen and (min-width: 699px) {
             margin-bottom: 40px;
+            padding: 0 15px;
         }
     }
     .dl-center {

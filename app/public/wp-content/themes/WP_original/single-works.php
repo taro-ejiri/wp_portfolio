@@ -86,8 +86,8 @@
 			<dt>CLIENT:</dt>
 			<dd><?php the_field('client_jpn'); ?>様</dd>
 			<!-- サイトURL -->
-			<!--dt>SITE:</dt>
-			<dd><a href="<?php the_field('siteURL'); ?>" target="blank"><?php the_field('siteURL'); ?></a></dd-->
+			<dt>SITE:</dt>
+			<dd><a href="<?php the_field('siteURL'); ?>" target="blank"><?php the_field('siteURL'); ?> <i class="fa fa-external-link" aria-hidden="true"></i></a></dd>
 		</dl>
 	</div>
 <?php endwhile; ?>

@@ -7,18 +7,18 @@ series(直列処理) と parallel(並列処理)
 
 // gulpプラグインの読み込み
 const { src, dest, watch } = require("gulp");
-
 // Sassをコンパイルするプラグインの読み込み
 const sass = require("gulp-sass")(require("sass"));
 // ベンダープレフィックス自動付与
 const autoprefixer = require('gulp-autoprefixer');
-//css-mqpackerを使うために必要
+// css-mqpackerを使うために必要
 const postcss = require("gulp-postcss");
-//メディアクエリをまとめる
+// メディアクエリをまとめる
 const mqpacker = require('css-mqpacker');
-
+// メディアクエリをソート
 const sortCSSmq = require("sort-css-media-queries");
-const cssdeclsort = require("css-declaration-sorter"); // プロパティ順の分類
+// プロパティ順をソート
+const cssdeclsort = require("css-declaration-sorter"); 
 
 //ベンダープレフィックスを付与する条件
 const TARGET_BROWSERS = [
