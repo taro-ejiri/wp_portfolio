@@ -37,9 +37,15 @@
 				<?php else: ?>
 					<img src="<?php echo $url ?>" alt="<?php echo $alt ?>" class="img-responsive"/>
 				<?php endif; ?>
-			<?php else: // 通常 ?> 
+			<?php else: // 通常 ?>
+
+
+
+
+
 				<ul class="slider works-slider">
-					<li>
+				<?php if(get_field('slideImage_pc')): ?>
+				<li>
 						<?php //写真設定
 							$image = get_field('slideImage_pc');
 							$alt = $image['alt'];
@@ -47,7 +53,92 @@
 						?>
 						<img src="<?php echo $url ?>" alt="<?php echo $alt ?>" class="img-responsive"/>
 						<div class="size">PCサイズ</div>
-					</li>
+				</li>
+				<?php endif; ?>
+
+				<?php if(get_field('slideImage_1')): ?>
+				<li>
+					<?php //写真設定
+						$image = get_field('slideImage_1');
+						$alt = $image['alt'];
+						$url = $image['sizes']['large'];
+					?>
+					<img src="<?php echo $url ?>" alt="<?php echo $alt ?>" class="img-responsive"/>
+					<div class="size"><a href="<?php the_field('siteURL_1'); ?>" target="blank"><?php the_field('siteName_1'); ?><i class="fa fa-external-link" aria-hidden="true"></i></a></div>
+				</li>
+				<?php endif; ?>
+
+				<?php if(get_field('slideImage_2')): ?>
+				<li>
+					<?php //写真設定
+						$image = get_field('slideImage_2');
+						$alt = $image['alt'];
+						$url = $image['sizes']['large'];
+					?>
+					<img src="<?php echo $url ?>" alt="<?php echo $alt ?>" class="img-responsive"/>
+					<div class="size"><a href="<?php the_field('siteURL_2'); ?>" target="blank"><?php the_field('siteName_2'); ?><i class="fa fa-external-link" aria-hidden="true"></i></a></div>
+				</li>
+				<?php endif; ?>
+				<?php if(get_field('slideImage_3')): ?>
+				<li>
+					<?php //写真設定
+						$image = get_field('slideImage_3');
+						$alt = $image['alt'];
+						$url = $image['sizes']['large'];
+					?>
+					<img src="<?php echo $url ?>" alt="<?php echo $alt ?>" class="img-responsive"/>
+					<div class="size"><a href="<?php the_field('siteURL_3'); ?>" target="blank"><?php the_field('siteName_3'); ?><i class="fa fa-external-link" aria-hidden="true"></i></a></div>
+				</li>
+				<?php endif; ?>
+				<?php if(get_field('slideImage_4')): ?>
+				<li>
+					<?php //写真設定
+						$image = get_field('slideImage_4');
+						$alt = $image['alt'];
+						$url = $image['sizes']['large'];
+					?>
+					<img src="<?php echo $url ?>" alt="<?php echo $alt ?>" class="img-responsive"/>
+					<div class="size"><a href="<?php the_field('siteURL_4'); ?>" target="blank"><?php the_field('siteName_4'); ?><i class="fa fa-external-link" aria-hidden="true"></i></a></div>
+				</li>
+				<?php endif; ?>
+				<?php if(get_field('slideImage_5')): ?>
+				<li>
+					<?php //写真設定
+						$image = get_field('slideImage_5');
+						$alt = $image['alt'];
+						$url = $image['sizes']['large'];
+					?>
+					<img src="<?php echo $url ?>" alt="<?php echo $alt ?>" class="img-responsive"/>
+					<div class="size"><a href="<?php the_field('siteURL_5'); ?>" target="blank"><?php the_field('siteName_5'); ?><i class="fa fa-external-link" aria-hidden="true"></i></a></div>
+				</li>
+				<?php endif; ?>
+				<?php if(get_field('slideImage_6')): ?>
+				<li>
+					<?php //写真設定
+						$image = get_field('slideImage_6');
+						$alt = $image['alt'];
+						$url = $image['sizes']['large'];
+					?>
+					<img src="<?php echo $url ?>" alt="<?php echo $alt ?>" class="img-responsive"/>
+					<div class="size"><a href="<?php the_field('siteURL_6'); ?>" target="blank"><?php the_field('siteName_6'); ?><i class="fa fa-external-link" aria-hidden="true"></i></a></div>
+				</li>
+				<?php endif; ?>
+
+
+
+
+
+
+					<!-- <li>
+						<?php //写真設定
+							$image = get_field('slideImage_pc');
+							$alt = $image['alt'];
+							$url = $image['sizes']['large'];
+						?>
+						<img src="<?php echo $url ?>" alt="<?php echo $alt ?>" class="img-responsive"/>
+						<div class="size">PCサイズ</div>
+					</li> -->
+					<?php if(get_field('slideImage_tab')): ?>
 					<li>
 						<?php //写真設定
 							$image = get_field('slideImage_tab');
@@ -57,6 +148,8 @@
 						<img src="<?php echo $url ?>" alt="<?php echo $alt ?>" class="img-responsive"/>
 						<div class="size">タブレットサイズ</div>
 					</li>
+					<?php endif; ?>
+					<?php if(get_field('slideImage_sp')): ?>
 					<li>
 						<?php //写真設定
 							$image = get_field('slideImage_sp');
@@ -66,6 +159,7 @@
 						<img src="<?php echo $url ?>" alt="<?php echo $alt ?>" class="img-responsive"/>
 						<div class="size">スマートフォンサイズ</div>
 					</li>
+					<?php endif; ?>
 				</ul>
 			<?php endif; ?>
 		</div>		
