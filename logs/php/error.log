@@ -334,3 +334,23 @@
 [02-Feb-2022 11:15:17 UTC] PHP   2. require() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:17
 [02-Feb-2022 11:15:17 UTC] PHP   3. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-blog-header.php:19
 [02-Feb-2022 11:15:17 UTC] PHP   4. include() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\template-loader.php:106
+[04-Jun-2022 07:21:29 UTC] PHP Fatal error:  Cannot redeclare add_thanks_page() (previously declared in C:\Users\taroe\Local Sites\portfolio\app\public\wp-content\themes\WP_original\functions.php:232) in C:\Users\taroe\Local Sites\portfolio\app\public\wp-content\themes\WP_original\functions.php on line 244
+[04-Jun-2022 07:21:29 UTC] PHP Stack trace:
+[04-Jun-2022 07:21:29 UTC] PHP   1. {main}() C:\Users\taroe\Local Sites\portfolio\app\public\wp-admin\admin-ajax.php:0
+[04-Jun-2022 07:21:29 UTC] PHP   2. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-admin\admin-ajax.php:22
+[04-Jun-2022 07:21:29 UTC] PHP   3. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-load.php:50
+[04-Jun-2022 07:21:29 UTC] PHP   4. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-config.php:76
+[04-Jun-2022 07:22:09 UTC] PHP Fatal error:  Cannot redeclare add_thanks_page() (previously declared in C:\Users\taroe\Local Sites\portfolio\app\public\wp-content\themes\WP_original\functions.php:232) in C:\Users\taroe\Local Sites\portfolio\app\public\wp-content\themes\WP_original\functions.php on line 244
+[04-Jun-2022 07:22:09 UTC] PHP Stack trace:
+[04-Jun-2022 07:22:09 UTC] PHP   1. {main}() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:0
+[04-Jun-2022 07:22:09 UTC] PHP   2. require() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:17
+[04-Jun-2022 07:22:09 UTC] PHP   3. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-blog-header.php:13
+[04-Jun-2022 07:22:09 UTC] PHP   4. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-load.php:50
+[04-Jun-2022 07:22:09 UTC] PHP   5. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-config.php:76
+[04-Jun-2022 07:22:09 UTC] PHP Fatal error:  Cannot redeclare add_thanks_page() (previously declared in C:\Users\taroe\Local Sites\portfolio\app\public\wp-content\themes\WP_original\functions.php:232) in C:\Users\taroe\Local Sites\portfolio\app\public\wp-content\themes\WP_original\functions.php on line 244
+[04-Jun-2022 07:22:09 UTC] PHP Stack trace:
+[04-Jun-2022 07:22:09 UTC] PHP   1. {main}() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:0
+[04-Jun-2022 07:22:09 UTC] PHP   2. require() C:\Users\taroe\Local Sites\portfolio\app\public\index.php:17
+[04-Jun-2022 07:22:09 UTC] PHP   3. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-blog-header.php:13
+[04-Jun-2022 07:22:09 UTC] PHP   4. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-load.php:50
+[04-Jun-2022 07:22:09 UTC] PHP   5. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-config.php:76
