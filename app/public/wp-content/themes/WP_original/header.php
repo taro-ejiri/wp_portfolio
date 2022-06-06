@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="format-detection" content="telephone=no"><!-- 電話番号の自動リンク機能を無効化する -->
+<meta name="format-detection" content="telephone=no">
 <meta http-equiv="Content-Script-Type" content="text/javascript">
 <!-- SEO -->
 <!--
@@ -16,17 +16,17 @@ if(is_front_page()): ?>
 <meta name="keywords" content="web制作,webデザイナー,コーダー,東京,板橋区,">
 <meta name="description" content="taro ejiriのポートフォリオサイトです。これまで制作してきたWEBサイトについて、また制作する際の概要についてご紹介いたします。">
 <meta name="author" content="taro ejiri">
-<link rel="canonical" href="http://portfolio.sept11.work/">
+<link rel="canonical" href="http://sept11.wp.xdomain.jp/">
 <!-- OGP -->
 <meta property="og:site_name" content="ET ウェブデザイン portfolio">
 <meta property="og:title" content=""><!-- ogpのタイトル. <title>と文章も文字数も同じにする。 -->
-<meta property="og:description" content="ejiriのポートフォリオサイトです。これまで制作してきたWEBサイトについて、また制作する際の概要についてご紹介いたします。"><!-- ogpの本文。<meta name='description'>と同じにする。 -->
+<meta property="og:description" content="ejiriのポートフォリオサイトです。これまで制作してきたWEBサイトについて、また制作する際の概要についてご紹介いたします。">
 <meta property="og:type" content="website">
-<meta property="og:url" content="http://portfolio.sept11.work/"><!-- サイトのURL貼る -->
+<meta property="og:url" content="http://sept11.wp.xdomain.jp/">
 <meta property="og:image" content=""><!-- ogpのURL貼る -->
 <meta property="fb:app_id" content="" /><!-- App-ID（15文字の半角数字） -->
 <meta name="twitter:card" content="summary">
-<meta name="twitter:site" content="http://portfolio.sept11.work/"><!-- サイトのURL貼る -->
+<meta name="twitter:site" content="http://sept11.wp.xdomain.jp/">
 <meta name="twitter:image" content=""><!-- ogpのURL貼る -->
 <!-- favicon -->
 <link rel="icon" type="image/x-icon" href="<?php bloginfo('template_url'); ?>/img/favicon.ico">
@@ -34,17 +34,14 @@ if(is_front_page()): ?>
 <link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 <!-- style.css-->
 <link href="<?php bloginfo('template_url'); ?>/css/style.css" rel="stylesheet" type="text/css">
-<!-- slick -->
 <?php if ( is_front_page() || is_singular('works') ) : ?>
+<!-- slick -->
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/js/slick/slick.css" >
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/js/slick/slick-theme.css">
 <?php endif; ?>
 <?php if(is_front_page()): ?><?php endif; ?>
 <!--[if lt IE 9]>
 <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/html5shiv.min.js"></script>
-<![endif]-->
-<!--[if lt IE 9]>
-<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/html5shiv-printshiv.min.js"></script>
 <![endif]-->
 <!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-96611275-1"></script>
@@ -60,11 +57,11 @@ if(is_front_page()): ?>
 	"@context": "http://schema.org",
 	"@type": "Organization",
 	"name": "TARO EJIRI",
-	"url": "http://portfolio.sept11.work/",
-	"logo": "http://portfolio.sept11.work/img/ogp_top.png"
+	"url": "http://sept11.wp.xdomain.jp/",
+	"logo": "http://sept11.wp.xdomain.jp/img/ogp_top.png"
   }
 </script>
-<?php wp_head(); ?><!--システム・プラグイン用-->
+<?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?> class="fadeout">
 	<header id="header">

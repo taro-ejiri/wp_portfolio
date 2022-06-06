@@ -24,10 +24,10 @@
 <script src="<?php bloginfo('template_url'); ?>/js/slick/slick.min.js" type="text/javascript" charset="utf-8"></script>
 <!-- ShareButton -->
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.easy-rollover.min.js"></script>
-<!-- works sort -->
 <?php if ( is_post_type_archive('works') ) : ?>
-	<script src="<?php bloginfo('template_url'); ?>/js/works/masonry.pkgd.min.js"></script>
-	<script src="<?php bloginfo('template_url'); ?>/js/works/extention.js"></script>
+<!-- works sort -->
+<script src="<?php bloginfo('template_url'); ?>/js/works/masonry.pkgd.min.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/js/works/extention.js"></script>
 <?php endif; ?>
 <?php wp_footer(); ?>
 </body>
