@@ -1648,6 +1648,7 @@ span.wpcf7-not-valid-tip,
 }
 .Works-content .carousel img {
   display: block;
+  cursor: pointer;
   max-width: 100%;
   height: auto;
 }
@@ -1666,24 +1667,29 @@ span.wpcf7-not-valid-tip,
   font-size: 25px;
   text-align: center;
 }
+.Works-content .works-slider .slick-list {
+  height: 600px;
+}
 .Works-content .works-slider li {
   position: relative;
   text-align: center;
 }
-.Works-content .works-slider li .size {
+.Works-content .works-slider li .sitename {
   -webkit-transform: translateX(-50%);
   position: absolute;
-  bottom: 20%;
+  bottom: -9%;
   left: 50%;
           transform: translateX(-50%);
   width: 100%;
   color: #6c7279;
   font-size: 25px;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+.Works-content .works-slider li .sitename:hover {
+  opacity: 0.6;
 }
 .Works-content .works-slider .slick-dots {
   -webkit-transform: translateX(-50%);
-  bottom: 15%;
+  bottom: -1%;
   left: 50%;
           transform: translateX(-50%);
 }
@@ -1996,6 +2002,15 @@ span.wpcf7-not-valid-tip,
   .jumbotron .flexslider {
     padding-bottom: 20px;
   }
+  .Works-content .works-slider .slick-list {
+    height: 500px;
+  }
+  .Works-content .works-slider li .sitename {
+    font-size: 18px;
+  }
+  .Works-content .works-slider .slick-dots {
+    bottom: 4%;
+  }
 }
 @media only screen and (max-width: 699px) {
   .bio h3 {
@@ -2060,9 +2075,6 @@ span.wpcf7-not-valid-tip,
   .Works-content .intra .text {
     font-size: 18px;
   }
-  .Works-content .works-slider li .size {
-    font-size: 18px;
-  }
 }
 @media only screen and (max-width: 480px) {
   .bio .about_frame {
@@ -2123,6 +2135,9 @@ span.wpcf7-not-valid-tip,
   }
   .contact .frame {
     width: 100%;
+  }
+  .Works-content .works-slider .slick-list {
+    height: 370px;
   }
 }
 @media screen and (max-width: 414px) {

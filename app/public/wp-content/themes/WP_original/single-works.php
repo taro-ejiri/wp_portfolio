@@ -48,7 +48,7 @@
 							$url = $image['sizes']['large'];
 						?>
 						<img src="<?php echo $url ?>" alt="<?php echo $alt ?>" class="img-responsive"/>
-						<div class="size"><a href="<?php the_field('siteURL_1'); ?>" target="blank"><?php the_field('siteName_1'); ?><i class="fa fa-external-link" aria-hidden="true"></i></a></div>
+						<div class="sitename"><a href="<?php the_field('siteURL_1'); ?>" target="blank"><?php the_field('siteName_1'); ?> <i class="fa fa-external-link" aria-hidden="true"></i></a></div>
 					</li>
 					<?php endif; ?>
 					<?php if(get_field('slideImage_2')): ?>
@@ -59,7 +59,7 @@
 							$url = $image['sizes']['large'];
 						?>
 						<img src="<?php echo $url ?>" alt="<?php echo $alt ?>" class="img-responsive"/>
-						<div class="size"><a href="<?php the_field('siteURL_2'); ?>" target="blank"><?php the_field('siteName_2'); ?><i class="fa fa-external-link" aria-hidden="true"></i></a></div>
+						<div class="sitename"><a href="<?php the_field('siteURL_2'); ?>" target="blank"><?php the_field('siteName_2'); ?> <i class="fa fa-external-link" aria-hidden="true"></i></a></div>
 					</li>
 					<?php endif; ?>
 					<?php if(get_field('slideImage_3')): ?>
@@ -70,7 +70,7 @@
 							$url = $image['sizes']['large'];
 						?>
 						<img src="<?php echo $url ?>" alt="<?php echo $alt ?>" class="img-responsive"/>
-						<div class="size"><a href="<?php the_field('siteURL_3'); ?>" target="blank"><?php the_field('siteName_3'); ?><i class="fa fa-external-link" aria-hidden="true"></i></a></div>
+						<div class="sitename"><a href="<?php the_field('siteURL_3'); ?>" target="blank"><?php the_field('siteName_3'); ?> <i class="fa fa-external-link" aria-hidden="true"></i></a></div>
 					</li>
 					<?php endif; ?>
 					<?php if(get_field('slideImage_4')): ?>
@@ -81,7 +81,7 @@
 							$url = $image['sizes']['large'];
 						?>
 						<img src="<?php echo $url ?>" alt="<?php echo $alt ?>" class="img-responsive"/>
-						<div class="size"><a href="<?php the_field('siteURL_4'); ?>" target="blank"><?php the_field('siteName_4'); ?><i class="fa fa-external-link" aria-hidden="true"></i></a></div>
+						<div class="sitename"><a href="<?php the_field('siteURL_4'); ?>" target="blank"><?php the_field('siteName_4'); ?> <i class="fa fa-external-link" aria-hidden="true"></i></a></div>
 					</li>
 					<?php endif; ?>
 					<?php if(get_field('slideImage_5')): ?>
@@ -92,7 +92,7 @@
 							$url = $image['sizes']['large'];
 						?>
 						<img src="<?php echo $url ?>" alt="<?php echo $alt ?>" class="img-responsive"/>
-						<div class="size"><a href="<?php the_field('siteURL_5'); ?>" target="blank"><?php the_field('siteName_5'); ?><i class="fa fa-external-link" aria-hidden="true"></i></a></div>
+						<div class="sitename"><a href="<?php the_field('siteURL_5'); ?>" target="blank"><?php the_field('siteName_5'); ?> <i class="fa fa-external-link" aria-hidden="true"></i></a></div>
 					</li>
 					<?php endif; ?>
 					<?php if(get_field('slideImage_6')): ?>
@@ -103,7 +103,7 @@
 							$url = $image['sizes']['large'];
 						?>
 						<img src="<?php echo $url ?>" alt="<?php echo $alt ?>" class="img-responsive"/>
-						<div class="size"><a href="<?php the_field('siteURL_6'); ?>" target="blank"><?php the_field('siteName_6'); ?><i class="fa fa-external-link" aria-hidden="true"></i></a></div>
+						<div class="sitename"><a href="<?php the_field('siteURL_6'); ?>" target="blank"><?php the_field('siteName_6'); ?> <i class="fa fa-external-link" aria-hidden="true"></i></a></div>
 					</li>
 					<?php endif; ?>
 				</ul>

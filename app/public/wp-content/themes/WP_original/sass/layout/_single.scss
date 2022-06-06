@@ -69,6 +69,8 @@
             display: block;
             max-width: 100%;
             height: auto;
+            cursor: pointer;
+
             @media screen and (max-width: 480px) {
                 width: 90%;
                 margin: 0 auto;
@@ -96,31 +98,42 @@
         }
     }
     .works-slider {
-        // スライダーの中身
+        .slick-list{
+            height: 600px;
+            @media only screen and (max-width: 767px) {
+                height: 500px;
+            }
+            @media only screen and (max-width: 480px) {
+                height: 370px;
+            }            
+        }
         li {
             position: relative;
             text-align: center;
-            .size {
+            .sitename {
                 position: absolute;
-                bottom: 20%;
+                bottom: -9%;
                 left: 50%;
                 transform: translateX(-50%);
                 font-size: 25px;
                 color: #6c7279;
                 width: 100%;
-                // color: #fff;
-                text-shadow: 0 1px 2px rgb(0 0 0 / 60%);
-                @media screen and (max-width: 480px) {
-                    font-size: 18px;
-                    
+                &:hover {
+                    opacity: 0.6;
+                }
+                @media only screen and (max-width: 767px) {
+                    font-size: 18px;  
                 }
             }
         }
         // インジケーター
         .slick-dots {
-            bottom: 15%;
+            bottom: -1%;
             left: 50%;
             transform: translateX(-50%);
+            @media only screen and (max-width: 767px) {
+                bottom: 4%; 
+            }
             li {
                 width: 40px;
                 button:before {
