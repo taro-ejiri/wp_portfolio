@@ -354,3 +354,26 @@
 [04-Jun-2022 07:22:09 UTC] PHP   3. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-blog-header.php:13
 [04-Jun-2022 07:22:09 UTC] PHP   4. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-load.php:50
 [04-Jun-2022 07:22:09 UTC] PHP   5. require_once() C:\Users\taroe\Local Sites\portfolio\app\public\wp-config.php:76
+[06-Jun-2022 08:21:36 UTC] PHP Warning:  file_get_contents(http://portfolio.local/wp-content/uploads/2018/09/pawachamp_pawa_app.png): failed to open stream: HTTP request failed! in C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\class-wp-image-editor-imagick.php on line 154
+[06-Jun-2022 08:21:36 UTC] PHP Stack trace:
+[06-Jun-2022 08:21:36 UTC] PHP   1. {main}() C:\Users\taroe\Local Sites\portfolio\app\public\wp-admin\admin-ajax.php:0
+[06-Jun-2022 08:21:36 UTC] PHP   2. do_action() C:\Users\taroe\Local Sites\portfolio\app\public\wp-admin\admin-ajax.php:187
+[06-Jun-2022 08:21:36 UTC] PHP   3. WP_Hook->do_action() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\plugin.php:476
+[06-Jun-2022 08:21:36 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\class-wp-hook.php:331
+[06-Jun-2022 08:21:36 UTC] PHP   5. wp_ajax_imgedit_preview() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\class-wp-hook.php:307
+[06-Jun-2022 08:21:36 UTC] PHP   6. stream_preview_image() C:\Users\taroe\Local Sites\portfolio\app\public\wp-admin\includes\ajax-actions.php:239
+[06-Jun-2022 08:21:36 UTC] PHP   7. wp_get_image_editor() C:\Users\taroe\Local Sites\portfolio\app\public\wp-admin\includes\image-edit.php:687
+[06-Jun-2022 08:21:36 UTC] PHP   8. WP_Image_Editor_Imagick->load() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\media.php:3782
+[06-Jun-2022 08:21:36 UTC] PHP   9. file_get_contents() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\class-wp-image-editor-imagick.php:154
+[06-Jun-2022 08:21:37 UTC] PHP Warning:  file_get_contents(http://portfolio.local/wp-content/uploads/2018/09/pawachamp_pawa_app.png): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\class-wp-image-editor-imagick.php on line 154
+[06-Jun-2022 08:21:37 UTC] PHP Stack trace:
+[06-Jun-2022 08:21:37 UTC] PHP   1. {main}() C:\Users\taroe\Local Sites\portfolio\app\public\wp-admin\admin-ajax.php:0
+[06-Jun-2022 08:21:37 UTC] PHP   2. do_action() C:\Users\taroe\Local Sites\portfolio\app\public\wp-admin\admin-ajax.php:187
+[06-Jun-2022 08:21:37 UTC] PHP   3. WP_Hook->do_action() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\plugin.php:476
+[06-Jun-2022 08:21:37 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\class-wp-hook.php:331
+[06-Jun-2022 08:21:37 UTC] PHP   5. wp_ajax_imgedit_preview() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\class-wp-hook.php:307
+[06-Jun-2022 08:21:37 UTC] PHP   6. stream_preview_image() C:\Users\taroe\Local Sites\portfolio\app\public\wp-admin\includes\ajax-actions.php:239
+[06-Jun-2022 08:21:37 UTC] PHP   7. wp_get_image_editor() C:\Users\taroe\Local Sites\portfolio\app\public\wp-admin\includes\image-edit.php:687
+[06-Jun-2022 08:21:37 UTC] PHP   8. WP_Image_Editor_Imagick->load() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\media.php:3782
+[06-Jun-2022 08:21:37 UTC] PHP   9. file_get_contents() C:\Users\taroe\Local Sites\portfolio\app\public\wp-includes\class-wp-image-editor-imagick.php:154
